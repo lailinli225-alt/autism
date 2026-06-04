@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import {
   ArrowRight,
   BarChart3,
@@ -21,17 +21,16 @@ import {
 } from "lucide-react";
 
 const initialForm = {
-  age: "6 岁 3 个月",
-  concern:
-    "在幼儿园入园过渡时情绪崩溃，哭闹大叫，不愿和老师同伴互动，分离困难严重。",
-  scene: "幼儿园入园、早晨送园",
-  severity: "严重",
-  tried:
-    "提前告诉入园时间、带喜欢的玩具、缩短分离时间、奖励贴纸、绘本引导。短期有效，但持续时间很短，哭闹仍反复。",
+  age: "请选择年龄",
+  concern: "",
+  scene: "请选择主要场景",
+  severity: "中等",
+  tried: "",
 };
 
-const ageOptions = ["2-3 岁", "4-5 岁", "6 岁 3 个月", "7-9 岁", "10 岁以上"];
+const ageOptions = ["请选择年龄", "2-3 岁", "4-5 岁", "6 岁 3 个月", "7-9 岁", "10 岁以上"];
 const sceneOptions = [
+  "请选择主要场景",
   "幼儿园入园、早晨送园",
   "家庭日常转换",
   "同伴互动",
@@ -83,19 +82,20 @@ const expertSkills = [
     icon: Users,
     core: "先看行为背后的功能与环境，再用结构化、关系和行为支持降低孩子的压力。",
     analyze(form, tags) {
+      const where = sceneLabel(form);
       return {
         reasons: [
-          pick(tags.transition, "入园转换压力超过孩子当前适应能力", "当前行为可能与环境要求和孩子能力不匹配有关"),
+          pick(tags.transition, `“${where}”里的转换压力超过孩子当前适应能力`, "当前行为可能与环境要求和孩子能力不匹配有关"),
           pick(tags.emotion, "情绪唤醒过高，孩子先失去自我调节能力", "孩子可能不是故意对抗，而是在表达困难"),
-          pick(tags.social, "老师、同伴和规则同时出现，社交负荷偏高", "自然情境中的社交要求需要被拆小"),
+          pick(tags.social, "他人、规则和环境刺激同时出现，社交负荷偏高", "自然情境中的社交要求需要被拆小"),
         ],
         principles: [
           "先处理安全感和情绪，再谈规则与要求",
           "区分合理需求和不合理要求，合理需求先被看见",
-          "把入园任务拆成更小步骤，让孩子每天有成功体验",
+          `把“${where}”里的要求拆成更小步骤，让孩子每天有成功体验`,
         ],
         actions: [
-          `为“${form.scene}”做固定三步流程：到门口、交接物品、告别动作`,
+          `为“${where}”做固定三步流程：进入前预告、完成一个小动作、离开或休息`,
           "哭闹时减少讲道理，先用短句确认情绪：我知道你很难，但我会来接你",
           "把目标从“不哭”改成“少 1 分钟、快 1 步、能完成一个小交接”",
         ],
@@ -111,20 +111,21 @@ const expertSkills = [
     icon: MessageCircle,
     core: "把目标变成孩子能练习的具体行为，通过足够机会、辅助和强化，让能力在真实场景中泛化。",
     analyze(form, tags) {
+      const where = sceneLabel(form);
       return {
         reasons: [
-          pick(tags.communication, "孩子可能没有真正理解入园后会发生什么", "孩子需要把抽象要求转成可理解的行为"),
+          pick(tags.communication, `孩子可能没有真正理解“${where}”里接下来会发生什么`, "孩子需要把抽象要求转成可理解的行为"),
           pick(tags.routine, "缺少可反复练习的固定行为链", "当前问题需要被拆成可训练的小目标"),
           pick(tags.emotion, "奖励贴纸短期有效，说明强化有价值但目标可能太大", "已有方法有效但强度和时机需要重新设计"),
         ],
         principles: [
           "先设一个可以观察的目标行为，而不是笼统要求孩子配合",
           "给机会、给辅助、及时强化，逐步撤辅助",
-          "在家、路上、园门口用同一套动作练习泛化",
+          `在家、路上、“${where}”用同一套动作练习泛化`,
         ],
         actions: [
-          "目标行为先定为：到园门口能把书包交给老师，哪怕仍然哭",
-          "每天在家模拟 3 次“走到门口-交物品-挥手-回来”的短流程",
+          `目标行为先定为：在“${where}”完成一个可观察动作，哪怕情绪仍然存在`,
+          "每天在家模拟 3 次“进入场景-完成一步-得到休息”的短流程",
           "强化要贴近行为发生后 10 秒内出现，强化孩子完成的具体动作",
         ],
         weekPlan: "第 1-2 天练流程，第 3-5 天缩短提示，第 6-7 天换地点练同一行为。",
@@ -139,10 +140,11 @@ const expertSkills = [
     icon: HeartHandshake,
     core: "重点不是让孩子机械服从，而是让家长成为稳定引导者，帮助孩子在变化中建立共同调节和动态思考。",
     analyze(form, tags) {
+      const where = sceneLabel(form);
       return {
         reasons: [
           pick(tags.transition, "变化来得太快，孩子缺少与成人共同应对变化的经验", "孩子需要在关系中学习处理不确定"),
-          pick(tags.social, "入园时的互动更像任务要求，而不是可依靠的共同经验", "关系动机需要在低压力互动中恢复"),
+          pick(tags.social, `“${where}”里的互动更像任务要求，而不是可依靠的共同经验`, "关系动机需要在低压力互动中恢复"),
           pick(tags.emotion, "情绪升高后，孩子难以跟随成人的引导", "共同调节能力需要提前练，而不是崩溃后才练"),
         ],
         principles: [
@@ -152,8 +154,8 @@ const expertSkills = [
         ],
         actions: [
           "每天 10 分钟做一个孩子喜欢的双人活动，家长只加一个小变化",
-          "入园前不连续追问“怕不怕”，改为分享式语言：我看到门口人多，我们慢慢走",
-          "告别动作固定，但每天让孩子选择一个小元素：先击掌还是先抱一下",
+          `进入“${where}”前不连续追问“怕不怕”，改为分享式语言：我看到这里有点难，我们慢慢来`,
+          "固定一个共同动作，但每天让孩子选择一个小元素：先牵手还是先看图卡",
         ],
         weekPlan: "用 7 天建立“共同走流程”的经验，每次只改变一个很小的环节。",
       };
@@ -167,9 +169,10 @@ const expertSkills = [
     icon: PanelRightOpen,
     core: "帮助孩子理解情境、他人想法、自己的行为会带来的影响，再把社交期待变成可视化线索。",
     analyze(form, tags) {
+      const where = sceneLabel(form);
       return {
         reasons: [
-          pick(tags.social, "孩子可能不理解老师、家长、同伴在入园情境中的期待", "孩子需要更清楚地看见社交情境"),
+          pick(tags.social, `孩子可能不理解“${where}”中他人会怎么想、怎么期待`, "孩子需要更清楚地看见社交情境"),
           pick(tags.communication, "语言预告可能太抽象，没转化成孩子能用的社交线索", "需要把语言变成图像、动作和情境演练"),
           pick(tags.routine, "孩子难以预测下一步，导致对情境的理解断裂", "社交规则需要显性化，而不是默认孩子能推断"),
         ],
@@ -179,11 +182,11 @@ const expertSkills = [
           "演练时关注行为效果，而不是评价孩子好坏",
         ],
         actions: [
-          "画一张入园社交地图：妈妈想法、老师想法、孩子可以做的 2 个动作",
-          "用一句社交脚本替代长解释：妈妈去工作，老师陪我进教室，放学妈妈回来",
-          "回家后复盘一个成功点：你把书包给老师，老师知道你准备好了",
+          `画一张“${where}”社交地图：家长想法、旁人想法、孩子可以做的 2 个动作`,
+          "用一句社交脚本替代长解释：这里有点难，我可以先做一步，再休息",
+          "回家后复盘一个成功点：你刚才完成了哪一步，别人因此更容易帮助你",
         ],
-        weekPlan: "每天只练一个社交线索：看老师、交物品、挥手、进门、找座位。",
+        weekPlan: "每天只练一个社交线索：看提示、说需求、等待、完成一步、请求休息。",
       };
     },
   },
@@ -195,6 +198,7 @@ const expertSkills = [
     icon: Sparkles,
     core: "从孩子的发展阶段、个体差异和关系情感出发，通过跟随兴趣与情绪调节提升参与能力。",
     analyze(form, tags) {
+      const where = sceneLabel(form);
       return {
         reasons: [
           pick(tags.sensory, "环境刺激可能让孩子的身体先进入防御状态", "孩子的个体感官差异需要被纳入计划"),
@@ -203,15 +207,15 @@ const expertSkills = [
         ],
         principles: [
           "先跟随孩子状态，找到可进入互动的窗口",
-          "调节感官和情绪负荷，再增加入园要求",
+          `调节感官和情绪负荷，再增加“${where}”里的参与要求`,
           "用情感联结推动参与，而不是只靠指令推动",
         ],
         actions: [
-          "入园前 5 分钟安排稳定身体的活动：深压抱、慢走、背包任务或推墙",
+          `进入“${where}”前 5 分钟安排稳定身体的活动：深压抱、慢走、背包任务或推墙`,
           "用孩子喜欢的主题做告别游戏，让告别从命令变成互动",
-          "如果环境太吵，提前到园或错峰进入，降低感官负荷",
+          `如果环境太吵，提前进入“${where}”或错峰进入，降低感官负荷`,
         ],
-        weekPlan: "每天观察孩子最容易进入互动的时间、活动和感官状态，把它放到入园前。",
+        weekPlan: "每天观察孩子最容易进入互动的时间、活动和感官状态，把它放到高压力场景前。",
       };
     },
   },
@@ -242,6 +246,10 @@ function pick(condition, hit, fallback) {
   return condition ? hit : fallback;
 }
 
+function sceneLabel(form) {
+  return form.scene === "请选择主要场景" ? "这个场景" : form.scene;
+}
+
 function detectTags(form) {
   const text = `${form.concern} ${form.scene} ${form.tried}`.toLowerCase();
   return issueRules.reduce((result, rule) => {
@@ -257,6 +265,7 @@ function detectedNames(tags) {
 function buildAnalysis(form) {
   const tags = detectTags(form);
   const names = detectedNames(tags);
+  const where = sceneLabel(form);
   const skills = expertSkills.map((skill) => ({
     ...skill,
     result: skill.analyze(form, tags),
@@ -269,9 +278,9 @@ function buildAnalysis(form) {
     summary: {
       priority:
         form.severity === "严重"
-          ? "先降低入园压力和情绪强度，再训练具体入园行为"
+          ? `先降低“${where}”里的压力和情绪强度，再训练一个具体可完成的行为`
           : "先明确一个小目标，稳定练习并观察变化",
-      firstStep: "未来 7 天只追踪一个核心指标：从到达园门口到恢复平静的时间。",
+      firstStep: `未来 7 天只追踪一个核心指标：从进入“${where}”到孩子恢复平静的时间。`,
       warning:
         "如果出现明显自伤、攻击、退行、睡眠饮食急剧恶化或家长无法保证安全，应尽快联系儿童发育行为/精神心理专业人员。",
     },
@@ -357,16 +366,57 @@ function SelectField({ value, options, onChange }) {
   );
 }
 
+function EmptyReport() {
+  return (
+    <section className="empty-report">
+      <Sparkles size={38} />
+      <h2>还没有生成本次专家报告</h2>
+      <p>在左侧输入孩子当前问题后，点击“生成/更新专家报告”。报告会在这里显示，并且只基于本次输入。</p>
+    </section>
+  );
+}
+
 export function App() {
   const [form, setForm] = useState(initialForm);
-  const [generated, setGenerated] = useState(false);
+  const [report, setReport] = useState(null);
+  const [formError, setFormError] = useState("");
+  const reportRef = useRef(null);
 
-  const analysis = useMemo(() => buildAnalysis(form), [form]);
-  const completed = generated ? 3 : 2;
+  const draftAnalysis = useMemo(() => buildAnalysis(form), [form]);
+  const completed = report ? 3 : form.concern.trim() ? 1 : 0;
 
   function updateForm(field, value) {
     setForm((current) => ({ ...current, [field]: value }));
-    setGenerated(false);
+    setReport(null);
+    setFormError("");
+  }
+
+  function generateReport() {
+    const nextForm = {
+      ...form,
+      concern: form.concern.trim(),
+      tried: form.tried.trim(),
+    };
+
+    if (!nextForm.concern) {
+      setFormError("请先写下孩子当前最困扰你的具体表现，再生成专家报告。");
+      setReport(null);
+      return;
+    }
+
+    setForm(nextForm);
+    setReport({
+      form: nextForm,
+      analysis: buildAnalysis(nextForm),
+      generatedAt: new Date().toLocaleTimeString("zh-CN", {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    });
+    setFormError("");
+    window.setTimeout(() => {
+      reportRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
   }
 
   return (
@@ -402,7 +452,7 @@ export function App() {
             <span>1</span>
             <div>
               <h2>输入孩子当前问题</h2>
-              <p>页面会调用 5 个视角 skill，分别给出原因理解和家庭干预建议。</p>
+              <p>提交后会生成一份绑定本次输入的专家报告，不再沿用示例问题。</p>
             </div>
           </div>
 
@@ -422,6 +472,7 @@ export function App() {
               <textarea
                 value={form.concern}
                 maxLength={300}
+                placeholder="例如：孩子在商场听到广播和人声会捂耳朵尖叫，推开家长，不肯排队等待。"
                 onChange={(event) => updateForm("concern", event.target.value)}
               />
               <div className="count-row">{form.concern.length}/300</div>
@@ -459,6 +510,7 @@ export function App() {
               <textarea
                 value={form.tried}
                 maxLength={300}
+                placeholder="例如：尝试过讲道理、奖励零食、立刻离开现场。离开后能平静，但下次进入商场还是会发生。"
                 onChange={(event) => updateForm("tried", event.target.value)}
               />
               <div className="count-row">{form.tried.length}/300</div>
@@ -469,64 +521,95 @@ export function App() {
             <Lightbulb size={24} />
             <div>
               <strong>当前识别到</strong>
-              <p>{analysis.names.join("、")}</p>
+              <p>{form.concern.trim() ? draftAnalysis.names.join("、") : "等待输入孩子当前问题"}</p>
             </div>
           </div>
 
-          <button className="primary-action" type="button" onClick={() => setGenerated(true)}>
+          {formError ? <p className="form-error">{formError}</p> : null}
+
+          <button className="primary-action" type="button" onClick={generateReport}>
             <PencilLine size={21} />
-            生成多流派分析
+            生成/更新专家报告
           </button>
         </aside>
 
-        <section className="analysis-panel">
+        <section className="analysis-panel" ref={reportRef} aria-live="polite">
           <div className="analysis-head">
             <div className="step-title compact">
               <span>2</span>
-              <h2>5 个流派 skill 的分析</h2>
+              <h2>本次专家报告</h2>
             </div>
-            <p>每个 skill 按自己的逻辑解释同一个问题，不互相覆盖。</p>
+            <p>每个 skill 按自己的逻辑解释你提交的同一个问题，不互相覆盖。</p>
           </div>
 
-          <div className="lens-list">
-            {analysis.skills.map((skill) => (
-              <LensRow skill={skill} key={skill.id} />
-            ))}
-          </div>
+          {report ? (
+            <>
+              <section className="case-summary">
+                <div>
+                  <span>分析对象</span>
+                  <h3>{report.form.concern}</h3>
+                </div>
+                <dl>
+                  <div>
+                    <dt>年龄</dt>
+                    <dd>{report.form.age}</dd>
+                  </div>
+                  <div>
+                    <dt>场景</dt>
+                    <dd>{report.form.scene}</dd>
+                  </div>
+                  <div>
+                    <dt>强度</dt>
+                    <dd>{report.form.severity}</dd>
+                  </div>
+                  <div>
+                    <dt>生成时间</dt>
+                    <dd>{report.generatedAt}</dd>
+                  </div>
+                </dl>
+              </section>
 
-          <section className={`next-step ${generated ? "ready" : ""}`}>
-            <div>
-              <Sparkles size={34} />
-              <div>
-                <h2>{generated ? "综合建议已生成" : "下一步：生成综合建议"}</h2>
-                <p>{analysis.summary.priority}</p>
+              <div className="lens-list">
+                {report.analysis.skills.map((skill) => (
+                  <LensRow skill={skill} key={skill.id} />
+                ))}
               </div>
-            </div>
-            <button type="button" onClick={() => setGenerated(true)}>
-              生成综合建议
-              <ArrowRight size={19} />
-            </button>
-          </section>
 
-          {generated ? (
-            <section className="integrated-card">
-              <h2>综合流派专家建议</h2>
-              <div className="integrated-grid">
-                <article>
-                  <h3>优先方向</h3>
-                  <p>{analysis.summary.priority}</p>
-                </article>
-                <article>
-                  <h3>第一步</h3>
-                  <p>{analysis.summary.firstStep}</p>
-                </article>
-                <article>
-                  <h3>安全提醒</h3>
-                  <p>{analysis.summary.warning}</p>
-                </article>
-              </div>
-            </section>
-          ) : null}
+              <section className="next-step ready">
+                <div>
+                  <Sparkles size={34} />
+                  <div>
+                    <h2>综合建议已生成</h2>
+                    <p>{report.analysis.summary.priority}</p>
+                  </div>
+                </div>
+                <button type="button" onClick={generateReport}>
+                  重新生成
+                  <ArrowRight size={19} />
+                </button>
+              </section>
+
+              <section className="integrated-card">
+                <h2>综合流派专家建议</h2>
+                <div className="integrated-grid">
+                  <article>
+                    <h3>优先方向</h3>
+                    <p>{report.analysis.summary.priority}</p>
+                  </article>
+                  <article>
+                    <h3>第一步</h3>
+                    <p>{report.analysis.summary.firstStep}</p>
+                  </article>
+                  <article>
+                    <h3>安全提醒</h3>
+                    <p>{report.analysis.summary.warning}</p>
+                  </article>
+                </div>
+              </section>
+            </>
+          ) : (
+            <EmptyReport />
+          )}
         </section>
 
         <aside className="support-panel">
@@ -543,16 +626,16 @@ export function App() {
                 <span>完成度</span>
               </div>
               <ul>
-                <li>
-                  <Check size={16} />
+                <li className={form.concern.trim() ? "done" : ""}>
+                  {form.concern.trim() ? <Check size={16} /> : <span className="empty-dot" />}
                   输入孩子情况
                 </li>
-                <li>
-                  <Check size={16} />
+                <li className={report ? "done" : ""}>
+                  {report ? <Check size={16} /> : <span className="empty-dot" />}
                   生成多视角分析
                 </li>
-                <li className={generated ? "done" : ""}>
-                  {generated ? <Check size={16} /> : <span className="empty-dot" />}
+                <li className={report ? "done" : ""}>
+                  {report ? <Check size={16} /> : <span className="empty-dot" />}
                   综合建议生成
                 </li>
               </ul>
