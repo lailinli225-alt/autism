@@ -83,6 +83,7 @@ function buildInput(form) {
     {
       task:
         "基于同一个自闭症儿童家庭问题，分别调用 5 个干预 Skill 的逻辑，生成中文、具体、可执行、非诊断的家长支持报告。",
+      formatRequirement: "必须只返回合法 JSON 对象，不要 Markdown，不要解释文字，不要使用代码块。",
       case: form,
       skills: autismInterventionSkills.map(compactSkill),
       safetyPolicy: autismSkillSafetyPolicy,
@@ -137,10 +138,8 @@ function extractChatCompletionText(data) {
 
 function parseModelJson(text) {
   const trimmed = text.trim();
-  const cleaned = trimmed
-    .replace(/^```json\s*/i, "")
-    .replace(/^```\s*/i, "")
-    .replace(/\s*```$/i, "");
+  const fencedMatch = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+  const cleaned = fencedMatch ? fencedMatch[1] : trimmed;
 
   return JSON.parse(cleaned);
 }
@@ -279,8 +278,6 @@ async function callDeepSeek(config, form) {
           content: buildInput(form),
         },
       ],
-      response_format: { type: "json_object" },
-      thinking: { type: "disabled" },
     }),
   });
   const responseText = await response.text();

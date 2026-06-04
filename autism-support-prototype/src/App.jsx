@@ -179,6 +179,20 @@ function normalizeAiAnalysis(analysis) {
   };
 }
 
+function formatApiError(payload) {
+  const parts = [payload?.error || "后端模型调用失败，请稍后重试。"];
+
+  if (payload?.providerStatus) {
+    parts.push(`平台状态码：${payload.providerStatus}`);
+  }
+
+  if (payload?.detail) {
+    parts.push(`细节：${payload.detail}`);
+  }
+
+  return parts.join(" ");
+}
+
 function MiniLogo() {
   return (
     <div className="brand-mark" aria-hidden="true">
@@ -318,7 +332,7 @@ export function App() {
       const payload = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(payload.error || "后端模型调用失败，请稍后重试。");
+        throw new Error(formatApiError(payload));
       }
 
       setReport({
