@@ -4,7 +4,8 @@ import {
 } from "../src/data/autismInterventionSkills.js";
 
 const OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses";
-const DEFAULT_MODEL = "gpt-5.5";
+const DEFAULT_OPENAI_MODEL = "gpt-5-mini";
+const DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash";
 
 const skillNames = {
   "zou-xiaobing-bsr": {
@@ -111,6 +112,10 @@ function buildInput(form) {
   );
 }
 
+function modelInstructions() {
+  return "你是自闭症家庭支持应用的后端分析器。你不是医生，不替代诊疗，不冒充任何专家本人。必须基于给定 Skill 的公开原则分别分析同一个案例，给家长可执行建议。只输出一个 JSON 对象，不要 Markdown，不要代码块，不要额外解释。";
+}
+
 function extractOutputText(data) {
   if (typeof data?.output_text === "string") {
     return data.output_text;
@@ -124,6 +129,10 @@ function extractOutputText(data) {
     .flatMap((item) => item.content || [])
     .map((content) => content.text || content.output_text || "")
     .join("");
+}
+
+function extractChatCompletionText(data) {
+  return String(data?.choices?.[0]?.message?.content || "");
 }
 
 function parseModelJson(text) {
@@ -184,6 +193,138 @@ function normalizeReport(rawReport) {
   };
 }
 
+function parseOpenAIError(responseText) {
+  try {
+    const parsed = JSON.parse(responseText);
+    return String(parsed?.error?.message || parsed?.message || "").trim();
+  } catch {
+    return responseText.trim();
+  }
+}
+
+function getProvider() {
+  const configuredProvider = String(process.env.AI_PROVIDER || "").trim().toLowerCase();
+
+  if (configuredProvider === "deepseek" || configuredProvider === "openai") {
+    return configuredProvider;
+  }
+
+  if (process.env.DEEPSEEK_API_KEY && !process.env.OPENAI_API_KEY) {
+    return "deepseek";
+  }
+
+  return "openai";
+}
+
+function getProviderConfig(provider) {
+  if (provider === "deepseek") {
+    const baseUrl = (process.env.DEEPSEEK_BASE_URL || "https://api.deepseek.com").replace(/\/$/, "");
+    return {
+      apiKey: process.env.DEEPSEEK_API_KEY,
+      apiKeyName: "DEEPSEEK_API_KEY",
+      model: process.env.DEEPSEEK_MODEL || DEFAULT_DEEPSEEK_MODEL,
+      modelName: "DEEPSEEK_MODEL",
+      url: `${baseUrl}/chat/completions`,
+    };
+  }
+
+  return {
+    apiKey: process.env.OPENAI_API_KEY,
+    apiKeyName: "OPENAI_API_KEY",
+    model: process.env.OPENAI_MODEL || DEFAULT_OPENAI_MODEL,
+    modelName: "OPENAI_MODEL",
+    url: OPENAI_RESPONSES_URL,
+  };
+}
+
+async function callOpenAI(config, form) {
+  const response = await fetch(config.url, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${config.apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: config.model,
+      reasoning: { effort: "low" },
+      instructions: modelInstructions(),
+      input: buildInput(form),
+    }),
+  });
+  const responseText = await response.text();
+
+  return {
+    response,
+    responseText,
+    outputText: response.ok ? extractOutputText(JSON.parse(responseText)) : "",
+  };
+}
+
+async function callDeepSeek(config, form) {
+  const response = await fetch(config.url, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${config.apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: config.model,
+      messages: [
+        {
+          role: "system",
+          content: modelInstructions(),
+        },
+        {
+          role: "user",
+          content: buildInput(form),
+        },
+      ],
+      response_format: { type: "json_object" },
+      thinking: { type: "disabled" },
+    }),
+  });
+  const responseText = await response.text();
+
+  return {
+    response,
+    responseText,
+    outputText: response.ok ? extractChatCompletionText(JSON.parse(responseText)) : "",
+  };
+}
+
+function buildProviderError(statusCode, responseText, config) {
+  const rawMessage = parseOpenAIError(responseText);
+
+  if (statusCode === 401) {
+    return {
+      error: `${config.apiKeyName} 无效。请确认 Vercel 环境变量里填的是对应平台生成的 API Key，不要填 GitHub SSH Key 或 ChatGPT 登录密码。`,
+    };
+  }
+
+  if (statusCode === 403) {
+    return {
+      error: `当前 API Key 没有调用该模型的权限。请检查平台项目权限，或把 ${config.modelName} 改成默认模型。`,
+    };
+  }
+
+  if (statusCode === 404 || /model/i.test(rawMessage)) {
+    return {
+      error: `${config.modelName} 配置的模型不可用。请删除该变量使用默认模型，或改成该平台当前支持的模型。`,
+    };
+  }
+
+  if (statusCode === 429 || /quota|billing|rate/i.test(rawMessage)) {
+    return {
+      error: "模型平台额度、计费或限流不足。请检查账户余额、Billing/Usage 或稍后重试。",
+    };
+  }
+
+  return {
+    error: "AI 模型调用失败，请稍后重试或检查后端模型配置。",
+    detail: rawMessage.slice(0, 220),
+  };
+}
+
 export default async function handler(req, res) {
   setCorsHeaders(req, res);
 
@@ -195,9 +336,12 @@ export default async function handler(req, res) {
     return sendJson(res, 405, { error: "Only POST is supported." });
   }
 
-  if (!process.env.OPENAI_API_KEY) {
+  const provider = getProvider();
+  const config = getProviderConfig(provider);
+
+  if (!config.apiKey) {
     return sendJson(res, 500, {
-      error: "后端还没有配置 OPENAI_API_KEY，暂时无法调用 AI 模型。",
+      error: `后端还没有配置 ${config.apiKeyName}，暂时无法调用 ${provider} 模型。`,
     });
   }
 
@@ -213,43 +357,29 @@ export default async function handler(req, res) {
     return sendJson(res, 400, { error: "请先填写孩子当前问题。" });
   }
 
-  const model = process.env.OPENAI_MODEL || DEFAULT_MODEL;
-
-  let openaiResponse;
+  let modelResponse;
   let responseText;
+  let outputText;
   try {
-    openaiResponse = await fetch(OPENAI_RESPONSES_URL, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model,
-        reasoning: { effort: "low" },
-        instructions:
-          "你是自闭症家庭支持应用的后端分析器。你不是医生，不替代诊疗，不冒充任何专家本人。必须基于给定 Skill 的公开原则分别分析同一个案例，给家长可执行建议。只输出一个 JSON 对象，不要 Markdown，不要代码块，不要额外解释。",
-        input: buildInput(form),
-      }),
-    });
-    responseText = await openaiResponse.text();
+    const result = provider === "deepseek" ? await callDeepSeek(config, form) : await callOpenAI(config, form);
+    modelResponse = result.response;
+    responseText = result.responseText;
+    outputText = result.outputText;
   } catch {
     return sendJson(res, 502, {
-      error: "后端无法连接 AI 模型服务，请稍后重试。",
+      error: `后端无法连接 ${provider} 模型服务，请稍后重试。`,
     });
   }
 
-  if (!openaiResponse.ok) {
+  if (!modelResponse.ok) {
     return sendJson(res, 502, {
-      error: "AI 模型调用失败，请稍后重试或检查后端模型配置。",
-      detail: responseText.slice(0, 400),
+      ...buildProviderError(modelResponse.status, responseText, config),
+      providerStatus: modelResponse.status,
     });
   }
 
   let report;
   try {
-    const responseData = JSON.parse(responseText);
-    const outputText = extractOutputText(responseData);
     report = normalizeReport(parseModelJson(outputText));
   } catch {
     return sendJson(res, 502, {
@@ -259,6 +389,7 @@ export default async function handler(req, res) {
 
   return sendJson(res, 200, {
     analysis: report,
-    model,
+    model: config.model,
+    provider,
   });
 }
