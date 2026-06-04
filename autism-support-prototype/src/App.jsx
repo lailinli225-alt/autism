@@ -73,153 +73,30 @@ const issueRules = [
   },
 ];
 
-const expertSkills = [
-  {
-    id: "zou",
-    name: "邹小兵",
-    label: "BSR/结构化社交行为视角",
-    tone: "green",
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
+
+const skillVisuals = {
+  "zou-xiaobing-bsr": {
     icon: Users,
-    core: "先看行为背后的功能与环境，再用结构化、关系和行为支持降低孩子的压力。",
-    analyze(form, tags) {
-      const where = sceneLabel(form);
-      return {
-        reasons: [
-          pick(tags.transition, `“${where}”里的转换压力超过孩子当前适应能力`, "当前行为可能与环境要求和孩子能力不匹配有关"),
-          pick(tags.emotion, "情绪唤醒过高，孩子先失去自我调节能力", "孩子可能不是故意对抗，而是在表达困难"),
-          pick(tags.social, "他人、规则和环境刺激同时出现，社交负荷偏高", "自然情境中的社交要求需要被拆小"),
-        ],
-        principles: [
-          "先处理安全感和情绪，再谈规则与要求",
-          "区分合理需求和不合理要求，合理需求先被看见",
-          `把“${where}”里的要求拆成更小步骤，让孩子每天有成功体验`,
-        ],
-        actions: [
-          `为“${where}”做固定三步流程：进入前预告、完成一个小动作、离开或休息`,
-          "哭闹时减少讲道理，先用短句确认情绪：我知道你很难，但我会来接你",
-          "把目标从“不哭”改成“少 1 分钟、快 1 步、能完成一个小交接”",
-        ],
-        weekPlan: "连续 7 天记录触发点、持续时间、恢复方式，只调整一个变量，不同时加很多方法。",
-      };
-    },
+    tone: "green",
   },
-  {
-    id: "guo",
-    name: "郭延庆",
-    label: "机会-练习-强化视角",
-    tone: "amber",
+  "guo-yanqing-aba-core": {
     icon: MessageCircle,
-    core: "把目标变成孩子能练习的具体行为，通过足够机会、辅助和强化，让能力在真实场景中泛化。",
-    analyze(form, tags) {
-      const where = sceneLabel(form);
-      return {
-        reasons: [
-          pick(tags.communication, `孩子可能没有真正理解“${where}”里接下来会发生什么`, "孩子需要把抽象要求转成可理解的行为"),
-          pick(tags.routine, "缺少可反复练习的固定行为链", "当前问题需要被拆成可训练的小目标"),
-          pick(tags.emotion, "奖励贴纸短期有效，说明强化有价值但目标可能太大", "已有方法有效但强度和时机需要重新设计"),
-        ],
-        principles: [
-          "先设一个可以观察的目标行为，而不是笼统要求孩子配合",
-          "给机会、给辅助、及时强化，逐步撤辅助",
-          `在家、路上、“${where}”用同一套动作练习泛化`,
-        ],
-        actions: [
-          `目标行为先定为：在“${where}”完成一个可观察动作，哪怕情绪仍然存在`,
-          "每天在家模拟 3 次“进入场景-完成一步-得到休息”的短流程",
-          "强化要贴近行为发生后 10 秒内出现，强化孩子完成的具体动作",
-        ],
-        weekPlan: "第 1-2 天练流程，第 3-5 天缩短提示，第 6-7 天换地点练同一行为。",
-      };
-    },
+    tone: "amber",
   },
-  {
-    id: "rdi",
-    name: "Steven Gutstein / RDI",
-    label: "关系发展视角",
-    tone: "blue",
+  "gutstein-rdi": {
     icon: HeartHandshake,
-    core: "重点不是让孩子机械服从，而是让家长成为稳定引导者，帮助孩子在变化中建立共同调节和动态思考。",
-    analyze(form, tags) {
-      const where = sceneLabel(form);
-      return {
-        reasons: [
-          pick(tags.transition, "变化来得太快，孩子缺少与成人共同应对变化的经验", "孩子需要在关系中学习处理不确定"),
-          pick(tags.social, `“${where}”里的互动更像任务要求，而不是可依靠的共同经验`, "关系动机需要在低压力互动中恢复"),
-          pick(tags.emotion, "情绪升高后，孩子难以跟随成人的引导", "共同调节能力需要提前练，而不是崩溃后才练"),
-        ],
-        principles: [
-          "家长少问、多分享，用平静节奏做引导者",
-          "先建立共同注意和共同行动，再加入变化",
-          "用可预测框架承载一点点不确定，让孩子练习弹性",
-        ],
-        actions: [
-          "每天 10 分钟做一个孩子喜欢的双人活动，家长只加一个小变化",
-          `进入“${where}”前不连续追问“怕不怕”，改为分享式语言：我看到这里有点难，我们慢慢来`,
-          "固定一个共同动作，但每天让孩子选择一个小元素：先牵手还是先看图卡",
-        ],
-        weekPlan: "用 7 天建立“共同走流程”的经验，每次只改变一个很小的环节。",
-      };
-    },
+    tone: "blue",
   },
-  {
-    id: "social-thinking",
-    name: "Michelle Garcia Winner",
-    label: "社交思维视角",
-    tone: "violet",
+  "winner-social-thinking": {
     icon: PanelRightOpen,
-    core: "帮助孩子理解情境、他人想法、自己的行为会带来的影响，再把社交期待变成可视化线索。",
-    analyze(form, tags) {
-      const where = sceneLabel(form);
-      return {
-        reasons: [
-          pick(tags.social, `孩子可能不理解“${where}”中他人会怎么想、怎么期待`, "孩子需要更清楚地看见社交情境"),
-          pick(tags.communication, "语言预告可能太抽象，没转化成孩子能用的社交线索", "需要把语言变成图像、动作和情境演练"),
-          pick(tags.routine, "孩子难以预测下一步，导致对情境的理解断裂", "社交规则需要显性化，而不是默认孩子能推断"),
-        ],
-        principles: [
-          "把场景中的人、想法、期待和下一步说清楚",
-          "用图卡/简图帮助孩子理解“我走后会发生什么”",
-          "演练时关注行为效果，而不是评价孩子好坏",
-        ],
-        actions: [
-          `画一张“${where}”社交地图：家长想法、旁人想法、孩子可以做的 2 个动作`,
-          "用一句社交脚本替代长解释：这里有点难，我可以先做一步，再休息",
-          "回家后复盘一个成功点：你刚才完成了哪一步，别人因此更容易帮助你",
-        ],
-        weekPlan: "每天只练一个社交线索：看提示、说需求、等待、完成一步、请求休息。",
-      };
-    },
+    tone: "violet",
   },
-  {
-    id: "dir",
-    name: "Stanley Greenspan / DIR",
-    label: "DIR/Floortime 发展视角",
-    tone: "teal",
+  "greenspan-dir-floortime": {
     icon: Sparkles,
-    core: "从孩子的发展阶段、个体差异和关系情感出发，通过跟随兴趣与情绪调节提升参与能力。",
-    analyze(form, tags) {
-      const where = sceneLabel(form);
-      return {
-        reasons: [
-          pick(tags.sensory, "环境刺激可能让孩子的身体先进入防御状态", "孩子的个体感官差异需要被纳入计划"),
-          pick(tags.emotion, "情绪调节能力还不足以承受高压力分离", "需要先支持自我调节，再提升参与要求"),
-          pick(tags.transition, "发展阶段上的转换能力还需要从低挑战开始搭建", "孩子需要在安全关系中逐步扩大挑战"),
-        ],
-        principles: [
-          "先跟随孩子状态，找到可进入互动的窗口",
-          `调节感官和情绪负荷，再增加“${where}”里的参与要求`,
-          "用情感联结推动参与，而不是只靠指令推动",
-        ],
-        actions: [
-          `进入“${where}”前 5 分钟安排稳定身体的活动：深压抱、慢走、背包任务或推墙`,
-          "用孩子喜欢的主题做告别游戏，让告别从命令变成互动",
-          `如果环境太吵，提前进入“${where}”或错峰进入，降低感官负荷`,
-        ],
-        weekPlan: "每天观察孩子最容易进入互动的时间、活动和感官状态，把它放到高压力场景前。",
-      };
-    },
+    tone: "teal",
   },
-];
+};
 
 const supportCards = [
   {
@@ -242,14 +119,6 @@ const supportCards = [
   },
 ];
 
-function pick(condition, hit, fallback) {
-  return condition ? hit : fallback;
-}
-
-function sceneLabel(form) {
-  return form.scene === "请选择主要场景" ? "这个场景" : form.scene;
-}
-
 function detectTags(form) {
   const text = `${form.concern} ${form.scene} ${form.tried}`.toLowerCase();
   return issueRules.reduce((result, rule) => {
@@ -262,27 +131,50 @@ function detectedNames(tags) {
   return issueRules.filter((rule) => tags[rule.id]).map((rule) => rule.name);
 }
 
-function buildAnalysis(form) {
+function buildDraftInsight(form) {
   const tags = detectTags(form);
   const names = detectedNames(tags);
-  const where = sceneLabel(form);
-  const skills = expertSkills.map((skill) => ({
-    ...skill,
-    result: skill.analyze(form, tags),
-  }));
 
   return {
-    tags,
     names: names.length ? names : ["需要更多具体情境"],
-    skills,
+  };
+}
+
+function apiPath(path) {
+  return `${apiBaseUrl}${path}`;
+}
+
+function isGithubPagesWithoutApi() {
+  return !apiBaseUrl && window.location.hostname.endsWith("github.io");
+}
+
+function normalizeList(items) {
+  return Array.isArray(items) ? items.filter(Boolean) : [];
+}
+
+function normalizeAiAnalysis(analysis) {
+  return {
+    names: normalizeList(analysis?.names),
+    skills: normalizeList(analysis?.skills).map((skill) => {
+      const visual = skillVisuals[skill.id] || {};
+      return {
+        ...skill,
+        icon: visual.icon || HelpCircle,
+        tone: visual.tone || "green",
+        result: {
+          reasons: normalizeList(skill.result?.reasons),
+          principles: normalizeList(skill.result?.principles),
+          actions: normalizeList(skill.result?.actions),
+          weekPlan: skill.result?.weekPlan || "未来 7 天选择一个小目标持续记录和调整。",
+        },
+      };
+    }),
     summary: {
-      priority:
-        form.severity === "严重"
-          ? `先降低“${where}”里的压力和情绪强度，再训练一个具体可完成的行为`
-          : "先明确一个小目标，稳定练习并观察变化",
-      firstStep: `未来 7 天只追踪一个核心指标：从进入“${where}”到孩子恢复平静的时间。`,
+      priority: analysis?.summary?.priority || "先降低压力，再选择一个可观察的小目标练习。",
+      firstStep: analysis?.summary?.firstStep || "今天先记录一次完整情境：前因、行为、后果和恢复方式。",
       warning:
-        "如果出现明显自伤、攻击、退行、睡眠饮食急剧恶化或家长无法保证安全，应尽快联系儿童发育行为/精神心理专业人员。",
+        analysis?.summary?.warning ||
+        "如果出现自伤、攻击、退行、睡眠饮食急剧恶化或无法保证安全，应尽快联系专业人员。",
     },
   };
 }
@@ -380,9 +272,10 @@ export function App() {
   const [form, setForm] = useState(initialForm);
   const [report, setReport] = useState(null);
   const [formError, setFormError] = useState("");
+  const [isGenerating, setIsGenerating] = useState(false);
   const reportRef = useRef(null);
 
-  const draftAnalysis = useMemo(() => buildAnalysis(form), [form]);
+  const draftAnalysis = useMemo(() => buildDraftInsight(form), [form]);
   const completed = report ? 3 : form.concern.trim() ? 1 : 0;
 
   function updateForm(field, value) {
@@ -391,7 +284,7 @@ export function App() {
     setFormError("");
   }
 
-  function generateReport() {
+  async function generateReport() {
     const nextForm = {
       ...form,
       concern: form.concern.trim(),
@@ -404,19 +297,48 @@ export function App() {
       return;
     }
 
+    if (isGithubPagesWithoutApi()) {
+      setFormError("当前 GitHub Pages 是纯静态页面，还没有后端模型地址。请部署 Vercel 后端，或配置 VITE_API_BASE_URL 指向后端 API。");
+      setReport(null);
+      return;
+    }
+
     setForm(nextForm);
-    setReport({
-      form: nextForm,
-      analysis: buildAnalysis(nextForm),
-      generatedAt: new Date().toLocaleTimeString("zh-CN", {
-        hour: "2-digit",
-        minute: "2-digit",
-      }),
-    });
     setFormError("");
-    window.setTimeout(() => {
-      reportRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 0);
+    setIsGenerating(true);
+
+    try {
+      const response = await fetch(apiPath("/api/analyze"), {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ form: nextForm }),
+      });
+      const payload = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(payload.error || "后端模型调用失败，请稍后重试。");
+      }
+
+      setReport({
+        form: nextForm,
+        analysis: normalizeAiAnalysis(payload.analysis),
+        generatedAt: new Date().toLocaleTimeString("zh-CN", {
+          hour: "2-digit",
+          minute: "2-digit",
+        }),
+        model: payload.model,
+      });
+      window.setTimeout(() => {
+        reportRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 0);
+    } catch (error) {
+      setReport(null);
+      setFormError(error.message || "后端模型调用失败，请稍后重试。");
+    } finally {
+      setIsGenerating(false);
+    }
   }
 
   return (
@@ -527,9 +449,9 @@ export function App() {
 
           {formError ? <p className="form-error">{formError}</p> : null}
 
-          <button className="primary-action" type="button" onClick={generateReport}>
+          <button className="primary-action" type="button" onClick={generateReport} disabled={isGenerating}>
             <PencilLine size={21} />
-            生成/更新专家报告
+            {isGenerating ? "AI 正在生成..." : "生成/更新专家报告"}
           </button>
         </aside>
 
@@ -583,8 +505,8 @@ export function App() {
                     <p>{report.analysis.summary.priority}</p>
                   </div>
                 </div>
-                <button type="button" onClick={generateReport}>
-                  重新生成
+                <button type="button" onClick={generateReport} disabled={isGenerating}>
+                  {isGenerating ? "生成中" : "重新生成"}
                   <ArrowRight size={19} />
                 </button>
               </section>

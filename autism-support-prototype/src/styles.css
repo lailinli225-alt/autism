@@ -360,6 +360,12 @@ textarea:focus,
   background: #367a38;
 }
 
+.primary-action:disabled,
+.next-step button:disabled {
+  cursor: wait;
+  opacity: 0.68;
+}
+
 .form-error {
   margin: 10px 0 -2px;
   color: #b14d37;
