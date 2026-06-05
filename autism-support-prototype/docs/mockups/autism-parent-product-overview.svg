@@ -1,0 +1,230 @@
+<svg width="1440" height="960" viewBox="0 0 1440 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pageBg" x1="720" y1="0" x2="720" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFCF8"/>
+      <stop offset="1" stop-color="#F4F8EF"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#2A492D" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#5F9A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .title { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 34px; font-weight: 780; fill: #172018; }
+      .subtitle { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; font-weight: 520; fill: #5E6B61; }
+      .section-title { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 20px; font-weight: 760; fill: #172018; }
+      .card-title { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 17px; font-weight: 760; fill: #1E2B22; }
+      .body { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; font-weight: 480; fill: #4C5B50; }
+      .small { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 560; fill: #6B756C; }
+      .tag { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 720; fill: #315D35; }
+      .chipText { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; font-weight: 700; fill: #345F38; }
+      .num { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 18px; font-weight: 800; fill: #3F873F; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="960" fill="url(#pageBg)"/>
+  <rect x="40" y="34" width="1360" height="888" rx="28" fill="#FFFDF8" stroke="#DDE7D6"/>
+
+  <g transform="translate(72 62)">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="#EAF5E4" stroke="#CFE2C7"/>
+    <path d="M18 29C18 23.5 22.5 19 28 19C33.5 19 38 23.5 38 29C38 35.2 28 42 28 42C28 42 18 35.2 18 29Z" stroke="#3F873F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M28 22V17" stroke="#E49336" stroke-width="3" stroke-linecap="round"/>
+    <text x="72" y="23" class="title">安心向导 · 自闭症家长辅导产品总览</text>
+    <text x="72" y="52" class="subtitle">帮助自闭症家长把困惑转化为可执行、可记录、可复盘的居家干预支持</text>
+    <rect x="1138" y="9" width="150" height="36" rx="18" fill="#F4F8EF" stroke="#DDE7D6"/>
+    <text x="1174" y="32" class="tag">产品蓝图 V1</text>
+  </g>
+
+  <g transform="translate(72 132)">
+    <rect x="0" y="0" width="1288" height="78" rx="18" fill="#F4F8EF" stroke="#DDE7D6"/>
+    <text x="28" y="31" class="section-title">核心闭环</text>
+    <text x="28" y="56" class="body">不是单纯问答，而是形成“孩子档案 + 多流派 AI Skill + 每日干预记录 + 长期画像更新”的家庭支持工作台。</text>
+    <g transform="translate(752 18)">
+      <rect x="0" y="0" width="196" height="42" rx="21" fill="#EAF5E4"/>
+      <text x="22" y="27" class="chipText">说清楚问题</text>
+      <path d="M145 21H177" stroke="#5F9A56" stroke-width="2" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(947 18)">
+      <rect x="0" y="0" width="196" height="42" rx="21" fill="#EAF4FC"/>
+      <text x="22" y="27" class="chipText">做一个小步骤</text>
+      <path d="M145 21H177" stroke="#5F9A56" stroke-width="2" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(1142 18)">
+      <rect x="0" y="0" width="120" height="42" rx="21" fill="#FFF4E4"/>
+      <text x="25" y="27" class="chipText">能复盘</text>
+    </g>
+  </g>
+
+  <path d="M410 458H468" stroke="#5F9A56" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+  <path d="M940 458H998" stroke="#5F9A56" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+  <path d="M720 698V747" stroke="#5F9A56" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+
+  <g transform="translate(72 248)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="338" height="450" rx="22" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <rect x="24" y="24" width="44" height="44" rx="12" fill="#EAF5E4"/>
+    <path d="M36 47C36 39.8 41.8 34 49 34C56.2 34 62 39.8 62 47" stroke="#3F873F" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="49" cy="32" r="7" stroke="#3F873F" stroke-width="2.4"/>
+    <text x="82" y="42" class="section-title">注册与孩子档案</text>
+    <text x="82" y="65" class="small">先轻量收集，后续逐步完善</text>
+
+    <g transform="translate(24 98)">
+      <rect x="0" y="0" width="290" height="50" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="22" class="card-title">基础信息</text>
+      <text x="16" y="39" class="small">昵称、年龄、性别、主要照护人</text>
+    </g>
+    <g transform="translate(24 162)">
+      <rect x="0" y="0" width="290" height="50" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="22" class="card-title">能力画像</text>
+      <text x="16" y="39" class="small">语言能力、理解能力、感官特点</text>
+    </g>
+    <g transform="translate(24 226)">
+      <rect x="0" y="0" width="290" height="50" rx="12" fill="#FFF4E4" stroke="#EBD9BC"/>
+      <text x="16" y="22" class="card-title">安全风险</text>
+      <text x="16" y="39" class="small">自伤、攻击、走失、睡眠饮食急变</text>
+    </g>
+    <g transform="translate(24 290)">
+      <rect x="0" y="0" width="290" height="50" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="22" class="card-title">家长期望</text>
+      <text x="16" y="39" class="small">当前最想解决的问题与培养方向</text>
+    </g>
+    <g transform="translate(24 372)">
+      <rect x="0" y="0" width="290" height="48" rx="24" fill="#EAF5E4"/>
+      <text x="36" y="30" class="chipText">形成孩子初始上下文</text>
+      <path d="M228 24H262" stroke="#5F9A56" stroke-width="2" marker-end="url(#arrowGreen)"/>
+    </g>
+  </g>
+
+  <g transform="translate(468 248)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="472" height="450" rx="22" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <rect x="24" y="24" width="44" height="44" rx="12" fill="#EAF5E4"/>
+    <path d="M35 50H57" stroke="#3F873F" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M35 39H57" stroke="#3F873F" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M35 39V57H57V39" stroke="#3F873F" stroke-width="2.4" stroke-linejoin="round"/>
+    <text x="82" y="42" class="section-title">主页工作台 · 五大核心模块</text>
+    <text x="82" y="65" class="small">家长每天从这里进入一个明确任务</text>
+
+    <g transform="translate(24 98)">
+      <rect x="0" y="0" width="204" height="106" rx="16" fill="#EAF5E4" stroke="#CFE2C7"/>
+      <text x="18" y="30" class="card-title">方案输出</text>
+      <text x="18" y="54" class="body">一次性解决当前具体问题，</text>
+      <text x="18" y="76" class="body">生成 7 日 SMART 干预计划。</text>
+      <rect x="18" y="84" width="78" height="22" rx="11" fill="#DDEED6"/>
+      <text x="33" y="99" class="tag">可执行</text>
+    </g>
+    <g transform="translate(244 98)">
+      <rect x="0" y="0" width="204" height="106" rx="16" fill="#EAF4FC" stroke="#C8D8E9"/>
+      <text x="18" y="30" class="card-title">深度问答</text>
+      <text x="18" y="54" class="body">选择专家/流派角色，</text>
+      <text x="18" y="76" class="body">连续追问并深入建议。</text>
+      <rect x="18" y="84" width="78" height="22" rx="11" fill="#DDECF9"/>
+      <text x="33" y="99" class="tag">可追问</text>
+    </g>
+    <g transform="translate(24 220)">
+      <rect x="0" y="0" width="204" height="106" rx="16" fill="#FFF4E4" stroke="#EBD9BC"/>
+      <text x="18" y="30" class="card-title">干预记录</text>
+      <text x="18" y="54" class="body">记录每日执行结果，</text>
+      <text x="18" y="76" class="body">AI 结构化为追溯数据。</text>
+      <rect x="18" y="84" width="78" height="22" rx="11" fill="#F8E7CB"/>
+      <text x="33" y="99" class="tag">可量化</text>
+    </g>
+    <g transform="translate(244 220)">
+      <rect x="0" y="0" width="204" height="106" rx="16" fill="#F8FAF4" stroke="#DDE7D6"/>
+      <text x="18" y="30" class="card-title">精品好文</text>
+      <text x="18" y="54" class="body">按标签聚合专家文章、</text>
+      <text x="18" y="76" class="body">前沿理论、家长经验。</text>
+      <rect x="18" y="84" width="78" height="22" rx="11" fill="#EAF5E4"/>
+      <text x="33" y="99" class="tag">可学习</text>
+    </g>
+    <g transform="translate(24 342)">
+      <rect x="0" y="0" width="448" height="74" rx="16" fill="#F7FBF1" stroke="#DDE7D6"/>
+      <text x="18" y="30" class="card-title">情绪垃圾桶</text>
+      <text x="18" y="54" class="body">只承接家长情绪，温柔陪伴，不急着指导。</text>
+      <rect x="350" y="22" width="78" height="28" rx="14" fill="#EAF5E4"/>
+      <text x="367" y="40" class="tag">稳定感</text>
+    </g>
+  </g>
+
+  <g transform="translate(998 248)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="362" height="450" rx="22" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <rect x="24" y="24" width="44" height="44" rx="12" fill="#EAF4FC"/>
+    <path d="M46 33V57" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M34 45H58" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M38 37L54 53" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M54 37L38 53" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="82" y="42" class="section-title">AI 能力层 · 多流派 Skill</text>
+    <text x="82" y="65" class="small">不同家长可选择自己信任的理论路径</text>
+
+    <g transform="translate(24 98)">
+      <rect x="0" y="0" width="314" height="42" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="27" class="body">邹小兵 BSR · 结构化社交行为</text>
+    </g>
+    <g transform="translate(24 152)">
+      <rect x="0" y="0" width="314" height="42" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="27" class="body">郭延庆 ABA · 行为功能与强化</text>
+    </g>
+    <g transform="translate(24 206)">
+      <rect x="0" y="0" width="314" height="42" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="27" class="body">Steven Gutstein RDI · 关系发展</text>
+    </g>
+    <g transform="translate(24 260)">
+      <rect x="0" y="0" width="314" height="42" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="27" class="body">Michelle Garcia Winner · 社交思维</text>
+    </g>
+    <g transform="translate(24 314)">
+      <rect x="0" y="0" width="314" height="42" rx="12" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="16" y="27" class="body">Stanley Greenspan DIR · 地板时光</text>
+    </g>
+    <g transform="translate(24 374)">
+      <rect x="0" y="0" width="314" height="50" rx="16" fill="#EAF5E4" stroke="#CFE2C7"/>
+      <text x="16" y="22" class="card-title">综合专家</text>
+      <text x="16" y="39" class="small">取长补短，形成统一优先级和行动方案</text>
+    </g>
+  </g>
+
+  <g transform="translate(72 748)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="1288" height="142" rx="22" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <text x="28" y="38" class="section-title">长期数据闭环：越记录，越理解这个孩子</text>
+    <text x="28" y="64" class="body">干预记录进入孩子专属上下文，让后续方案、深度问答和情绪支持都更贴近真实家庭状态。</text>
+
+    <g transform="translate(28 86)">
+      <rect x="0" y="0" width="132" height="44" rx="22" fill="#EAF5E4"/>
+      <text x="39" y="28" class="chipText">提问</text>
+      <path d="M146 22H184" stroke="#5F9A56" stroke-width="2.4" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(220 86)">
+      <rect x="0" y="0" width="132" height="44" rx="22" fill="#EAF4FC"/>
+      <text x="31" y="28" class="chipText">生成计划</text>
+      <path d="M146 22H184" stroke="#5F9A56" stroke-width="2.4" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(412 86)">
+      <rect x="0" y="0" width="132" height="44" rx="22" fill="#FFF4E4"/>
+      <text x="31" y="28" class="chipText">每日干预</text>
+      <path d="M146 22H184" stroke="#5F9A56" stroke-width="2.4" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(604 86)">
+      <rect x="0" y="0" width="156" height="44" rx="22" fill="#E8F7F4"/>
+      <text x="25" y="28" class="chipText">AI 结构化记录</text>
+      <path d="M170 22H208" stroke="#5F9A56" stroke-width="2.4" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(832 86)">
+      <rect x="0" y="0" width="156" height="44" rx="22" fill="#F4F8EF"/>
+      <text x="31" y="28" class="chipText">孩子画像更新</text>
+      <path d="M170 22H208" stroke="#5F9A56" stroke-width="2.4" marker-end="url(#arrowGreen)"/>
+    </g>
+    <g transform="translate(1060 86)">
+      <rect x="0" y="0" width="220" height="44" rx="22" fill="#EAF5E4"/>
+      <text x="45" y="28" class="chipText">下一次建议更精准</text>
+    </g>
+  </g>
+
+  <g transform="translate(1120 138)">
+    <text x="0" y="0" class="small">设计原则</text>
+    <rect x="0" y="12" width="86" height="26" rx="13" fill="#EAF5E4"/>
+    <text x="18" y="30" class="tag">低刺激</text>
+    <rect x="96" y="12" width="86" height="26" rx="13" fill="#FFF4E4"/>
+    <text x="114" y="30" class="tag">可执行</text>
+    <rect x="192" y="12" width="86" height="26" rx="13" fill="#EAF4FC"/>
+    <text x="210" y="30" class="tag">可追溯</text>
+  </g>
+</svg>
