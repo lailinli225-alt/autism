@@ -190,6 +190,10 @@ function isViteDevWithoutApi() {
   return !apiBaseUrl && window.location.hostname === "127.0.0.1" && window.location.port === "5173";
 }
 
+function shouldUseLocalExperience() {
+  return isGithubPagesWithoutApi() || isViteDevWithoutApi();
+}
+
 function formatApiError(payload) {
   const parts = [payload?.error || "后端模型调用失败"];
 
@@ -529,30 +533,35 @@ function SolutionScreen({ profile, onSaveReport }) {
 
     setLoading(true);
     setStatus("");
-    let source = "AI 模型";
+    let source = "DeepSeek / AI 模型";
     let analysis;
 
-    try {
-      if (isGithubPagesWithoutApi() || isViteDevWithoutApi()) {
-        throw new Error("当前是静态部署，后端 API 未配置。");
-      }
-      const response = await fetch(apiPath("/api/analyze"), {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ form: nextForm, profile }),
-      });
-      const payload = await response.json().catch(() => ({}));
-      if (!response.ok) {
-        throw new Error(formatApiError(payload));
-      }
-      analysis = normalizeAnalysis(payload.analysis);
-    } catch (error) {
-      source = "本地体验版";
+    if (shouldUseLocalExperience()) {
       analysis = buildFallbackAnalysis(nextForm, profile);
-      setStatus(`已生成本地体验版。后端提示：${error.message}`);
-    } finally {
-      setLoading(false);
+      source = "本地体验版";
+      setStatus("当前环境没有后端 API，已生成本地体验版；部署到 Vercel 后会调用 DeepSeek。");
+    } else {
+      try {
+        const response = await fetch(apiPath("/api/analyze"), {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ form: nextForm, profile }),
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(formatApiError(payload));
+        }
+        analysis = normalizeAnalysis(payload.analysis);
+        source = payload.provider ? `${payload.provider} · ${payload.model || "模型"}` : "AI 模型";
+        setStatus("");
+      } catch (error) {
+        setReport(null);
+        setStatus(`模型调用失败：${error.message}`);
+        setLoading(false);
+        return;
+      }
     }
+    setLoading(false);
 
     const nextReport = {
       id: Date.now(),

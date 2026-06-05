@@ -65,6 +65,17 @@ function normalizeForm(form = {}) {
   };
 }
 
+function normalizeProfile(profile = {}) {
+  return {
+    nickname: String(profile.nickname || "孩子").slice(0, 40),
+    age: String(profile.age || "未填写").slice(0, 40),
+    gender: String(profile.gender || "未填写").slice(0, 20),
+    language: String(profile.language || "未填写").slice(0, 80),
+    risk: String(profile.risk || "未填写").slice(0, 120),
+    goal: String(profile.goal || "").trim().slice(0, 300),
+  };
+}
+
 function compactSkill(skill) {
   return {
     id: skill.id,
@@ -78,13 +89,14 @@ function compactSkill(skill) {
   };
 }
 
-function buildInput(form) {
+function buildInput(form, profile) {
   return JSON.stringify(
     {
       task:
         "基于同一个自闭症儿童家庭问题，分别调用 5 个干预 Skill 的逻辑，生成中文、具体、可执行、非诊断的家长支持报告。",
       formatRequirement: "必须只返回合法 JSON 对象，不要 Markdown，不要解释文字，不要使用代码块。",
       case: form,
+      childProfile: profile,
       skills: autismInterventionSkills.map(compactSkill),
       safetyPolicy: autismSkillSafetyPolicy,
       outputShape: {
@@ -236,7 +248,7 @@ function getProviderConfig(provider) {
   };
 }
 
-async function callOpenAI(config, form) {
+async function callOpenAI(config, form, profile) {
   const response = await fetch(config.url, {
     method: "POST",
     headers: {
@@ -247,7 +259,7 @@ async function callOpenAI(config, form) {
       model: config.model,
       reasoning: { effort: "low" },
       instructions: modelInstructions(),
-      input: buildInput(form),
+      input: buildInput(form, profile),
     }),
   });
   const responseText = await response.text();
@@ -259,7 +271,7 @@ async function callOpenAI(config, form) {
   };
 }
 
-async function callDeepSeek(config, form) {
+async function callDeepSeek(config, form, profile) {
   const response = await fetch(config.url, {
     method: "POST",
     headers: {
@@ -275,7 +287,7 @@ async function callDeepSeek(config, form) {
         },
         {
           role: "user",
-          content: buildInput(form),
+          content: buildInput(form, profile),
         },
       ],
     }),
@@ -343,9 +355,11 @@ export default async function handler(req, res) {
   }
 
   let form;
+  let profile;
   try {
     const body = parseBody(req);
     form = normalizeForm(body.form);
+    profile = normalizeProfile(body.profile);
   } catch {
     return sendJson(res, 400, { error: "请求体不是有效 JSON。" });
   }
@@ -358,7 +372,7 @@ export default async function handler(req, res) {
   let responseText;
   let outputText;
   try {
-    const result = provider === "deepseek" ? await callDeepSeek(config, form) : await callOpenAI(config, form);
+    const result = provider === "deepseek" ? await callDeepSeek(config, form, profile) : await callOpenAI(config, form, profile);
     modelResponse = result.response;
     responseText = result.responseText;
     outputText = result.outputText;
