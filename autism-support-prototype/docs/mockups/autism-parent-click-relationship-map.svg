@@ -1,0 +1,246 @@
+<svg width="1680" height="1180" viewBox="0 0 1680 1180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="840" y1="0" x2="840" y2="1180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFCF8"/>
+      <stop offset="1" stop-color="#F4F8EF"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#2A492D" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#5F9A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#4A8CC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#E49336" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .h1 { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 34px; font-weight: 800; fill: #172018; }
+      .h2 { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 21px; font-weight: 780; fill: #172018; }
+      .h3 { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 17px; font-weight: 760; fill: #1E2B22; }
+      .body { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; font-weight: 500; fill: #4C5B50; }
+      .small { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 560; fill: #6B756C; }
+      .tag { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 760; fill: #315D35; }
+      .step { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; font-weight: 780; fill: #FFFFFF; }
+      .nav { font-family: Inter, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; font-weight: 720; fill: #345F38; }
+    </style>
+  </defs>
+
+  <rect width="1680" height="1180" fill="url(#bg)"/>
+  <rect x="40" y="34" width="1600" height="1112" rx="30" fill="#FFFDF8" stroke="#DDE7D6"/>
+
+  <g transform="translate(72 62)">
+    <rect x="0" y="0" width="58" height="58" rx="15" fill="#EAF5E4" stroke="#CFE2C7"/>
+    <path d="M18 32C18 25.4 23.4 20 30 20C36.6 20 42 25.4 42 32C42 39.3 30 47 30 47C30 47 18 39.3 18 32Z" stroke="#3F873F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 23V17" stroke="#E49336" stroke-width="3" stroke-linecap="round"/>
+    <text x="78" y="26" class="h1">自闭症家长辅导产品 · 页面层级与点击关系图</text>
+    <text x="78" y="55" class="body">基于你的白板原型优化：明确注册、主页、五大模块、深度页面、数据写入与返回路径。</text>
+    <g transform="translate(1230 8)">
+      <rect x="0" y="0" width="116" height="30" rx="15" fill="#EAF5E4"/>
+      <text x="26" y="20" class="tag">主流程</text>
+      <path d="M132 15H174" stroke="#5F9A56" stroke-width="2.4" marker-end="url(#arrow)"/>
+      <rect x="194" y="0" width="116" height="30" rx="15" fill="#EAF4FC"/>
+      <text x="220" y="20" class="tag">数据流</text>
+      <path d="M326 15H368" stroke="#4A8CC7" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+    </g>
+  </g>
+
+  <g transform="translate(72 142)">
+    <rect x="0" y="0" width="1536" height="74" rx="18" fill="#F4F8EF" stroke="#DDE7D6"/>
+    <text x="26" y="31" class="h2">产品导航原则</text>
+    <text x="26" y="56" class="body">用户永远知道自己在哪一层：注册建档 → 主页工作台 → 模块首页 → 任务页面 → 结果/记录页；所有模块都能回到主页，关键结果写入孩子画像。</text>
+    <rect x="1160" y="20" width="90" height="34" rx="17" fill="#EAF5E4"/>
+    <text x="1183" y="42" class="tag">可执行</text>
+    <rect x="1264" y="20" width="90" height="34" rx="17" fill="#FFF4E4"/>
+    <text x="1287" y="42" class="tag">可记录</text>
+    <rect x="1368" y="20" width="118" height="34" rx="17" fill="#EAF4FC"/>
+    <text x="1391" y="42" class="tag">可追溯</text>
+  </g>
+
+  <path d="M358 494H416" stroke="#5F9A56" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M768 494H826" stroke="#5F9A56" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M1178 494H1236" stroke="#5F9A56" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M995 812V884" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <path d="M1375 812V884" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <path d="M555 812V884" stroke="#4A8CC7" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+
+  <g transform="translate(72 254)" filter="url(#shadow)">
+    <rect x="0" y="0" width="286" height="480" rx="24" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <circle cx="32" cy="34" r="15" fill="#3F873F"/>
+    <text x="27" y="39" class="step">1</text>
+    <text x="58" y="40" class="h2">注册建档</text>
+    <text x="24" y="74" class="body">目标：3 分钟内完成最小画像，避免一开始填太重。</text>
+
+    <g transform="translate(24 102)">
+      <rect x="0" y="0" width="238" height="56" rx="13" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="15" y="24" class="h3">孩子基础信息</text>
+      <text x="15" y="43" class="small">昵称、年龄、性别</text>
+    </g>
+    <g transform="translate(24 172)">
+      <rect x="0" y="0" width="238" height="56" rx="13" fill="#F8FAF4" stroke="#E0E8DB"/>
+      <text x="15" y="24" class="h3">能力与风险</text>
+      <text x="15" y="43" class="small">语言能力、安全风险、感官特点</text>
+    </g>
+    <g transform="translate(24 242)">
+      <rect x="0" y="0" width="238" height="56" rx="13" fill="#FFF4E4" stroke="#EBD9BC"/>
+      <text x="15" y="24" class="h3">家长期望目标</text>
+      <text x="15" y="43" class="small">当前最想解决的问题</text>
+    </g>
+    <g transform="translate(24 330)">
+      <rect x="0" y="0" width="238" height="44" rx="22" fill="#EAF5E4"/>
+      <text x="53" y="28" class="nav">完成后进入主页</text>
+    </g>
+    <text x="24" y="420" class="small">点击关系：首次打开 → 注册表单 → 风险确认 → 主页。</text>
+  </g>
+
+  <g transform="translate(416 254)" filter="url(#shadow)">
+    <rect x="0" y="0" width="352" height="480" rx="24" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <circle cx="32" cy="34" r="15" fill="#3F873F"/>
+    <text x="27" y="39" class="step">2</text>
+    <text x="58" y="40" class="h2">主页工作台</text>
+    <text x="24" y="74" class="body">目标：让家长一眼看到今天能做什么，并进入五大模块。</text>
+
+    <g transform="translate(24 102)">
+      <rect x="0" y="0" width="304" height="74" rx="16" fill="#EAF5E4" stroke="#CFE2C7"/>
+      <text x="16" y="28" class="h3">今日优先支持</text>
+      <text x="16" y="50" class="body">只推荐 1 个小目标，降低家长决策负担。</text>
+    </g>
+
+    <g transform="translate(24 198)">
+      <rect x="0" y="0" width="140" height="62" rx="14" fill="#F8FAF4" stroke="#DDE7D6"/>
+      <text x="20" y="27" class="h3">方案输出</text>
+      <text x="20" y="47" class="small">一次性计划</text>
+      <rect x="164" y="0" width="140" height="62" rx="14" fill="#F8FAF4" stroke="#DDE7D6"/>
+      <text x="184" y="27" class="h3">深度问答</text>
+      <text x="184" y="47" class="small">选择流派角色</text>
+    </g>
+    <g transform="translate(24 276)">
+      <rect x="0" y="0" width="140" height="62" rx="14" fill="#FFF4E4" stroke="#EBD9BC"/>
+      <text x="20" y="27" class="h3">干预记录</text>
+      <text x="20" y="47" class="small">每日执行反馈</text>
+      <rect x="164" y="0" width="140" height="62" rx="14" fill="#F8FAF4" stroke="#DDE7D6"/>
+      <text x="184" y="27" class="h3">精品好文</text>
+      <text x="184" y="47" class="small">标签内容库</text>
+    </g>
+    <g transform="translate(24 354)">
+      <rect x="0" y="0" width="304" height="54" rx="14" fill="#EAF4FC" stroke="#C8D8E9"/>
+      <text x="20" y="24" class="h3">情绪垃圾桶</text>
+      <text x="20" y="43" class="small">只接住情绪，不急着给方案</text>
+    </g>
+    <g transform="translate(24 430)">
+      <text x="0" y="0" class="small">全局底部导航：主页｜记录｜分析｜档案</text>
+    </g>
+  </g>
+
+  <g transform="translate(826 254)" filter="url(#shadow)">
+    <rect x="0" y="0" width="352" height="558" rx="24" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <circle cx="32" cy="34" r="15" fill="#3F873F"/>
+    <text x="27" y="39" class="step">3</text>
+    <text x="58" y="40" class="h2">核心任务层</text>
+    <text x="24" y="74" class="body">每个模块进入后必须有明确输入、生成结果和下一步。</text>
+
+    <g transform="translate(24 104)">
+      <rect x="0" y="0" width="304" height="76" rx="16" fill="#EAF5E4" stroke="#CFE2C7"/>
+      <text x="16" y="26" class="h3">A. 方案输出</text>
+      <text x="16" y="48" class="body">输入问题 → 综合答案 → 各流派解释</text>
+      <text x="16" y="66" class="small">下一步：生成 7 日 SMART 干预计划</text>
+    </g>
+    <g transform="translate(24 194)">
+      <rect x="0" y="0" width="304" height="76" rx="16" fill="#EAF4FC" stroke="#C8D8E9"/>
+      <text x="16" y="26" class="h3">B. 深度问答</text>
+      <text x="16" y="48" class="body">选老师/流派 → 对话 → 追问补信息</text>
+      <text x="16" y="66" class="small">下一步：沉淀问题根源与行动建议</text>
+    </g>
+    <g transform="translate(24 284)">
+      <rect x="0" y="0" width="304" height="76" rx="16" fill="#FFF4E4" stroke="#EBD9BC"/>
+      <text x="16" y="26" class="h3">C. 干预记录</text>
+      <text x="16" y="48" class="body">记录今天做了什么与孩子反应</text>
+      <text x="16" y="66" class="small">下一步：AI 评分、结构化、写入画像</text>
+    </g>
+    <g transform="translate(24 374)">
+      <rect x="0" y="0" width="304" height="64" rx="16" fill="#F8FAF4" stroke="#DDE7D6"/>
+      <text x="16" y="26" class="h3">D. 精品好文</text>
+      <text x="16" y="48" class="body">推荐文章 → 标签筛选 → 收藏/稍后读</text>
+    </g>
+    <g transform="translate(24 452)">
+      <rect x="0" y="0" width="304" height="64" rx="16" fill="#F7FBF1" stroke="#DDE7D6"/>
+      <text x="16" y="26" class="h3">E. 情绪垃圾桶</text>
+      <text x="16" y="48" class="body">倾诉 → 被理解 → 轻量稳定反馈</text>
+    </g>
+  </g>
+
+  <g transform="translate(1236 254)" filter="url(#shadow)">
+    <rect x="0" y="0" width="372" height="558" rx="24" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <circle cx="32" cy="34" r="15" fill="#3F873F"/>
+    <text x="27" y="39" class="step">4</text>
+    <text x="58" y="40" class="h2">结果与二级页面</text>
+    <text x="24" y="74" class="body">结果页不能是终点，必须引导保存、执行、记录或继续问。</text>
+
+    <g transform="translate(24 104)">
+      <rect x="0" y="0" width="324" height="72" rx="16" fill="#EAF5E4" stroke="#CFE2C7"/>
+      <text x="16" y="26" class="h3">综合方案结果页</text>
+      <text x="16" y="48" class="body">综合建议置顶，再看各流派详情。</text>
+      <text x="16" y="64" class="small">按钮：生成 7 日计划｜进入深度问答</text>
+    </g>
+    <g transform="translate(24 190)">
+      <rect x="0" y="0" width="324" height="72" rx="16" fill="#FFF4E4" stroke="#EBD9BC"/>
+      <text x="16" y="26" class="h3">7 日计划页</text>
+      <text x="16" y="48" class="body">每天目标、材料、步骤、量化指标。</text>
+      <text x="16" y="64" class="small">按钮：加入今日目标｜开始记录</text>
+    </g>
+    <g transform="translate(24 276)">
+      <rect x="0" y="0" width="324" height="72" rx="16" fill="#EAF4FC" stroke="#C8D8E9"/>
+      <text x="16" y="26" class="h3">专家/流派对话页</text>
+      <text x="16" y="48" class="body">每个老师绑定一个 Skill 和追问方式。</text>
+      <text x="16" y="64" class="small">按钮：保存结论｜转成计划</text>
+    </g>
+    <g transform="translate(24 362)">
+      <rect x="0" y="0" width="324" height="72" rx="16" fill="#E8F7F4" stroke="#C9E3DF"/>
+      <text x="16" y="26" class="h3">AI 结构化记录页</text>
+      <text x="16" y="48" class="body">ABC、有效信号、下次调整、评分。</text>
+      <text x="16" y="64" class="small">按钮：确认归档｜继续补充</text>
+    </g>
+    <g transform="translate(24 462)">
+      <rect x="0" y="0" width="324" height="46" rx="23" fill="#EAF5E4"/>
+      <text x="82" y="29" class="nav">所有结果都可回到主页</text>
+    </g>
+  </g>
+
+  <g transform="translate(72 884)" filter="url(#shadow)">
+    <rect x="0" y="0" width="1536" height="188" rx="24" fill="#FFFDF8" stroke="#DDE7D6"/>
+    <text x="28" y="42" class="h2">孩子专属模型与数据闭环</text>
+    <text x="28" y="70" class="body">这是比原型更关键的一层：所有“计划、问答、记录、文章收藏、情绪倾诉”都围绕孩子画像更新，让建议越来越具体。</text>
+
+    <g transform="translate(28 104)">
+      <rect x="0" y="0" width="168" height="52" rx="26" fill="#EAF5E4"/>
+      <text x="48" y="32" class="nav">当前问题</text>
+      <path d="M182 26H226" stroke="#4A8CC7" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+    </g>
+    <g transform="translate(278 104)">
+      <rect x="0" y="0" width="168" height="52" rx="26" fill="#EAF4FC"/>
+      <text x="45" y="32" class="nav">生成计划</text>
+      <path d="M182 26H226" stroke="#4A8CC7" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+    </g>
+    <g transform="translate(528 104)">
+      <rect x="0" y="0" width="168" height="52" rx="26" fill="#FFF4E4"/>
+      <text x="45" y="32" class="nav">每日执行</text>
+      <path d="M182 26H226" stroke="#4A8CC7" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+    </g>
+    <g transform="translate(778 104)">
+      <rect x="0" y="0" width="196" height="52" rx="26" fill="#E8F7F4"/>
+      <text x="45" y="32" class="nav">AI 结构化记录</text>
+      <path d="M210 26H254" stroke="#4A8CC7" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+    </g>
+    <g transform="translate(1062 104)">
+      <rect x="0" y="0" width="196" height="52" rx="26" fill="#F4F8EF"/>
+      <text x="49" y="32" class="nav">孩子画像更新</text>
+      <path d="M210 26H254" stroke="#4A8CC7" stroke-width="2.4" marker-end="url(#arrowBlue)"/>
+    </g>
+    <g transform="translate(1346 104)">
+      <rect x="0" y="0" width="162" height="52" rx="26" fill="#EAF5E4"/>
+      <text x="35" y="32" class="nav">建议更精准</text>
+    </g>
+  </g>
+</svg>
