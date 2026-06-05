@@ -624,11 +624,30 @@ button:disabled {
   background: #3f873f;
 }
 
+.teacher-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px;
+}
+
+.teacher-card .ghost-button {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: 13px;
+}
+
+.chat-source {
+  justify-self: start;
+}
+
 .chat-input {
   position: sticky;
   bottom: 78px;
   display: grid;
-  grid-template-columns: 42px 1fr 42px;
+  grid-template-columns: 1fr 42px;
   gap: 8px;
   padding: 8px;
   border: 1px solid #dde7d6;

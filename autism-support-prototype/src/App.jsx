@@ -12,7 +12,6 @@ import {
   Lightbulb,
   LockKeyhole,
   MessageCircle,
-  Mic,
   Send,
   Sparkles,
   Users,
@@ -679,54 +678,111 @@ function ReportView({ report }) {
   );
 }
 
+function initialDeepQaMessages(teacher) {
+  return [
+    {
+      role: "assistant",
+      content: `我是${teacher.name} · ${teacher.label}视角的问答助手。你可以先告诉我：孩子发生了什么、在什么场景、持续多久、你已经尝试过什么。我会先补足关键信息，再给具体建议。`,
+    },
+  ];
+}
+
 function DeepQaScreen({ profile }) {
   const [teacher, setTeacher] = useState(teachers[0]);
   const [input, setInput] = useState("");
-  const [messages, setMessages] = useState([
-    {
-      role: "assistant",
-      content: "你可以先告诉我：孩子发生了什么、在什么场景、你已经尝试过什么。我会先补足信息，再给建议。",
-    },
-  ]);
+  const [messages, setMessages] = useState(() => initialDeepQaMessages(teachers[0]));
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [source, setSource] = useState("");
 
-  function send() {
+  function chooseTeacher(nextTeacher) {
+    setTeacher(nextTeacher);
+    setMessages(initialDeepQaMessages(nextTeacher));
+    setInput("");
+    setStatus("");
+    setSource("");
+  }
+
+  async function send() {
     const text = input.trim();
     if (!text) return;
-    const needsMore = text.length < 24 || !/[，。,；;]/.test(text);
-    const reply = needsMore
-      ? `我先不急着给结论。请再补充 3 点：发生前有什么触发、孩子持续多久、你当时怎么回应。这样我能用${teacher.label}更准确地分析。`
-      : `从${teacher.label}看，先把问题拆小：1. 识别触发点；2. 选择一个替代行为；3. 每天只练一个可量化目标。基于${profile.nickname}的情况，建议今天先记录一次完整 ABC，再设一个 30 秒内能完成的小目标。`;
-    setMessages((current) => [...current, { role: "user", content: text }, { role: "assistant", content: reply }]);
+    const nextMessages = [...messages, { role: "user", content: text }];
     setInput("");
+    setMessages(nextMessages);
+    setLoading(true);
+    setStatus("");
+
+    if (shouldUseLocalExperience()) {
+      const reply = `当前环境没有后端 API，已生成本地体验版。部署到 Vercel 后会由 DeepSeek 按${teacher.label}继续追问和回答。先补充 3 点：发生前有什么触发、持续多久、你当时怎么回应？`;
+      setMessages([...nextMessages, { role: "assistant", content: reply }]);
+      setSource("本地体验版");
+      setStatus("当前环境没有后端 API，部署到 Vercel 后会调用 DeepSeek。");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const response = await fetch(apiPath("/api/chat"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          teacherId: teacher.id,
+          profile,
+          messages: nextMessages,
+        }),
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(formatApiError(payload));
+      }
+      setMessages([...nextMessages, { role: "assistant", content: payload.reply }]);
+      setSource(payload.provider ? `${payload.provider} · ${payload.model || "模型"}` : "AI 模型");
+      setStatus("");
+    } catch (error) {
+      setStatus(`模型调用失败：${error.message}`);
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
     <div className="stack deepqa-screen">
       <section className="teacher-strip">
         {teachers.map((item) => (
-          <button className={teacher.id === item.id ? "active" : ""} type="button" key={item.id} onClick={() => setTeacher(item)}>
+          <button className={teacher.id === item.id ? "active" : ""} type="button" key={item.id} onClick={() => chooseTeacher(item)}>
             <strong>{item.name}</strong>
             <span>{item.label}</span>
           </button>
         ))}
       </section>
       <section className="card teacher-card">
-        <h2>{teacher.name} · {teacher.label}</h2>
-        <p>{teacher.style}</p>
+        <div>
+          <h2>{teacher.name} · {teacher.label}</h2>
+          <p>{teacher.style}</p>
+        </div>
+        <button className="ghost-button" type="button" onClick={() => chooseTeacher(teacher)}>
+          新对话
+        </button>
       </section>
+      {status ? <p className="inline-alert">{status}</p> : null}
       <section className="chat-card">
         {messages.map((message, index) => (
           <div className={`message ${message.role}`} key={`${message.role}-${index}`}>
             {message.content}
           </div>
         ))}
+        {loading ? <div className="message assistant">正在基于{teacher.label}分析...</div> : null}
       </section>
+      {source ? <span className="source-chip chat-source">{source}</span> : null}
       <div className="chat-input">
-        <button type="button" aria-label="语音输入">
-          <Mic size={20} />
-        </button>
-        <input value={input} placeholder="继续描述孩子的情况..." onChange={(event) => setInput(event.target.value)} onKeyDown={(event) => event.key === "Enter" && send()} />
-        <button type="button" onClick={send} aria-label="发送">
+        <input
+          value={input}
+          placeholder={`向${teacher.name}继续提问...`}
+          disabled={loading}
+          onChange={(event) => setInput(event.target.value)}
+          onKeyDown={(event) => event.key === "Enter" && !loading && send()}
+        />
+        <button type="button" onClick={send} aria-label="发送" disabled={loading || !input.trim()}>
           <Send size={20} />
         </button>
       </div>
