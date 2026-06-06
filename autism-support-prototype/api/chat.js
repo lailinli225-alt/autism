@@ -71,6 +71,22 @@ function normalizeProfile(profile = {}) {
   };
 }
 
+function normalizeRecords(records = []) {
+  if (!Array.isArray(records)) {
+    return [];
+  }
+
+  return records.slice(0, 8).map((record) => ({
+    date: String(record.date || "").slice(0, 40),
+    target: String(record.target || "").slice(0, 80),
+    score: Number(record.score) || null,
+    trigger: String(record.trigger || "").slice(0, 200),
+    intervention: String(record.intervention || "").slice(0, 300),
+    reaction: String(record.reaction || "").slice(0, 300),
+    next: String(record.next || "").slice(0, 300),
+  }));
+}
+
 function normalizeMessages(messages = []) {
   if (!Array.isArray(messages)) {
     return [];
@@ -133,12 +149,13 @@ function modelInstructions() {
   ].join("\n");
 }
 
-function buildContext({ teacherContext, profile }) {
+function buildContext({ teacherContext, profile, recentRecords }) {
   return JSON.stringify(
     {
       task: "请作为深度问答角色继续和家长对话。不要一次性套模板，要根据对话信息决定追问或给方案。",
       selectedTeacher: teacherContext.teacher,
       childProfile: profile,
+      recentInterventionRecords: recentRecords,
       skills: teacherContext.skills,
       safetyPolicy: autismSkillSafetyPolicy,
       answerContract: [
@@ -329,11 +346,13 @@ export default async function handler(req, res) {
 
   let profile;
   let messages;
+  let recentRecords;
   let teacherContext;
   try {
     const body = parseBody(req);
     profile = normalizeProfile(body.profile);
     messages = normalizeMessages(body.messages);
+    recentRecords = normalizeRecords(body.recentRecords);
     teacherContext = getTeacherContext(String(body.teacherId || "integrated"));
   } catch {
     return sendJson(res, 400, { error: "请求体不是有效 JSON。" });
@@ -352,7 +371,7 @@ export default async function handler(req, res) {
   let responseText;
   let outputText;
   try {
-    const payload = { teacherContext, profile, messages };
+    const payload = { teacherContext, profile, recentRecords, messages };
     const result = provider === "deepseek" ? await callDeepSeek(config, payload) : await callOpenAI(config, payload);
     modelResponse = result.response;
     responseText = result.responseText;

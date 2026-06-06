@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import {
   ArrowLeft,
   BarChart3,
+  Bookmark,
   BookOpen,
   Check,
   ChevronRight,
@@ -119,24 +120,90 @@ const articles = [
     tag: "干预方法",
     title: "如何把孩子的哭闹转成可记录的 ABC",
     desc: "用前因、行为、后果看见问题背后的功能。",
+    readingTime: "6 分钟",
+    takeaway: "先记录完整情境，再决定要改变前因、替代行为还是后果。",
+    content: [
+      "ABC 不是给孩子贴标签，而是把一次事件拆成三个可观察部分：发生前有什么，孩子具体做了什么，成人和环境随后发生了什么。",
+      "记录时避免写“故意闹”“不听话”这类判断。可以改成：妈妈说要关掉平板后，孩子哭喊、趴地约 4 分钟；妈妈把平板又打开 2 分钟后停止哭喊。",
+      "连续记录 3 到 5 次后再看规律。如果多数发生在任务转换前，可以优先增加预告和视觉提示；如果孩子用哭闹获得休息，则需要同时教授“休息一下”的替代表达。",
+      "家庭练习只改一个变量，并记录频率、持续时间或恢复时间。这样才能判断变化来自哪里。",
+    ],
+    source: "基于应用行为分析的 ABC 记录原则整理",
   },
   {
     id: 2,
     tag: "前沿理论",
     title: "关系发展视角下，为什么微小变化很重要",
     desc: "在可预测框架里练习弹性，而不是突然挑战。",
+    readingTime: "5 分钟",
+    takeaway: "保留熟悉框架，只加入一个孩子能够承受的小变化。",
+    content: [
+      "一些孩子能完成熟悉流程，却在顺序、人物或材料发生变化时明显焦虑。关系发展视角关注孩子如何和成人共同面对不确定，而不只是完成指令。",
+      "练习变化时，不需要故意制造很大的意外。可以在熟悉的收玩具流程里，只改变一个盒子的位置；在固定散步路线里，只增加一个短暂停顿。",
+      "成人先保持平静，用“我们一起看看”“这里有一点不一样”这样的分享式语言代替连续提问。孩子紧张时退回已经成功的共同动作。",
+      "衡量进步时，可以记录孩子恢复所需时间、是否愿意参考成人以及是否能继续共同活动。",
+    ],
+    source: "基于 RDI 动态智能与共同调节公开原则整理",
   },
   {
     id: 3,
     tag: "家长经验",
     title: "入园分离困难的 7 天家庭练习复盘",
     desc: "从少哭 1 分钟开始，建立孩子和家长的成功感。",
+    readingTime: "7 分钟",
+    takeaway: "把目标从完全不哭改成完成一个交接动作和更快恢复。",
+    content: [
+      "第一天先记录分离发生前后的完整过程，包括到达时间、环境声音、老师接手方式、哭闹持续时间和恢复方式。",
+      "第二到第四天保持同一套三步流程：提前预告、完成固定交接动作、家长用同一句话离开。不要每天更换奖励或告别方式。",
+      "第五天开始，只在孩子已经能恢复的基础上减少一点辅助，例如从牵手交给老师改成孩子主动递交书包。",
+      "一周复盘时，重点看恢复时间、交接动作成功次数和老师需要的辅助等级，而不是只看有没有哭。",
+    ],
+    source: "家庭场景示例，不能替代园所与专业人员的个别化评估",
   },
   {
     id: 4,
     tag: "专家文章",
     title: "社交思维：把隐性规则画出来",
     desc: "用社交地图降低孩子推断情境的压力。",
+    readingTime: "5 分钟",
+    takeaway: "把“你应该知道”改成看得见的情境线索和行动步骤。",
+    content: [
+      "很多社交规则没有被明确说出来，例如排队时要和前面的人保持距离、别人正在说话时需要等待。对需要更多明确线索的孩子，这些规则可能并不自然可见。",
+      "社交地图可以用四格表达：现在在哪里、别人正在做什么、别人可能期待什么、我可以做什么。文字要短，也可以配照片或简单图标。",
+      "先在低压力环境里讲解和演练，不要等到孩子情绪已经升高时才拿出来说教。",
+      "复盘时描述具体行为及影响，例如“你停在黄色线后面，前面的人有足够空间”，避免使用“表现好”“懂事”这类模糊评价。",
+    ],
+    source: "基于 Social Thinking 情境理解与社交地图公开原则整理",
+  },
+  {
+    id: 5,
+    tag: "干预方法",
+    title: "如何设定一个真正可执行的家庭目标",
+    desc: "把“提升能力”改写成一周内能观察和记录的小动作。",
+    readingTime: "4 分钟",
+    takeaway: "目标必须说明场景、行为、辅助和判断完成的指标。",
+    content: [
+      "“提升沟通能力”不能直接指导今天做什么。更可执行的目标是：晚饭时，当孩子想要饮料，能在图片提示下递出“要水”卡片，每天练习 3 次。",
+      "目标难度应让孩子有机会成功。如果连续两天都无法完成，就先降低动作要求或增加辅助，而不是增加练习次数。",
+      "一次只追踪一个主要指标，例如成功次数、持续时间、辅助等级或恢复时间。",
+      "达到稳定成功后，再改变一个条件进行泛化，例如换一个人、地点或材料。",
+    ],
+    source: "基于 SMART 目标和家庭自然情境教学原则整理",
+  },
+  {
+    id: 6,
+    tag: "家长经验",
+    title: "当计划没有效果时，家长可以先检查什么",
+    desc: "不急着否定自己，先检查目标、环境、辅助和记录。",
+    readingTime: "4 分钟",
+    takeaway: "方案无效不等于家长失败，通常需要调整任务难度或支持方式。",
+    content: [
+      "先确认目标是否可观察。如果只能用“更听话”“情绪更好”描述，就很难判断变化。",
+      "再检查孩子当时的身体和感官状态：困倦、饥饿、噪声、疼痛或任务过密都可能让原本会做的事情变难。",
+      "检查辅助是否足够及时。孩子已经明显崩溃后再提示，往往比进入场景前的预告效果弱。",
+      "最后看记录是否足够。一次失败不能说明方法无效，连续几次相同场景的数据更有判断价值。",
+    ],
+    source: "家庭复盘建议，不替代医疗或康复评估",
   },
 ];
 
@@ -307,9 +374,12 @@ function structureRecord(record) {
     note: record.note,
     score,
     trigger: record.note.includes("声音") || record.note.includes("吵") ? "声音/环境刺激" : "任务要求或转换压力",
+    behavior: record.note,
     intervention: record.note.includes("预告") ? "提前预告 + 降低语言 + 及时反馈" : "家长支持 + 环境调整 + 记录复盘",
     reaction: Number(record.emotion) <= 2 ? "情绪强度较低，能较快恢复" : "情绪有波动，需要继续降低要求",
     next: Number(record.support) >= 3 ? "下次把目标再拆小，并减少同时出现的要求" : "下次可延长 15-30 秒或换一个相近场景练习",
+    metric: "记录成功次数、持续时间和辅助等级。",
+    encouragement: "你已经把今天的过程记录下来，这会让下一次调整更有依据。",
   };
 }
 
@@ -364,9 +434,24 @@ function BottomNav({ route, setRoute }) {
 
 function Registration({ onSave }) {
   const [form, setForm] = useState(initialProfile);
+  const [status, setStatus] = useState("");
 
   function update(field, value) {
     setForm((current) => ({ ...current, [field]: value }));
+  }
+
+  function submit() {
+    if (!form.nickname.trim() || !form.age.trim() || !form.goal.trim()) {
+      setStatus("请至少填写孩子昵称、年龄和当前最希望改善的目标。");
+      return;
+    }
+    setStatus("");
+    onSave({
+      ...form,
+      nickname: form.nickname.trim(),
+      age: form.age.trim(),
+      goal: form.goal.trim(),
+    });
   }
 
   return (
@@ -399,7 +484,8 @@ function Registration({ onSave }) {
           <TextAreaInput label="家长期望目标" value={form.goal} onChange={(value) => update("goal", value)} />
         </div>
 
-        <button className="primary-button" type="button" onClick={() => onSave(form)}>
+        {status ? <p className="inline-alert">{status}</p> : null}
+        <button className="primary-button" type="button" onClick={submit}>
           完成建档，进入主页
           <ChevronRight size={18} />
         </button>
@@ -517,7 +603,7 @@ function SectionTitle({ title, action }) {
   );
 }
 
-function SolutionScreen({ profile, onSaveReport }) {
+function SolutionScreen({ profile, records, onSaveReport }) {
   const [form, setForm] = useState(initialCase);
   const [report, setReport] = useState(null);
   const [status, setStatus] = useState("");
@@ -544,7 +630,7 @@ function SolutionScreen({ profile, onSaveReport }) {
         const response = await fetch(apiPath("/api/analyze"), {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ form: nextForm, profile }),
+          body: JSON.stringify({ form: nextForm, profile, recentRecords: records }),
         });
         const payload = await response.json().catch(() => ({}));
         if (!response.ok) {
@@ -687,20 +773,37 @@ function initialDeepQaMessages(teacher) {
   ];
 }
 
-function DeepQaScreen({ profile }) {
+function DeepQaScreen({ profile, records }) {
   const [teacher, setTeacher] = useState(teachers[0]);
   const [input, setInput] = useState("");
-  const [messages, setMessages] = useState(() => initialDeepQaMessages(teachers[0]));
+  const [sessions, setSessions] = useStoredState("care.deepQaSessions", {});
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
   const [source, setSource] = useState("");
+  const messages = sessions[teacher.id] || initialDeepQaMessages(teacher);
 
   function chooseTeacher(nextTeacher) {
     setTeacher(nextTeacher);
-    setMessages(initialDeepQaMessages(nextTeacher));
     setInput("");
     setStatus("");
     setSource("");
+  }
+
+  function resetConversation() {
+    setSessions((current) => ({
+      ...current,
+      [teacher.id]: initialDeepQaMessages(teacher),
+    }));
+    setInput("");
+    setStatus("");
+    setSource("");
+  }
+
+  function saveMessages(nextMessages) {
+    setSessions((current) => ({
+      ...current,
+      [teacher.id]: nextMessages.slice(-20),
+    }));
   }
 
   async function send() {
@@ -708,13 +811,13 @@ function DeepQaScreen({ profile }) {
     if (!text) return;
     const nextMessages = [...messages, { role: "user", content: text }];
     setInput("");
-    setMessages(nextMessages);
+    saveMessages(nextMessages);
     setLoading(true);
     setStatus("");
 
     if (shouldUseLocalExperience()) {
       const reply = `当前环境没有后端 API，已生成本地体验版。部署到 Vercel 后会由 DeepSeek 按${teacher.label}继续追问和回答。先补充 3 点：发生前有什么触发、持续多久、你当时怎么回应？`;
-      setMessages([...nextMessages, { role: "assistant", content: reply }]);
+      saveMessages([...nextMessages, { role: "assistant", content: reply }]);
       setSource("本地体验版");
       setStatus("当前环境没有后端 API，部署到 Vercel 后会调用 DeepSeek。");
       setLoading(false);
@@ -728,6 +831,7 @@ function DeepQaScreen({ profile }) {
         body: JSON.stringify({
           teacherId: teacher.id,
           profile,
+          recentRecords: records,
           messages: nextMessages,
         }),
       });
@@ -735,7 +839,7 @@ function DeepQaScreen({ profile }) {
       if (!response.ok) {
         throw new Error(formatApiError(payload));
       }
-      setMessages([...nextMessages, { role: "assistant", content: payload.reply }]);
+      saveMessages([...nextMessages, { role: "assistant", content: payload.reply }]);
       setSource(payload.provider ? `${payload.provider} · ${payload.model || "模型"}` : "AI 模型");
       setStatus("");
     } catch (error) {
@@ -760,7 +864,7 @@ function DeepQaScreen({ profile }) {
           <h2>{teacher.name} · {teacher.label}</h2>
           <p>{teacher.style}</p>
         </div>
-        <button className="ghost-button" type="button" onClick={() => chooseTeacher(teacher)}>
+        <button className="ghost-button" type="button" onClick={resetConversation}>
           新对话
         </button>
       </section>
@@ -790,7 +894,7 @@ function DeepQaScreen({ profile }) {
   );
 }
 
-function RecordScreen({ records, onSaveRecord }) {
+function RecordScreen({ profile, records, onSaveRecord }) {
   const [record, setRecord] = useState({
     date: todayLabel(),
     target: "等待练习",
@@ -800,15 +904,52 @@ function RecordScreen({ records, onSaveRecord }) {
     support: 2,
   });
   const [structured, setStructured] = useState(null);
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [source, setSource] = useState("");
 
-  function submit() {
+  async function submit() {
     if (!record.note.trim()) {
       setStructured({ error: "请先写下今天做了什么和孩子的反应。" });
       return;
     }
-    const next = structureRecord(record);
-    setStructured(next);
-    onSaveRecord(next);
+
+    setLoading(true);
+    setStatus("");
+    setStructured(null);
+
+    if (shouldUseLocalExperience()) {
+      const next = structureRecord(record);
+      setStructured(next);
+      setSource("本地体验版");
+      setStatus("当前环境没有后端 API，部署到 Vercel 后会由 DeepSeek 结构化复盘。");
+      onSaveRecord(next);
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const response = await fetch(apiPath("/api/record"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          profile,
+          record,
+          recentRecords: records,
+        }),
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(formatApiError(payload));
+      }
+      setStructured(payload.record);
+      setSource(payload.provider ? `${payload.provider} · ${payload.model || "模型"}` : "AI 模型");
+      onSaveRecord(payload.record);
+    } catch (error) {
+      setStatus(`模型调用失败：${error.message}`);
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
@@ -835,14 +976,15 @@ function RecordScreen({ records, onSaveRecord }) {
           <SliderInput label="情绪强度" value={record.emotion} onChange={(value) => setRecord((current) => ({ ...current, emotion: value }))} />
           <SliderInput label="辅助程度" value={record.support} onChange={(value) => setRecord((current) => ({ ...current, support: value }))} />
         </div>
-        <button className="primary-button" type="button" onClick={submit}>
-          保存并生成 AI 复盘
+        {status ? <p className="inline-alert">{status}</p> : null}
+        <button className="primary-button" type="button" onClick={submit} disabled={loading}>
+          {loading ? "正在整理记录..." : "保存并生成 AI 复盘"}
           <Check size={18} />
         </button>
       </section>
 
       {structured?.error ? <p className="inline-alert">{structured.error}</p> : null}
-      {structured && !structured.error ? <StructuredRecord record={structured} /> : null}
+      {structured && !structured.error ? <StructuredRecord record={structured} source={source} /> : null}
 
       <section className="card">
         <SectionTitle title="最近记录" action={`${records.length} 条`} />
@@ -870,7 +1012,7 @@ function SliderInput({ label, value, onChange }) {
   );
 }
 
-function StructuredRecord({ record }) {
+function StructuredRecord({ record, source }) {
   return (
     <section className="card success-card">
       <SectionTitle title="AI 结构化整理" action={`评分 ${record.score}`} />
@@ -879,7 +1021,10 @@ function StructuredRecord({ record }) {
         <article><strong>干预方式</strong><p>{record.intervention}</p></article>
         <article><strong>孩子反应</strong><p>{record.reaction}</p></article>
         <article><strong>下次调整</strong><p>{record.next}</p></article>
+        <article><strong>下次指标</strong><p>{record.metric}</p></article>
       </div>
+      {record.encouragement ? <p className="record-encouragement">{record.encouragement}</p> : null}
+      {source ? <span className="source-chip">{source}</span> : null}
     </section>
   );
 }
@@ -887,10 +1032,39 @@ function StructuredRecord({ record }) {
 function ArticlesScreen() {
   const [tag, setTag] = useState("全部");
   const [saved, setSaved] = useStoredState("care.savedArticles", []);
+  const [selectedArticle, setSelectedArticle] = useState(null);
   const visible = tag === "全部" ? articles : articles.filter((article) => article.tag === tag);
 
   function toggle(id) {
     setSaved((current) => (current.includes(id) ? current.filter((item) => item !== id) : [id, ...current]));
+  }
+
+  if (selectedArticle) {
+    return (
+      <article className="article-detail">
+        <button className="article-back" type="button" onClick={() => setSelectedArticle(null)}>
+          <ArrowLeft size={18} />
+          返回文章列表
+        </button>
+        <span className="article-tag">{selectedArticle.tag} · {selectedArticle.readingTime}</span>
+        <h2>{selectedArticle.title}</h2>
+        <p className="article-lead">{selectedArticle.desc}</p>
+        <section className="article-takeaway">
+          <strong>核心要点</strong>
+          <p>{selectedArticle.takeaway}</p>
+        </section>
+        <div className="article-body">
+          {selectedArticle.content.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
+        <p className="article-source">资料说明：{selectedArticle.source}</p>
+        <button className="ghost-button article-save" type="button" onClick={() => toggle(selectedArticle.id)}>
+          <Bookmark size={17} />
+          {saved.includes(selectedArticle.id) ? "取消收藏" : "收藏文章"}
+        </button>
+      </article>
+    );
   }
 
   return (
@@ -911,9 +1085,12 @@ function ArticlesScreen() {
             <span>{article.tag}</span>
             <h3>{article.title}</h3>
             <p>{article.desc}</p>
-            <button type="button" onClick={() => toggle(article.id)}>
-              {saved.includes(article.id) ? "已收藏" : "收藏/稍后读"}
-            </button>
+            <div className="article-actions">
+              <button type="button" onClick={() => setSelectedArticle(article)}>阅读全文</button>
+              <button type="button" onClick={() => toggle(article.id)}>
+                {saved.includes(article.id) ? "已收藏" : "收藏"}
+              </button>
+            </div>
           </article>
         ))}
       </div>
@@ -923,22 +1100,60 @@ function ArticlesScreen() {
 
 function EmotionScreen({ profile }) {
   const [input, setInput] = useState("");
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useStoredState("care.emotionMessages", [
     { role: "assistant", content: `你可以把今天最难的部分放在这里。我会先陪你，不急着给建议。` },
   ]);
+  const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [source, setSource] = useState("");
 
-  function send() {
+  async function send() {
     const text = input.trim();
     if (!text) return;
-    setMessages((current) => [
-      ...current,
-      { role: "user", content: text },
-      {
-        role: "assistant",
-        content: `我听到了。你今天已经在很难的情况下继续照顾${profile.nickname}，这件事本身就很不容易。先不用证明自己做得够不够好，今晚可以只做一件小事：让自己安静 5 分钟，明天再处理具体问题。`,
-      },
-    ]);
+    const nextMessages = [...messages, { role: "user", content: text }];
+    setMessages(nextMessages);
     setInput("");
+    setLoading(true);
+    setStatus("");
+
+    if (shouldUseLocalExperience()) {
+      setMessages([
+        ...nextMessages,
+        {
+          role: "assistant",
+          content: `我听到了。你今天已经在很难的情况下继续照顾${profile.nickname}，现在不用急着证明自己做得够不够好。此刻最压着你的，是疲惫、委屈，还是没人理解？`,
+        },
+      ]);
+      setSource("本地体验版");
+      setStatus("当前环境没有后端 API，部署到 Vercel 后会调用 DeepSeek。");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const response = await fetch(apiPath("/api/emotion"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ profile, messages: nextMessages }),
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(formatApiError(payload));
+      }
+      setMessages([...nextMessages, { role: "assistant", content: payload.reply }].slice(-20));
+      setSource(payload.provider ? `${payload.provider} · ${payload.model || "模型"}` : "AI 模型");
+    } catch (error) {
+      setStatus(`模型调用失败：${error.message}`);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function resetConversation() {
+    setMessages([{ role: "assistant", content: "你可以从此刻最难受的部分重新说起。我会先听你说。" }]);
+    setInput("");
+    setStatus("");
+    setSource("");
   }
 
   return (
@@ -949,17 +1164,27 @@ function EmotionScreen({ profile }) {
           <h2>情绪垃圾桶</h2>
           <p>这里先接住你，不评价、不催促、不急着指导。</p>
         </div>
+        <button className="ghost-button" type="button" onClick={resetConversation}>清空</button>
       </section>
+      {status ? <p className="inline-alert">{status}</p> : null}
       <section className="chat-card">
         {messages.map((message, index) => (
           <div className={`message ${message.role}`} key={`${message.role}-${index}`}>
             {message.content}
           </div>
         ))}
+        {loading ? <div className="message assistant">正在认真听你说...</div> : null}
       </section>
+      {source ? <span className="source-chip chat-source">{source}</span> : null}
       <div className="chat-input">
-        <input value={input} placeholder="今天最难受的是什么..." onChange={(event) => setInput(event.target.value)} onKeyDown={(event) => event.key === "Enter" && send()} />
-        <button type="button" onClick={send} aria-label="发送">
+        <input
+          value={input}
+          placeholder="今天最难受的是什么..."
+          disabled={loading}
+          onChange={(event) => setInput(event.target.value)}
+          onKeyDown={(event) => event.key === "Enter" && !loading && send()}
+        />
+        <button type="button" onClick={send} aria-label="发送" disabled={loading || !input.trim()}>
           <Send size={20} />
         </button>
       </div>
@@ -969,12 +1194,50 @@ function EmotionScreen({ profile }) {
 
 function AnalysisScreen({ records, reports }) {
   const avgScore = records.length ? Math.round(records.reduce((sum, item) => sum + item.score, 0) / records.length) : 0;
+  const recentRecords = records.slice(0, 7).reverse();
+  const targetCounts = records.reduce((counts, record) => {
+    counts[record.target] = (counts[record.target] || 0) + 1;
+    return counts;
+  }, {});
+  const topTargets = Object.entries(targetCounts).sort((a, b) => b[1] - a[1]).slice(0, 4);
+
   return (
     <div className="stack">
       <section className="dashboard-grid">
         <MetricCard label="干预记录" value={`${records.length} 条`} />
         <MetricCard label="平均评分" value={records.length ? `${avgScore}` : "-"} />
         <MetricCard label="方案报告" value={`${reports.length} 份`} />
+      </section>
+      <section className="card">
+        <SectionTitle title="最近状态趋势" action="近 7 条记录" />
+        {recentRecords.length ? (
+          <div className="trend-list">
+            {recentRecords.map((record) => (
+              <article key={record.id}>
+                <span>{record.date}</span>
+                <div><i style={{ width: `${Math.max(6, record.score)}%` }} /></div>
+                <strong>{record.score}</strong>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p className="muted">记录后会在这里看到最近状态变化。</p>
+        )}
+      </section>
+      <section className="card">
+        <SectionTitle title="练习目标分布" action="用于调整投入重点" />
+        {topTargets.length ? (
+          <div className="target-list">
+            {topTargets.map(([target, count]) => (
+              <article key={target}>
+                <strong>{target}</strong>
+                <span>{count} 次</span>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p className="muted">连续记录后会自动汇总练习目标。</p>
+        )}
       </section>
       <section className="card">
         <SectionTitle title="有效方法排行" action="来自干预记录" />
@@ -1021,6 +1284,22 @@ function MetricCard({ label, value }) {
 
 function ProfileScreen({ profile, onSave, onReset }) {
   const [draft, setDraft] = useState(profile);
+  const [status, setStatus] = useState("");
+
+  function save() {
+    if (!draft.nickname.trim() || !draft.age.trim() || !draft.goal.trim()) {
+      setStatus("请至少保留孩子昵称、年龄和当前目标。");
+      return;
+    }
+    onSave({
+      ...draft,
+      nickname: draft.nickname.trim(),
+      age: draft.age.trim(),
+      goal: draft.goal.trim(),
+    });
+    setStatus("档案已保存，后续 AI 建议会使用最新信息。");
+  }
+
   return (
     <div className="stack">
       <section className="card">
@@ -1045,7 +1324,8 @@ function ProfileScreen({ profile, onSave, onReset }) {
           />
           <TextAreaInput label="预期目标" value={draft.goal} onChange={(value) => setDraft((current) => ({ ...current, goal: value }))} />
         </div>
-        <button className="primary-button" type="button" onClick={() => onSave(draft)}>
+        {status ? <p className="inline-alert">{status}</p> : null}
+        <button className="primary-button" type="button" onClick={save}>
           保存档案
           <Check size={18} />
         </button>
@@ -1118,9 +1398,9 @@ export function App() {
   return (
     <AppShell route={route} setRoute={setRoute} profile={profile} title={title} subtitle={subtitle} showBack={showBack}>
       {route === "home" ? <HomeScreen profile={profile} setRoute={setRoute} records={records} reports={reports} /> : null}
-      {route === "solution" ? <SolutionScreen profile={profile} onSaveReport={saveReport} /> : null}
-      {route === "deepqa" ? <DeepQaScreen profile={profile} /> : null}
-      {route === "record" ? <RecordScreen records={records} onSaveRecord={saveRecord} /> : null}
+      {route === "solution" ? <SolutionScreen profile={profile} records={records} onSaveReport={saveReport} /> : null}
+      {route === "deepqa" ? <DeepQaScreen profile={profile} records={records} /> : null}
+      {route === "record" ? <RecordScreen profile={profile} records={records} onSaveRecord={saveRecord} /> : null}
       {route === "articles" ? <ArticlesScreen /> : null}
       {route === "emotion" ? <EmotionScreen profile={profile} /> : null}
       {route === "analysis" ? <AnalysisScreen records={records} reports={reports} /> : null}

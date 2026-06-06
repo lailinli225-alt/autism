@@ -76,6 +76,22 @@ function normalizeProfile(profile = {}) {
   };
 }
 
+function normalizeRecords(records = []) {
+  if (!Array.isArray(records)) {
+    return [];
+  }
+
+  return records.slice(0, 8).map((record) => ({
+    date: String(record.date || "").slice(0, 40),
+    target: String(record.target || "").slice(0, 80),
+    score: Number(record.score) || null,
+    trigger: String(record.trigger || "").slice(0, 200),
+    intervention: String(record.intervention || "").slice(0, 300),
+    reaction: String(record.reaction || "").slice(0, 300),
+    next: String(record.next || "").slice(0, 300),
+  }));
+}
+
 function compactSkill(skill) {
   return {
     id: skill.id,
@@ -89,7 +105,7 @@ function compactSkill(skill) {
   };
 }
 
-function buildInput(form, profile) {
+function buildInput(form, profile, recentRecords) {
   return JSON.stringify(
     {
       task:
@@ -97,6 +113,7 @@ function buildInput(form, profile) {
       formatRequirement: "必须只返回合法 JSON 对象，不要 Markdown，不要解释文字，不要使用代码块。",
       case: form,
       childProfile: profile,
+      recentInterventionRecords: recentRecords,
       skills: autismInterventionSkills.map(compactSkill),
       safetyPolicy: autismSkillSafetyPolicy,
       outputShape: {
@@ -248,7 +265,7 @@ function getProviderConfig(provider) {
   };
 }
 
-async function callOpenAI(config, form, profile) {
+async function callOpenAI(config, form, profile, recentRecords) {
   const response = await fetch(config.url, {
     method: "POST",
     headers: {
@@ -259,7 +276,7 @@ async function callOpenAI(config, form, profile) {
       model: config.model,
       reasoning: { effort: "low" },
       instructions: modelInstructions(),
-      input: buildInput(form, profile),
+      input: buildInput(form, profile, recentRecords),
     }),
   });
   const responseText = await response.text();
@@ -271,7 +288,7 @@ async function callOpenAI(config, form, profile) {
   };
 }
 
-async function callDeepSeek(config, form, profile) {
+async function callDeepSeek(config, form, profile, recentRecords) {
   const response = await fetch(config.url, {
     method: "POST",
     headers: {
@@ -287,7 +304,7 @@ async function callDeepSeek(config, form, profile) {
         },
         {
           role: "user",
-          content: buildInput(form, profile),
+          content: buildInput(form, profile, recentRecords),
         },
       ],
     }),
@@ -356,10 +373,12 @@ export default async function handler(req, res) {
 
   let form;
   let profile;
+  let recentRecords;
   try {
     const body = parseBody(req);
     form = normalizeForm(body.form);
     profile = normalizeProfile(body.profile);
+    recentRecords = normalizeRecords(body.recentRecords);
   } catch {
     return sendJson(res, 400, { error: "请求体不是有效 JSON。" });
   }
@@ -372,7 +391,10 @@ export default async function handler(req, res) {
   let responseText;
   let outputText;
   try {
-    const result = provider === "deepseek" ? await callDeepSeek(config, form, profile) : await callOpenAI(config, form, profile);
+    const result =
+      provider === "deepseek"
+        ? await callDeepSeek(config, form, profile, recentRecords)
+        : await callOpenAI(config, form, profile, recentRecords);
     modelResponse = result.response;
     responseText = result.responseText;
     outputText = result.outputText;
