@@ -7,16 +7,19 @@ import {
   Check,
   ChevronRight,
   ClipboardPen,
+  ExternalLink,
   FileText,
   HeartHandshake,
   Home,
   Lightbulb,
   LockKeyhole,
   MessageCircle,
+  Search,
   Send,
   Sparkles,
   Users,
 } from "lucide-react";
+import articles from "./data/articles.json";
 import { autismInterventionSkills } from "./data/autismInterventionSkills.js";
 
 const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
@@ -62,7 +65,7 @@ const moduleCards = [
   {
     id: "articles",
     title: "精品好文",
-    desc: "按标签沉淀专家文章、理论和家长经验",
+    desc: "聚合最近一年 100 篇垂类、公众号与研究文章",
     icon: BookOpen,
     tone: "plain",
   },
@@ -114,100 +117,13 @@ const teachers = [
   },
 ];
 
-const articles = [
-  {
-    id: 1,
-    tag: "干预方法",
-    title: "如何把孩子的哭闹转成可记录的 ABC",
-    desc: "用前因、行为、后果看见问题背后的功能。",
-    readingTime: "6 分钟",
-    takeaway: "先记录完整情境，再决定要改变前因、替代行为还是后果。",
-    content: [
-      "ABC 不是给孩子贴标签，而是把一次事件拆成三个可观察部分：发生前有什么，孩子具体做了什么，成人和环境随后发生了什么。",
-      "记录时避免写“故意闹”“不听话”这类判断。可以改成：妈妈说要关掉平板后，孩子哭喊、趴地约 4 分钟；妈妈把平板又打开 2 分钟后停止哭喊。",
-      "连续记录 3 到 5 次后再看规律。如果多数发生在任务转换前，可以优先增加预告和视觉提示；如果孩子用哭闹获得休息，则需要同时教授“休息一下”的替代表达。",
-      "家庭练习只改一个变量，并记录频率、持续时间或恢复时间。这样才能判断变化来自哪里。",
-    ],
-    source: "基于应用行为分析的 ABC 记录原则整理",
-  },
-  {
-    id: 2,
-    tag: "前沿理论",
-    title: "关系发展视角下，为什么微小变化很重要",
-    desc: "在可预测框架里练习弹性，而不是突然挑战。",
-    readingTime: "5 分钟",
-    takeaway: "保留熟悉框架，只加入一个孩子能够承受的小变化。",
-    content: [
-      "一些孩子能完成熟悉流程，却在顺序、人物或材料发生变化时明显焦虑。关系发展视角关注孩子如何和成人共同面对不确定，而不只是完成指令。",
-      "练习变化时，不需要故意制造很大的意外。可以在熟悉的收玩具流程里，只改变一个盒子的位置；在固定散步路线里，只增加一个短暂停顿。",
-      "成人先保持平静，用“我们一起看看”“这里有一点不一样”这样的分享式语言代替连续提问。孩子紧张时退回已经成功的共同动作。",
-      "衡量进步时，可以记录孩子恢复所需时间、是否愿意参考成人以及是否能继续共同活动。",
-    ],
-    source: "基于 RDI 动态智能与共同调节公开原则整理",
-  },
-  {
-    id: 3,
-    tag: "家长经验",
-    title: "入园分离困难的 7 天家庭练习复盘",
-    desc: "从少哭 1 分钟开始，建立孩子和家长的成功感。",
-    readingTime: "7 分钟",
-    takeaway: "把目标从完全不哭改成完成一个交接动作和更快恢复。",
-    content: [
-      "第一天先记录分离发生前后的完整过程，包括到达时间、环境声音、老师接手方式、哭闹持续时间和恢复方式。",
-      "第二到第四天保持同一套三步流程：提前预告、完成固定交接动作、家长用同一句话离开。不要每天更换奖励或告别方式。",
-      "第五天开始，只在孩子已经能恢复的基础上减少一点辅助，例如从牵手交给老师改成孩子主动递交书包。",
-      "一周复盘时，重点看恢复时间、交接动作成功次数和老师需要的辅助等级，而不是只看有没有哭。",
-    ],
-    source: "家庭场景示例，不能替代园所与专业人员的个别化评估",
-  },
-  {
-    id: 4,
-    tag: "专家文章",
-    title: "社交思维：把隐性规则画出来",
-    desc: "用社交地图降低孩子推断情境的压力。",
-    readingTime: "5 分钟",
-    takeaway: "把“你应该知道”改成看得见的情境线索和行动步骤。",
-    content: [
-      "很多社交规则没有被明确说出来，例如排队时要和前面的人保持距离、别人正在说话时需要等待。对需要更多明确线索的孩子，这些规则可能并不自然可见。",
-      "社交地图可以用四格表达：现在在哪里、别人正在做什么、别人可能期待什么、我可以做什么。文字要短，也可以配照片或简单图标。",
-      "先在低压力环境里讲解和演练，不要等到孩子情绪已经升高时才拿出来说教。",
-      "复盘时描述具体行为及影响，例如“你停在黄色线后面，前面的人有足够空间”，避免使用“表现好”“懂事”这类模糊评价。",
-    ],
-    source: "基于 Social Thinking 情境理解与社交地图公开原则整理",
-  },
-  {
-    id: 5,
-    tag: "干预方法",
-    title: "如何设定一个真正可执行的家庭目标",
-    desc: "把“提升能力”改写成一周内能观察和记录的小动作。",
-    readingTime: "4 分钟",
-    takeaway: "目标必须说明场景、行为、辅助和判断完成的指标。",
-    content: [
-      "“提升沟通能力”不能直接指导今天做什么。更可执行的目标是：晚饭时，当孩子想要饮料，能在图片提示下递出“要水”卡片，每天练习 3 次。",
-      "目标难度应让孩子有机会成功。如果连续两天都无法完成，就先降低动作要求或增加辅助，而不是增加练习次数。",
-      "一次只追踪一个主要指标，例如成功次数、持续时间、辅助等级或恢复时间。",
-      "达到稳定成功后，再改变一个条件进行泛化，例如换一个人、地点或材料。",
-    ],
-    source: "基于 SMART 目标和家庭自然情境教学原则整理",
-  },
-  {
-    id: 6,
-    tag: "家长经验",
-    title: "当计划没有效果时，家长可以先检查什么",
-    desc: "不急着否定自己，先检查目标、环境、辅助和记录。",
-    readingTime: "4 分钟",
-    takeaway: "方案无效不等于家长失败，通常需要调整任务难度或支持方式。",
-    content: [
-      "先确认目标是否可观察。如果只能用“更听话”“情绪更好”描述，就很难判断变化。",
-      "再检查孩子当时的身体和感官状态：困倦、饥饿、噪声、疼痛或任务过密都可能让原本会做的事情变难。",
-      "检查辅助是否足够及时。孩子已经明显崩溃后再提示，往往比进入场景前的预告效果弱。",
-      "最后看记录是否足够。一次失败不能说明方法无效，连续几次相同场景的数据更有判断价值。",
-    ],
-    source: "家庭复盘建议，不替代医疗或康复评估",
-  },
+const articleTags = ["全部", "干预方法", "诊断科普", "融合教育", "家长支持", "前沿研究"];
+const articleSourceTypes = [
+  ["全部来源", "all"],
+  ["中文垂类", "vertical"],
+  ["微信公众号", "wechat"],
+  ["国际研究", "research"],
 ];
-
-const articleTags = ["全部", "干预方法", "前沿理论", "专家文章", "家长经验"];
 
 const skillVisuals = {
   "zou-xiaobing-bsr": { tone: "green", shortName: "邹小兵 BSR" },
@@ -1031,50 +947,64 @@ function StructuredRecord({ record, source }) {
 
 function ArticlesScreen() {
   const [tag, setTag] = useState("全部");
+  const [sourceType, setSourceType] = useState("all");
+  const [query, setQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(20);
   const [saved, setSaved] = useStoredState("care.savedArticles", []);
-  const [selectedArticle, setSelectedArticle] = useState(null);
-  const visible = tag === "全部" ? articles : articles.filter((article) => article.tag === tag);
+  const normalizedQuery = query.trim().toLowerCase();
+  const filtered = articles.filter((article) => {
+    const matchesTag = tag === "全部" || article.category === tag;
+    const matchesSource = sourceType === "all" || article.sourceType === sourceType;
+    const matchesQuery =
+      !normalizedQuery ||
+      `${article.title} ${article.summary} ${article.source}`.toLowerCase().includes(normalizedQuery);
+    return matchesTag && matchesSource && matchesQuery;
+  });
+  const visible = filtered.slice(0, visibleCount);
 
   function toggle(id) {
     setSaved((current) => (current.includes(id) ? current.filter((item) => item !== id) : [id, ...current]));
   }
 
-  if (selectedArticle) {
-    return (
-      <article className="article-detail">
-        <button className="article-back" type="button" onClick={() => setSelectedArticle(null)}>
-          <ArrowLeft size={18} />
-          返回文章列表
-        </button>
-        <span className="article-tag">{selectedArticle.tag} · {selectedArticle.readingTime}</span>
-        <h2>{selectedArticle.title}</h2>
-        <p className="article-lead">{selectedArticle.desc}</p>
-        <section className="article-takeaway">
-          <strong>核心要点</strong>
-          <p>{selectedArticle.takeaway}</p>
-        </section>
-        <div className="article-body">
-          {selectedArticle.content.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
-        </div>
-        <p className="article-source">资料说明：{selectedArticle.source}</p>
-        <button className="ghost-button article-save" type="button" onClick={() => toggle(selectedArticle.id)}>
-          <Bookmark size={17} />
-          {saved.includes(selectedArticle.id) ? "取消收藏" : "收藏文章"}
-        </button>
-      </article>
-    );
+  function selectTag(nextTag) {
+    setTag(nextTag);
+    setVisibleCount(20);
+  }
+
+  function selectSource(nextSource) {
+    setSourceType(nextSource);
+    setVisibleCount(20);
   }
 
   return (
     <div className="stack">
       <section className="card">
-        <SectionTitle title="精品好文" action="先沉淀，再推荐" />
+        <SectionTitle title="真实文章来源" action={`${filtered.length} / ${articles.length} 篇`} />
+        <p className="article-notice">
+          收录最近一年公开文章，仅展示标题、短摘要与来源；点击后前往原站阅读。
+        </p>
+        <label className="article-search">
+          <Search size={17} />
+          <input
+            value={query}
+            placeholder="搜索主题、来源或关键词"
+            onChange={(event) => {
+              setQuery(event.target.value);
+              setVisibleCount(20);
+            }}
+          />
+        </label>
         <div className="tag-row">
           {articleTags.map((item) => (
-            <button className={tag === item ? "active" : ""} type="button" key={item} onClick={() => setTag(item)}>
+            <button className={tag === item ? "active" : ""} type="button" key={item} onClick={() => selectTag(item)}>
               {item}
+            </button>
+          ))}
+        </div>
+        <div className="tag-row source-filter">
+          {articleSourceTypes.map(([label, value]) => (
+            <button className={sourceType === value ? "active" : ""} type="button" key={value} onClick={() => selectSource(value)}>
+              {label}
             </button>
           ))}
         </div>
@@ -1082,18 +1012,35 @@ function ArticlesScreen() {
       <div className="article-list">
         {visible.map((article) => (
           <article className="article-card" key={article.id}>
-            <span>{article.tag}</span>
+            <div className="article-meta">
+              <span>{article.category}</span>
+              <time dateTime={article.publishedAt}>{article.publishedAt}</time>
+            </div>
             <h3>{article.title}</h3>
-            <p>{article.desc}</p>
+            <p>{article.summary}</p>
+            <div className="article-source-row">
+              <strong>{article.source}</strong>
+              <span>{article.sourceType === "wechat" ? "微信公众号" : article.language === "en" ? "英文来源" : "中文垂类"}</span>
+            </div>
             <div className="article-actions">
-              <button type="button" onClick={() => setSelectedArticle(article)}>阅读全文</button>
-              <button type="button" onClick={() => toggle(article.id)}>
+              <a href={article.url} target="_blank" rel="noreferrer">
+                {article.linkLabel}
+                <ExternalLink size={14} />
+              </a>
+              <button type="button" onClick={() => toggle(article.id)} aria-label={saved.includes(article.id) ? "取消收藏" : "收藏文章"}>
+                <Bookmark size={15} />
                 {saved.includes(article.id) ? "已收藏" : "收藏"}
               </button>
             </div>
           </article>
         ))}
       </div>
+      {!visible.length ? <EmptyState text="没有找到匹配文章，可以换一个分类或关键词。" /> : null}
+      {visible.length < filtered.length ? (
+        <button className="ghost-button load-more" type="button" onClick={() => setVisibleCount((count) => count + 20)}>
+          加载更多（剩余 {filtered.length - visible.length} 篇）
+        </button>
+      ) : null}
     </div>
   );
 }
@@ -1360,7 +1307,7 @@ export function App() {
       solution: ["方案输出", "综合答案 + 各流派解释 + 7 日计划", true],
       deepqa: ["深度问答", "选择不同流派老师深入追问", true],
       record: ["干预记录", "把每天做过的努力结构化", route !== "record"],
-      articles: ["精品好文", "筛选适合当前阶段的资料", true],
+      articles: ["精品好文", "最近一年真实文章来源", true],
       emotion: ["情绪垃圾桶", "先接住家长，再谈方法", true],
       analysis: ["趋势分析", "看见变化和有效方法", route !== "analysis"],
       profile: ["孩子档案", "逐步完善孩子上下文", route !== "profile"],
