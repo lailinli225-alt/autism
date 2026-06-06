@@ -7,7 +7,8 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "scrape:articles": "python3 scripts/scrape_articles.py"
+    "scrape:articles": "python3 scripts/scrape_articles.py",
+    "enrich:articles": "python3 scripts/enrich_articles.py"
   },
   "dependencies": {
     "@vitejs/plugin-react": "5.0.4",

@@ -1,1202 +1,3121 @@
 [
   {
     "id": "00d3dd081d33",
-    "title": "‘Push-pull’ recipe for neural wiring used in multiple brain regions",
-    "summary": "A versatile pair of proteins steers neurons toward their targets and helps establish the brain’s sensory maps, new studies suggest.",
+    "title": "神经连接‘推拉’配方在多个脑区发挥类似作用",
+    "summary": "新研究揭示一对细胞表面蛋白TEN3和LPHN2通过吸引和排斥的组合，在小鼠多个脑区重复使用相同的“推拉”规则引导神经元轴突精准靶向，建立感觉图谱，缺失这些分子会导致连接错乱。",
     "url": "https://www.thetransmitter.org/spectrum/push-pull-recipe-for-neural-wiring-used-in-multiple-brain-regions/",
     "publishedAt": "2026-06-05",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "‘Push-pull’ recipe for neural wiring used in multiple brain regions",
+    "readingGuide": {
+      "overview": [
+        "人类大脑仅用有限数量的细胞表面蛋白即可指导数万亿突触连接的形成。三项新研究揭示其奥秘：一对蛋白质TEN3和LPHN2在多个脑区重复使用相同的“推拉”规则，通过吸引和排斥组合引导轴突到达目标。",
+        "小鼠实验证实该机制在视觉、听觉、小脑等区域一致运作。缺少这些分子的小鼠出现异常弥散的投射，感觉图谱扭曲。研究者认为这些发现有助于理解孤独症中感觉敏感性的神经通路。"
+      ],
+      "keyPoints": [
+        "TEN3和LPHN2通过吸引与排斥的组合引导轴突精准靶向。",
+        "该“推拉”系统在小鼠中枢神经系统多个区域重复使用。",
+        "缺失这些分子导致投射异常和感觉图谱扭曲。"
+      ],
+      "parentNotes": [
+        "这项基础研究有助于理解感觉敏感性的潜在神经机制。",
+        "目前仍处于动物实验阶段，不宜直接应用于干预。",
+        "关注未来转化研究可能揭示的新通路。"
+      ],
+      "boundary": "本文基于小鼠研究，结果不能直接推广到人类或作为临床建议。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "8944fb0a8d63",
-    "title": "我国 孤独症 儿童家庭 干预 的兴起、发展与问题",
-    "summary": "[摘 要] 孤独症 儿童 干预 的长期性、实操性和文化差异性特点决定了 孤独症 家庭需要开展家庭 干预 ,但家庭 干预 尚存在诸多问题.首先,...",
+    "title": "我国孤独症儿童家庭干预的兴起、发展与问题",
+    "summary": "文章回顾我国孤独症儿童家庭干预的历程，分析其必要性（长期性、实操性、文化差异），并指出当前存在的主要问题，为家庭和从业者提供反思。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%88%91%E5%9B%BD%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%84%BF%E7%AB%A5%E5%AE%B6%E5%BA%AD%20%E5%B9%B2%E9%A2%84%20%E7%9A%84%E5%85%B4%E8%B5%B7%E3%80%81%E5%8F%91%E5%B1%95%E4%B8%8E%E9%97%AE%E9%A2%98&ie=utf8",
     "publishedAt": "2026-06-04",
     "source": "少年儿童研究",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "我国 孤独症 儿童家庭 干预 的兴起、发展与问题",
+    "readingGuide": {
+      "overview": [
+        "该文梳理了我国孤独症儿童家庭干预从兴起到发展的过程，强调干预的长期性、实操性和文化差异性使得家庭干预成为必要。",
+        "同时指出当前家庭干预存在诸多问题，如缺乏专业指导、操作不当等，呼吁家长和从业者重视这些问题，以改进干预效果。"
+      ],
+      "keyPoints": [
+        "家庭干预的长期性、实操性和文化差异性是其必要基础。",
+        "当前我国孤独症儿童家庭干预存在多方面问题。",
+        "文章为理解和改进家庭干预提供参考。"
+      ],
+      "parentNotes": [
+        "家庭干预需结合专业指导，避免盲目操作。",
+        "注意干预的文化适应性和个体差异。",
+        "持续学习和调整策略很重要。"
+      ],
+      "boundary": "本文为综述性文章，具体干预方法需在专业人员指导下实施。"
+    },
+    "sourceDisplay": "少年儿童研究"
   },
   {
     "id": "2f13e60766e8",
-    "title": "餐桌即处方: 孤独症 儿童饮食 干预 ,从理解到行动",
-    "summary": "以上内容依据《 孤独症 谱系障碍饮食 干预 的临床专家共识( 2025 版)》等循证医学证据编撰,供参考.每个孩子情况不同,请在专业医...",
+    "title": "餐桌即处方: 孤独症儿童饮食干预,从理解到行动",
+    "summary": "基于《孤独症谱系障碍饮食干预的临床专家共识(2025版)》等循证医学证据，为家长提供饮食干预的入门指导，强调个体差异和专业指导。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E9%A4%90%E6%A1%8C%E5%8D%B3%E5%A4%84%E6%96%B9%3A%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%84%BF%E7%AB%A5%E9%A5%AE%E9%A3%9F%20%E5%B9%B2%E9%A2%84%20%2C%E4%BB%8E%E7%90%86%E8%A7%A3%E5%88%B0%E8%A1%8C%E5%8A%A8&ie=utf8",
     "publishedAt": "2026-06-04",
     "source": "特殊儿童箴友会",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "餐桌即处方: 孤独症 儿童饮食 干预 ,从理解到行动",
+    "readingGuide": {
+      "overview": [
+        "文章依据2025版专家共识等循证证据，介绍了孤独症儿童饮食干预的基本理念，强调饮食作为辅助手段的重要性。",
+        "同时提醒每个孩子情况不同，需在专业医生指导下进行，避免自行采用未经证实的方法。"
+      ],
+      "keyPoints": [
+        "饮食干预应基于最新临床专家共识等循证证据。",
+        "强调个体差异，需在专业医生指导下进行。",
+        "饮食干预可作为综合干预的辅助部分。"
+      ],
+      "parentNotes": [
+        "不要轻信未经科学验证的饮食疗法。",
+        "与医生共同制定个性化饮食方案。",
+        "注意观察孩子对食物的反应，及时调整。"
+      ],
+      "boundary": "本文提供概括性信息，具体饮食调整需咨询专业医生或营养师。"
+    },
+    "sourceDisplay": "特殊儿童箴友会"
   },
   {
     "id": "c4eec463b1e3",
-    "title": "When autistic kids grow up, Chapter 1: Those people",
-    "summary": "What leads an autism researcher to publish an intentionally inflammatory paper accusing the NIH of discrimination?",
+    "title": "当孤独症儿童长大，第一章：那些人",
+    "summary": "本播客第一章讲述孤独症研究员Tempest McDonald的动荡童年如何塑造其研究视角，并引出她发表一篇指控NIH歧视的争议性论文背后的故事。",
     "url": "https://www.thetransmitter.org/when-autistic-kids-grow-up/when-autistic-kids-grow-up-chapter-1-those-people/",
     "publishedAt": "2026-06-04",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "When autistic kids grow up, Chapter 1: Those people",
+    "readingGuide": {
+      "overview": [
+        "系列播客《当孤独症儿童长大》的第一章，聚焦研究员Tempest McDonald的童年经历，这些经历如何影响她的科研方向。",
+        "故事最终导向她发表一篇故意挑衅的论文，指控美国国立卫生研究院（NIH）存在歧视，探讨个人经历与科研批评之间的关联。"
+      ],
+      "keyPoints": [
+        "播客探讨了孤独症研究员的亲身经历如何影响其科研方向。",
+        "第一章聚焦于童年经历与后来争议性论文的联系。",
+        "内容涉及科研政策与社群关系。"
+      ],
+      "parentNotes": [
+        "本内容涉及成年孤独症人士的权益和研究伦理讨论。",
+        "可帮助家长理解孤独症研究人员视角。",
+        "注意区分个人经历与普遍结论。"
+      ],
+      "boundary": "本文为播客介绍，不提供具体干预或诊断信息。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "b19e5f680e06",
-    "title": "Autism-linked genes expressed in thalamus make an impact, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 1 June.",
+    "title": "丘脑中表达的自闭症相关基因产生影响及其他",
+    "summary": "本周研究速览：两项预印本表明丘脑等皮层下脑区对自闭症贡献比以往认知更大，单细胞测序发现丘脑兴奋性神经元富集自闭症相关基因，提示需超越皮层研究。",
     "url": "https://www.thetransmitter.org/spectrum/autism-linked-genes-expressed-in-thalamus-make-an-impact-and-more/",
     "publishedAt": "2026-06-02",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Autism-linked genes expressed in thalamus make an impact, and more",
+    "readingGuide": {
+      "overview": [
+        "本周自闭症研究亮点：两项预印本指出皮层下结构如丘脑在自闭症中的作用被低估。单细胞RNA测序发现丘脑兴奋性神经元中自闭症相关基因显著表达。",
+        "另一项研究通过转录组分析进一步证实丘脑的富集，补充了以往过度关注皮层的研究视角，强调全面解析大脑结构的重要性。"
+      ],
+      "keyPoints": [
+        "丘脑等皮层下结构在自闭症中扮演更重要角色。",
+        "单细胞测序揭示丘脑兴奋性神经元富集自闭症相关基因。",
+        "结果强调研究需超越皮层。"
+      ],
+      "parentNotes": [
+        "这些基础发现有助于理解自闭症的神经基础。",
+        "目前是科研预印本，尚未转化为临床应用。",
+        "关注后续验证研究。"
+      ],
+      "boundary": "本文为研究新闻速览，不构成医疗建议，具体基因与临床表现关联需进一步研究。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "6b6f8271a3c6",
-    "title": "【标准・方案・指南】儿童 孤独症 谱系障碍饮食与营养干预专家共识",
-    "summary": "中国 康复 医学会 孤独症 康复 专业委员会于 2025年 6月成立《儿童 孤 ... 孤独症 谱系障碍、 自闭症 、 孤独症 、孤独性障碍、阿斯伯格综合征...",
+    "title": "儿童孤独症谱系障碍饮食与营养干预专家共识",
+    "summary": "中国康复医学会孤独症康复专业委员会于2025年6月发布了关于儿童孤独症谱系障碍饮食与营养干预的专家共识。该共识针对孤独症谱系障碍（包括自闭症、阿斯伯格综合征等）的饮食与营养问题，提出了标准化的干预方案与指南。文章旨在为临床工作者和家庭提供科学的饮食管理参考。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%A0%87%E5%87%86%E3%83%BB%E6%96%B9%E6%A1%88%E3%83%BB%E6%8C%87%E5%8D%97%E3%80%91%E5%84%BF%E7%AB%A5%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E8%B0%B1%E7%B3%BB%E9%9A%9C%E7%A2%8D%E9%A5%AE%E9%A3%9F%E4%B8%8E%E8%90%A5%E5%85%BB%E5%B9%B2%E9%A2%84%E4%B8%93%E5%AE%B6%E5%85%B1%E8%AF%86&ie=utf8",
     "publishedAt": "2026-06-01",
     "source": "中华实用儿科临床杂志",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【标准・方案・指南】儿童 孤独症 谱系障碍饮食与营养干预专家共识",
+    "readingGuide": {
+      "overview": [
+        "该专家共识由国内孤独症康复领域的专业委员会制定，聚焦于儿童孤独症谱系障碍的饮食与营养干预。共识梳理了目前关于饮食干预的科学证据，并针对常见的营养问题（如挑食、偏食、消化吸收障碍等）提出了标准化建议，强调个体化评估和家庭参与的重要性。",
+        "文章指出，合理的饮食与营养管理有助于改善孤独症儿童的整体健康状况，但所有干预措施都应在专业指导下进行，避免盲目采用未经证实的特殊饮食疗法。共识还提供了具体操作流程和注意事项，为临床实践提供了权威参考。"
+      ],
+      "keyPoints": [
+        "共识由专业学会发布，强调科学证据为基础。",
+        "建议对孤独症儿童进行个体化营养评估。",
+        "避免盲目使用特殊饮食，需专业指导。"
+      ],
+      "parentNotes": [
+        "家长应了解共识内容，但不可自行诊断或更改孩子饮食。",
+        "若怀疑孩子存在营养问题，应咨询医生或营养师。",
+        "共识中推荐的方法需在专业人员指导下实施。"
+      ],
+      "boundary": "本文仅为专家共识的简介，不构成具体医疗建议。饮食干预需结合儿童个体情况，请咨询儿科医生或临床营养师。"
+    },
+    "sourceDisplay": "中华实用儿科临床杂志"
   },
   {
     "id": "5620a533c344",
-    "title": "孤独症 干预 五大方向前沿解析",
-    "summary": "行为心理 干预 也被用于支持 孤独症 个体应对焦虑、抑郁、睡眠困难... 2025 ; 2025 :1–22.[4] Schreibman L, Dawson G, Stahmer AC, Landa...",
+    "title": "孤独症干预五大方向前沿解析",
+    "summary": "文章解析了孤独症干预的五大前沿方向，包括行为心理干预、社交技能训练、家庭支持、教育策略和药物治疗等。行为心理干预也被用于支持孤独症个体应对焦虑、抑郁、睡眠困难等问题。内容基于2025年最新研究，为干预方法的选择提供了参考。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%B9%B2%E9%A2%84%20%E4%BA%94%E5%A4%A7%E6%96%B9%E5%90%91%E5%89%8D%E6%B2%BF%E8%A7%A3%E6%9E%90&ie=utf8",
     "publishedAt": "2026-05-28",
     "source": "融合星球",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "孤独症 干预 五大方向前沿解析",
+    "readingGuide": {
+      "overview": [
+        "文章梳理了当前孤独症干预的五大主要方向，每个方向均有其理论基础和适用场景。行为心理干预是核心，不仅用于改善核心症状，还可辅助处理共病问题如焦虑和睡眠障碍。社交技能训练强调在自然情境中提升互动能力。",
+        "家庭支持部分突出了家长培训和家庭教育的重要性。教育策略包括结构化教学和个别化教育计划。药物治疗方面，主要针对共病症状，需在医生指导下进行。文章整合了2025年的研究进展，为家长和从业者提供了多角度思考。"
+      ],
+      "keyPoints": [
+        "五大方向涵盖行为、社交、家庭、教育、药物。",
+        "行为干预可同时改善焦虑、抑郁等共病。",
+        "所有干预均需个体化，结合专业评估。"
+      ],
+      "parentNotes": [
+        "了解不同干预方向有助于选择合适的资源。",
+        "干预方案应基于科学证据，避免单一依赖。",
+        "家庭支持是干预成功的关键部分。"
+      ],
+      "boundary": "本文为方向性综述，不推荐具体疗法。每个儿童的干预方案应经专业团队制定，请咨询儿童精神科或发育行为儿科医生。"
+    },
+    "sourceDisplay": "融合星球"
   },
   {
     "id": "40fe064fdc32",
-    "title": "家长 必看!分清 自闭症 与语言发育迟缓",
-    "summary": "家长 如何区分 自闭症 与语言发育迟缓[J].妈妈宝宝, 2025 ,(12):27. # 自闭症 #语言发育迟缓 # 家长 育儿干货 #儿童早期干预 #说话晚怎么办...",
+    "title": "家长必看！分清自闭症与语言发育迟缓",
+    "summary": "文章帮助家长区分自闭症和语言发育迟缓两种常见儿童发育问题。语言发育迟缓主要表现为说话晚，而自闭症儿童除语言问题外，还伴有社交互动障碍和刻板行为。早期识别对于及时干预至关重要。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%B6%E9%95%BF%20%E5%BF%85%E7%9C%8B%21%E5%88%86%E6%B8%85%20%E8%87%AA%E9%97%AD%E7%97%87%20%E4%B8%8E%E8%AF%AD%E8%A8%80%E5%8F%91%E8%82%B2%E8%BF%9F%E7%BC%93&ie=utf8",
     "publishedAt": "2026-05-28",
     "source": "益智健",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "家长 必看!分清 自闭症 与语言发育迟缓",
+    "readingGuide": {
+      "overview": [
+        "许多家长容易将孩子说话晚等同于自闭症，但实际上两者存在关键区别。语言发育迟滞的儿童通常有良好的社交意愿和非言语沟通能力，而自闭症儿童在人际交往、眼神接触、模仿等方面存在质的缺陷。",
+        "文章列举了典型表现，帮助家长观察孩子的社交行为、兴趣范围和语言使用模式。强调如果孩子同时存在语言落后和社交异常，应及时进行专业评估，避免错过早期干预窗口期。"
+      ],
+      "keyPoints": [
+        "语言发育迟滞儿童社交意愿正常，自闭症儿童有社交障碍。",
+        "自闭症常伴随刻板行为和兴趣狭窄。",
+        "早期识别需观察全面发育情况，而非仅语言。"
+      ],
+      "parentNotes": [
+        "不要仅凭说话晚就判断为自闭症，需综合观察。",
+        "如果孩子交流意愿弱、眼神对视差，建议就医。",
+        "早期评估和干预对预后至关重要。"
+      ],
+      "boundary": "本文仅为科普区分要点，不能替代专业诊断。如怀疑孩子有发育问题，请尽早就诊儿童发育行为专科。"
+    },
+    "sourceDisplay": "益智健"
   },
   {
     "id": "00bb3a766cb2",
-    "title": "Bringing basic biology back to INSAR",
-    "summary": "As the International Society for Autism Research has grown over the past two decades, basic science has become less central, Christine Wu Nordahl says. This year, she and other meeting organizers aimed to change that.",
+    "title": "将基础生物学带回INSAR",
+    "summary": "本文报道了2026年国际自闭症研究学会年会（INSAR）中，组织者有意增加基础科学报告比重的情况。科学主席Christine Wu Nordahl指出，过去几年基础科学家参与度下降，今年通过混合式小组讨论等方式吸引更多基础研究人员回归，促进跨学科交流。",
     "url": "https://www.thetransmitter.org/spectrum/bringing-basic-biology-back-to-insar/",
     "publishedAt": "2026-05-28",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Bringing basic biology back to INSAR",
+    "readingGuide": {
+      "overview": [
+        "国际自闭症研究学会年会（INSAR）是自闭症研究领域的重要会议。近年来会议规模扩大，但基础科学（如分子细胞生物学、遗传学、脑结构功能等）的份额减少。为扭转这一趋势，2026年会议组织者采取多项措施，如要求专题小组至少包含一项基础科学报告。",
+        "访谈中，科学主席Christine Wu Nordahl解释了基础科学边缘化的原因，包括过去会场中关于遗传学研究伦理的紧张讨论。今年通过邀请更多基础科学家、整合跨领域内容，使一半的专题小组都融合了基础科学。这体现了会议向多学科整合的回归。"
+      ],
+      "keyPoints": [
+        "2026年INSAR会议增加基础科学报告比例。",
+        "通过混合专题小组促进跨学科对话。",
+        "基础科学对理解自闭症机制至关重要。"
+      ],
+      "parentNotes": [
+        "基础研究进展可能影响未来干预策略。",
+        "跨学科合作有助于全面理解自闭症。",
+        "家长可关注INSAR会议发布的科学摘要。"
+      ],
+      "boundary": "本文为会议动态报道，不涉及具体研究结论。科学进展需经过验证和同行评议，请以正式发表文献为准。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "1d83674b521a",
-    "title": "【培训班通知】关于举办 2026年 孤独症 谱系结构化教学法暨CPEP-3评估员基础证书课程培训(面授)班(第一期)的通知",
-    "summary": "关于举办 2026年 孤独症 谱系结构化教学法暨CPEP-3评估员基础证书课程培训(面授)班(第一期)的通知广西残疾人康复协会各有关...",
+    "title": "2026年孤独症谱系结构化教学法暨CPEP-3评估员基础证书课程培训（面授）班（第一期）通知",
+    "summary": "广西残疾人康复协会发布了关于举办2026年孤独症谱系结构化教学法暨CPEP-3评估员基础证书课程面授培训班的通知。本次培训面向相关从业者，旨在提升结构化教学和CPEP-3评估的专业能力。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%9F%B9%E8%AE%AD%E7%8F%AD%E9%80%9A%E7%9F%A5%E3%80%91%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%202026%E5%B9%B4%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E8%B0%B1%E7%B3%BB%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%99%E5%AD%A6%E6%B3%95%E6%9A%A8CPEP-3%E8%AF%84%E4%BC%B0%E5%91%98%E5%9F%BA%E7%A1%80%E8%AF%81%E4%B9%A6%E8%AF%BE%E7%A8%8B%E5%9F%B9%E8%AE%AD%28%E9%9D%A2%E6%8E%88%29%E7%8F%AD%28%E7%AC%AC%E4%B8%80%E6%9C%9F%29%E7%9A%84%E9%80%9A%E7%9F%A5&ie=utf8",
     "publishedAt": "2026-05-27",
     "source": "广西残疾人康复协会公众号",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【培训班通知】关于举办 2026年 孤独症 谱系结构化教学法暨CPEP-3评估员基础证书课程培训(面授)班(第一期)的通知",
+    "readingGuide": {
+      "overview": [
+        "该培训通知由广西残疾人康复协会发布，针对孤独症谱系障碍的结构化教学法（如TEACCH）以及CPEP-3评估工具的基础应用。培训采用面授形式，计划于2026年举办第一期，面向康复教师、治疗师等专业人员。",
+        "结构化教学法强调环境安排和视觉支持，CPEP-3是评估孤独症儿童能力的重要量表。通过培训，学员可掌握系统的评估与教学技巧，有助于提升康复服务的专业化水平。通知中提供了报名方式和相关要求。"
+      ],
+      "keyPoints": [
+        "培训面向专业人士，包括康复教师和治疗师。",
+        "内容涵盖结构化教学法和CPEP-3评估。",
+        "面授形式，2026年举办第一期。"
+      ],
+      "parentNotes": [
+        "该培训是针对专业人员，非家长直接参与。",
+        "家长可了解这些方法以便配合干预。",
+        "选择干预时，建议机构使用标准化评估工具。"
+      ],
+      "boundary": "本文为培训通知，不涉及干预效果或诊断建议。家长应咨询专业人员获取适合孩子的干预方案。"
+    },
+    "sourceDisplay": "广西残疾人康复协会公众号"
   },
   {
     "id": "557c3f364d8c",
-    "title": "SHANK3-variant effects in primates, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 25 May.",
+    "title": "灵长类动物中SHANK3变异的影响及其他",
+    "summary": "本文汇总了2026年5月25日当周的自闭症相关新闻和研究，包括一项关于携带SHANK3变异的猕猴模型研究，以及多篇新发表的论文。",
     "url": "https://www.thetransmitter.org/spectrum/shank3-variant-effects-in-primates-and-more/",
     "publishedAt": "2026-05-26",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "SHANK3-variant effects in primates, and more",
+    "readingGuide": {
+      "overview": [
+        "一项新研究显示，携带单个SHANK3基因拷贝变异的猕猴（Phelan-McDermid综合征动物模型）表现出比对照组更多的重复行为和社会性改变，且睡眠质量较差。研究人员利用深度学习模型分析了7只变异猴和8只野生型猴的行为输出，发现实验组还存在选择性认知障碍和大脑功能连接异常。此前2018年的一项研究曾删除猕猴的SHANK3基因片段，也观察到类似行为。",
+        "本周其他研究亮点包括：基于图像的表型分析揭示多维疾病特异性变异效应；自闭症儿童父母的亚临床神经精神特质变异；以及利用跨物种功能连接分析识别自闭症亚型。此外，一篇论文发现脆性X综合征小鼠模型中抑制性和兴奋性神经元翻译组变化相反，并指出EPAC2可作为治疗靶点。"
+      ],
+      "keyPoints": [
+        "SHANK3变异猕猴模型出现更多重复行为和社交障碍。",
+        "深度学习用于分析动物行为，提升评估精度。",
+        "多项新研究从不同层面探索自闭症机制与亚型。"
+      ],
+      "parentNotes": [
+        "该研究为动物模型，结论需谨慎推广至人类。",
+        "反复行为和社会交往困难是自闭症核心特征，但个体差异大。",
+        "关注研究进展有助于理解可能的生物学基础。"
+      ],
+      "boundary": "本文基于已发表的科学新闻和文献摘要，不构成医疗建议。如孩子有类似行为或发育问题，请咨询专业儿科医生或发育行为专家。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "778f41f392f6",
-    "title": "Protein Levels, Not Just Transcripts, Hold Clues to Autism",
-    "summary": "点击查看来源文章。",
+    "title": "蛋白质水平，不仅仅是转录本，揭示自闭症线索",
+    "summary": "一项新研究发现，mRNA水平并不总能反映蛋白质水平，这种差异在大脑皮层中尤为明显，且与自闭症风险基因密切相关。",
     "url": "https://www.sfari.org/2026/05/26/protein-levels-not-just-transcripts-hold-clues-to-autism/",
     "publishedAt": "2026-05-26",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Protein Levels, Not Just Transcripts, Hold Clues to Autism",
+    "readingGuide": {
+      "overview": [
+        "科学家通常通过测量信使RNA（mRNA）来研究大脑发育的分子基础，但mRNA水平并不能直接预测蛋白质产量。一项新研究开发了在单细胞中大规模测量蛋白质的方法，并应用于发育中的人类大脑皮层。他们发现mRNA与蛋白质存在广泛不一致，特别是在兴奋性神经元中，相关性也有限。",
+        "值得注意的是，那些mRNA高但蛋白质低的基因显著富集了已知的自闭症风险基因（包括SFARI收录的基因），且这些基因在自闭症人群中表现出更高的新生突变率。研究人员还重建了从放射状胶质细胞到兴奋性神经元的发育轨迹，发现中间前体细胞向神经元转变过程中激活的蛋白质簇富含自闭症相关突变基因。"
+      ],
+      "keyPoints": [
+        "单细胞蛋白质测量方法揭示mRNA与蛋白质水平不对应。",
+        "自闭症风险基因在mRNA高但蛋白质低组中显著富集。",
+        "发育阶段特异的蛋白质变化与自闭症基因突变相关。"
+      ],
+      "parentNotes": [
+        "该研究强调蛋白质调控的重要性，而非仅关注基因表达。",
+        "自闭症风险基因可能通过影响蛋白质翻译或稳定性发挥作用。",
+        "研究结果来自胎儿脑组织，对成年后行为的指导意义有限。"
+      ],
+      "boundary": "本文基于实验室研究，不直接提供诊断或治疗建议。如有发育迟缓或自闭症疑虑，请寻求专业行为评估和医学咨询。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "5931f4a2851d",
-    "title": "聚焦 孤独症 教育高质量发展——我校 孤独症 教育基地项目代表参加广东省 孤独症 教育中心发展研讨活动",
-    "summary": "广州大学特殊教育研究中心主任任杰对 2025年 广东省 孤独症 教育 干预 案例评选工作进行了系统总结.案例分享 来自高校和一线特殊...",
+    "title": "聚焦孤独症教育高质量发展——我校孤独症教育基地项目代表参加广东省孤独症教育中心发展研讨活动",
+    "summary": "广州市南沙区启慧学校孤独症教育基地项目代表参加广东省孤独症教育中心发展研讨活动，会议总结了2025年广东省孤独症教育干预案例评选工作，并进行了案例分享。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E8%81%9A%E7%84%A6%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%95%99%E8%82%B2%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95%E2%80%94%E2%80%94%E6%88%91%E6%A0%A1%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%95%99%E8%82%B2%E5%9F%BA%E5%9C%B0%E9%A1%B9%E7%9B%AE%E4%BB%A3%E8%A1%A8%E5%8F%82%E5%8A%A0%E5%B9%BF%E4%B8%9C%E7%9C%81%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%95%99%E8%82%B2%E4%B8%AD%E5%BF%83%E5%8F%91%E5%B1%95%E7%A0%94%E8%AE%A8%E6%B4%BB%E5%8A%A8&ie=utf8",
     "publishedAt": "2026-05-25",
     "source": "广州市南沙区启慧学校",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "聚焦 孤独症 教育高质量发展——我校 孤独症 教育基地项目代表参加广东省 孤独症 教育中心发展研讨活动",
+    "readingGuide": {
+      "overview": [
+        "该活动由广州大学特殊教育研究中心主任任杰主持，对2025年广东省孤独症教育干预案例评选工作进行了系统总结。来自高校和一线特殊教育学校的代表分享了优秀案例，探讨了孤独症教育的高质量发展路径。",
+        "会议聚焦孤独症学生的教育支持策略，强调通过案例研究和实践交流提升教育质量。活动旨在促进区域孤独症教育资源的整合与专业化发展。"
+      ],
+      "keyPoints": [
+        "广东省孤独症教育案例评选工作系统总结。",
+        "高校与一线学校交流教育干预经验。",
+        "推动孤独症教育高质量发展。"
+      ],
+      "parentNotes": [
+        "教育干预案例评选有助于推广有效实践。",
+        "家长可关注本地特殊教育资源和活动。",
+        "不同地区的教育支持政策可能存在差异。"
+      ],
+      "boundary": "本文报道教育研讨活动，不提供个别化教育方案。如需具体教育策略，请咨询学校特殊教育教师或相关专家。"
+    },
+    "sourceDisplay": "广州市南沙区启慧学校"
   },
   {
     "id": "9979afa3e721",
-    "title": "Still no proof for facilitated spelling methods",
-    "summary": "A systematic review into whether the “rapid prompting method” or “spelling to communicate” can help autistic people express themselves comes up empty yet again.",
+    "title": "辅助拼写方法仍无证据",
+    "summary": "一项系统综述再次发现，没有科学证据表明快速提示法或拼写沟通法能帮助自闭症患者进行独立表达。",
     "url": "https://www.thetransmitter.org/spectrum/still-no-proof-for-facilitated-spelling-methods-autism/",
     "publishedAt": "2026-05-21",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Still no proof for facilitated spelling methods",
+    "readingGuide": {
+      "overview": [
+        "近年来，一些旨在帮助言语有限的孤独症患者表达自己的辅助沟通方法（如“快速提示法”和“拼写沟通法”）在家长中日益流行。这些方法通常需要一位辅助者（常为家长）拿着字母板或电子设备，通过口头提示或手势鼓励患者用手指拼出单词。支持者声称这些方法能揭示隐藏的语言和智力能力。",
+        "然而，即将发表的一项系统综述检索了5856篇相关研究，但未发现任何一篇通过严格的信息传递测试（即让患者描述辅助者看不到的图片）验证了信息的真正作者身份。研究者指出，辅助沟通的支持者未能证明信息确实来自孤独症患者本人，而非辅助者的影响。"
+      ],
+      "keyPoints": [
+        "系统综述未发现快速提示法或拼写沟通法有效证据。",
+        "信息传递测试是验证沟通真实性的关键方法。",
+        "该结论与早期对辅助沟通的质疑一致。"
+      ],
+      "parentNotes": [
+        "选择沟通干预时需谨慎，优先选择有实证支持的方法。",
+        "辅助者可能无意中影响输出，导致沟通不真实。",
+        "与专业人士讨论干预选择，避免未经科学验证的方法。"
+      ],
+      "boundary": "本文基于科学综述，不否认孤独症患者沟通困难，但强调需基于证据的方法。如寻求沟通辅助，建议咨询语言病理学家或行为分析师。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "da1ce59ae924",
-    "title": "When autistic kids grow up",
-    "summary": "An autistic researcher’s paper called attention to a huge disparity in autism funding research between children and adults. It nearly derailed her life.",
+    "title": "当自闭症孩子长大",
+    "summary": "一位自闭症研究者的论文揭示了NIH研究资金在儿童和成人自闭症研究之间的巨大差距，但该论文几乎毁掉了她的职业生涯。这是一个五部分的播客系列。",
     "url": "https://www.thetransmitter.org/when-autistic-kids-grow-up/when-autistic-kids-grow-up-trailer/",
     "publishedAt": "2026-05-20",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "When autistic kids grow up",
+    "readingGuide": {
+      "overview": [
+        "Tempest McDonald是一位自闭症研究者，她的个人经历包括青少年时期无家可归、成为半职业台球选手、单身母亲等。她最终获得博士学位并从事博士后研究，但当她发表论文指出美国国立卫生研究院（NIH）的资助政策歧视自闭症成人时，这一主张引发了争议，导致她失去职位并陷入个人危机。",
+        "该播客系列共五部分，探索了McDonald的生活经历如何驱动研究，并揭示了自闭症研究中长期存在的儿童与成人资金分配不均的问题。研究显示，尽管大多数自闭症患者是成人，但资助重点仍集中在儿童。"
+      ],
+      "keyPoints": [
+        "NIH资助在自闭症儿童和成人研究上存在巨大差距。",
+        "研究者因为揭露这一差距而面临职业生涯危机。",
+        "播客通过个人故事揭示系统性问题。"
+      ],
+      "parentNotes": [
+        "自闭症是终身状态，成人支持同样重要。",
+        "研究资金不均可能影响成人服务的发展。",
+        "关注研究者个人经历有助于理解倡导的复杂性。"
+      ],
+      "boundary": "本文介绍播客内容，不提供具体政策建议。如需了解自闭症成人服务，请咨询当地残疾人服务机构或成人自闭症支持组织。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "a076de3c6dba",
-    "title": "Outside influences on CHD8 variant phenotypes, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 18 May.",
+    "title": "CHD8变异表型的外部影响及其他",
+    "summary": "本周自闭症相关新闻和研究综述：两项新研究揭示了影响CHD8基因变异小鼠自闭症样特征的次要因素，包括基因剂量效应和遗传背景差异。此外还汇总了多项最新研究进展。",
     "url": "https://www.thetransmitter.org/spectrum/outside-influences-on-chd8-variant-phenotypes-and-more/",
     "publishedAt": "2026-05-19",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Outside influences on CHD8 variant phenotypes, and more",
+    "readingGuide": {
+      "overview": [
+        "两项新研究探讨了CHD8基因变异小鼠表现出的自闭症样特征如何受到多种因素影响。第一项研究通过比较杂合与纯合CHD8变异小鼠，发现基因剂量影响行为、脑结构和神经活动，且纯合小鼠的性别差异更小。第二项研究则关注不同遗传背景小鼠中CHD8变异效应的异质性，记录了母鼠与幼崽互动的多种模式，并将其与断奶幼崽的自闭症样特征相关联。",
+        "研究提示，遗传背景、基因剂量以及早期生活经历共同导致了小鼠模型中自闭症表型的变异性。此外，本周还报道了其他研究，如跨世代的自闭症风险、SHANK3突变对嗅觉的影响、以及非洲遗传学研究NeuroDev的初步发现等。"
+      ],
+      "keyPoints": [
+        "CHD8基因剂量效应影响小鼠行为、脑结构和神经活动。",
+        "遗传背景和早期互动经历加剧CHD8变异表型异质性。",
+        "本周研究涉及跨代风险、SHANK3嗅觉编码及非洲遗传学等主题。"
+      ],
+      "parentNotes": [
+        "小鼠模型研究虽能揭示机制，但人类自闭症更为复杂。",
+        "CHD8变异仅为罕见原因之一，多数自闭症涉及多基因和环境因素。",
+        "关注研究中的环境因素（如母鼠互动）对干预的潜在启示。"
+      ],
+      "boundary": "本文为科研新闻综述，不构成医疗建议。具体遗传咨询或干预方案请咨询专业医疗人员。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "f8533a9ddb31",
     "title": "探索感统训练在自闭症儿童中的应用",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨感统训练在自闭症儿童中的实践应用，分析其对社交能力、情感表达和自我调节的潜在益处，并强调个体差异对训练效果的影响，提出个性化方案的重要性。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1180",
     "publishedAt": "2026-05-18",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "探索感统训练在自闭症儿童中的应用",
+    "readingGuide": {
+      "overview": [
+        "感统训练通过一系列感官活动，旨在提升自闭症儿童的多方面能力。文章指出，该训练在社交能力改善方面发挥作用，如通过游戏活动帮助儿童学习轮流、分享和理解他人情绪，从而增强沟通技能和面对面交流的信心。同时，感统训练还能促进自我调节，减少社交焦虑。",
+        "个体差异显著影响训练效果，包括儿童年龄、性别、症状表现、感官处理障碍严重程度，以及家庭背景、教育环境和父母参与度。较小年龄儿童可能更具神经可塑性，而严重感官处理障碍的儿童初期挑战更大。因此，个性化训练方案和家庭积极参与是提升效果的关键。"
+      ],
+      "keyPoints": [
+        "感统训练通过感官活动提升社交能力、情感表达和自我调节。",
+        "个体差异（年龄、症状、家庭支持）显著影响训练效果。",
+        "个性化方案和家庭参与是提高训练成效的重要因素。"
+      ],
+      "parentNotes": [
+        "感统训练并非适用于所有自闭症儿童，需评估个体需求。",
+        "训练效果因人而异，不可盲目复制他人经验。",
+        "家庭与教育机构的积极配合可增强训练效果。"
+      ],
+      "boundary": "本文为科普介绍，不提供具体治疗方案。训练计划应由专业人员评估后制定。如需要，请咨询康复治疗师或相关医疗专家。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "bb9e95da3554",
-    "title": "How basic neuroscientists can connect with autistic people and their communities",
-    "summary": "A first-of-its-kind workshop offers a template for autism researchers who want to incorporate community perspectives into their work.",
+    "title": "基础神经科学家如何与自闭症人士及其社区建立联系",
+    "summary": "一项首次举办的研讨会为自闭症研究者提供了将社区视角融入工作的模板。文章分享了基础科学家、自闭症自我倡导者和症候群自闭症照护者之间的对话经验与关键教训。",
     "url": "https://www.thetransmitter.org/spectrum/how-basic-neuroscientists-can-connect-with-autistic-people-and-their-communities/",
     "publishedAt": "2026-05-14",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "How basic neuroscientists can connect with autistic people and their communities",
+    "readingGuide": {
+      "overview": [
+        "基础神经科学研究往往远离临床应用，科学家可能感到与自闭症社区脱节。2025年10月举办的ACORD研讨会首次将基础科学家、自闭症自我倡导者和症候群自闭症照护者聚集在一起，旨在搭建对话桥梁，减少误解和不信任。参与者发现，各群体内部及之间均存在 nuanced 观点，并找到了许多共识。",
+        "研讨会为科学家提供了难得的机会，直接从社区获取研究重点反馈。许多科学家因此获得了新的研究思路和传播工作的方法，部分参与者已开始跨群体合作。文章总结了关键经验，如寻找合适的合作伙伴、投入专门时间等，以鼓励更多科学家开展类似对话。"
+      ],
+      "keyPoints": [
+        "ACORD研讨会促进基础科学家与自闭症社区直接对话。",
+        "参与者发现各群体存在共识，有助于研究优先级的调整。",
+        "跨群体合作能提升研究的相关性和沟通效果。"
+      ],
+      "parentNotes": [
+        "社区参与可帮助研究更贴近实际需求。",
+        "自闭症人士和照护者的视角对研究设计有价值。",
+        "此类对话有助于减少对基础研究的误解。"
+      ],
+      "boundary": "本文基于研讨会经验，不代表所有研究均需采用相同方法。具体研究实践应咨询伦理委员会和相关社区。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "04f0b56e5f7d",
-    "title": "Now Accepting Applications for Workshops on Quantitative Behavioral Phenotyping in Autism",
-    "summary": "点击查看来源文章。",
+    "title": "自闭症定量行为表型研讨会现正接受申请",
+    "summary": "西蒙斯基金会自闭症研究倡议(SFARI)邀请研究人员参加一系列研讨会，旨在推动自闭症个体定量行为表型的多年协作努力，利用先进技术从视频和音频中量化行为特征。",
     "url": "https://www.sfari.org/2026/05/14/now-accepting-applications-for-workshops-on-quantitative-behavioral-phenotyping-in-autism/",
     "publishedAt": "2026-05-14",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Now Accepting Applications for Workshops on Quantitative Behavioral Phenotyping in Autism",
+    "readingGuide": {
+      "overview": [
+        "SFARI宣布举办三个工作坊，以建立量化自闭症个体行为表型的协作项目。自闭症患者常表现出多样化的行为模式，传统方法难以捕捉细微差异。研讨会将汇聚自闭症研究人员与动物模型及人类定量行为分析专家，共同制定从视频中量化运动和其他可见表型的策略，并分析相关音频数据（如言语、韵律等）。",
+        "首次工作坊将于2026年9月线上举行，后两次为线下会议。申请需提交简历和研究陈述，截止日期为2026年6月15日。约30人获得参与资格，但参加工作坊不代表获得后续资助。该系列是迈向长期资助合作的第一步。"
+      ],
+      "keyPoints": [
+        "SFARI举办三个工作坊推动自闭症定量行为表型研究。",
+        "重点利用视频和音频技术量化行为差异。",
+        "申请截止2026年6月15日，约30人入选。"
+      ],
+      "parentNotes": [
+        "定量表型研究有助于更客观地理解自闭症异质性。",
+        "行为量化技术可能间接改善评估方法。",
+        "此类研究尚在早期阶段，家长不必急于期待临床转化。"
+      ],
+      "boundary": "本文为研讨会申请通知，不提供研究结论或医疗建议。对自闭症行为评估感兴趣的家长应咨询临床专业人员。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "5f0b25d64f63",
-    "title": "Untangling genetic effects, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 11 May.",
+    "title": "解析遗传效应及其他",
+    "summary": "本周自闭症研究新闻综述：研究人员利用新方法区分影响自闭症风险的母体直接和间接遗传效应，发现间接效应通过产前环境起作用。同时汇总了多项相关研究。",
     "url": "https://www.thetransmitter.org/spectrum/untangling-genetic-effects-and-more/",
     "publishedAt": "2026-05-12",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Untangling genetic effects, and more",
+    "readingGuide": {
+      "overview": [
+        "一项预印本研究使用新颖方法解析影响儿童自闭症可能性的多种母体因素。通过分析丹麦国家出生登记中的母亲表亲对，研究人员发现直接遗传效应（如癫痫、人格障碍）在母亲的兄弟姐妹中共享，而间接遗传效应（如产科因素、母亲情感障碍）仅在姐妹中共享，表明这些效应通过产前环境发挥作用。",
+        "本周还报道了其他研究，包括RBFOX1启动子中人类特异性CCG重复与言语和自闭症的关联、自闭症感觉特征与脑岛连接的性别差异、以及FMR1敲除小鼠中NMDA受体可塑性异常等。"
+      ],
+      "keyPoints": [
+        "母体间接遗传效应（如产科因素）通过产前环境影响自闭症风险。",
+        "直接遗传效应（如癫痫）与母体兄弟姐妹共享，不限于孕期。",
+        "其他研究涉及RBFOX1重复、感觉连接及FMR1机制。"
+      ],
+      "parentNotes": [
+        "研究提示母体孕期环境因素对自闭症风险有独立影响。",
+        "直接与间接遗传效应的区分有助于理解遗传咨询信息。",
+        "小鼠研究结果不能直接推广到人类。"
+      ],
+      "boundary": "本文为科研新闻摘要，不提供个体风险评估。关于自闭症遗传和环境的疑问，请咨询医学遗传学家或专业医生。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "c46cb1784ae1",
-    "title": "Unbiased Approaches to Quantifying Motor and Other Visible Behaviors in Humans with Autism",
-    "summary": "点击查看来源文章。",
+    "title": "量化自闭症患者运动及其他可见行为的无偏方法",
+    "summary": "SFARI举办研讨会，探索利用计算机视觉等先进技术客观量化自闭症相关的运动行为，旨在促进跨物种研究、解析疾病异质性，并为诊断和治疗提供更客观的依据。",
     "url": "https://www.sfari.org/2026/05/11/unbiased-approaches-to-quantifying-motor-and-other-visible-behaviors-in-humans-with-autism/",
     "publishedAt": "2026-05-11",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Unbiased Approaches to Quantifying Motor and Other Visible Behaviors in Humans with Autism",
+    "readingGuide": {
+      "overview": [
+        "SFARI为推进自闭症基础科学，举办了一场专题研讨会，重点讨论如何客观量化可见行为，尤其是运动表型。与会者包括动物模型和人类研究领域的专家，共同探讨先进的定量表型方法。",
+        "会议介绍了BlinkLab等智能手机平台，可通过反射进行神经测量评估。同时，研究人员展示了如何利用视频中的姿态估计和行为分割技术，捕捉社交互动和感觉反应等自闭症相关行为。",
+        "客观的行为测量有望克服传统主观评估的局限，为跨物种研究提供桥梁，并更好地区分自闭症的亚型。这些方法还有望推动更精准的诊断和个体化干预。"
+      ],
+      "keyPoints": [
+        "SFARI研讨会聚焦无偏量化自闭症运动行为的新方法",
+        "BlinkLab等智能手机平台可用于反射性神经评估",
+        "客观行为测量有助于跨物种研究和自闭症亚型分类"
+      ],
+      "parentNotes": [
+        "本文介绍的是前沿研究探讨的方法，并非现有成熟干预手段。",
+        "家长若关注孩子运动发展，应咨询专业医生或治疗师。"
+      ],
+      "boundary": "本文仅报道研讨会内容，不提供具体的诊断或治疗方案。如孩子存在运动或行为问题，请咨询儿科或发育行为专家。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "23c92ecddccc",
-    "title": "‘Slightly unhinged’ federal autism meeting portends unclear research priorities",
-    "summary": "The meeting last week sparked concerns about the latest Interagency Autism Coordinating Committee’s ability to perform its core function: developing a strategy to support autism research.",
+    "title": "联邦自闭症会议‘略显失常’，研究优先级不明",
+    "summary": "最新一次跨部门自闭症协调委员会会议引发担忧，会议未按法律规定制定自闭症研究战略计划，而是推进三项政策提案，可能违反联邦法律。",
     "url": "https://www.thetransmitter.org/spectrum/slightly-unhinged-federal-autism-meeting-portends-unclear-research-priorities/",
     "publishedAt": "2026-05-07",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "‘Slightly unhinged’ federal autism meeting portends unclear research priorities",
+    "readingGuide": {
+      "overview": [
+        "美国跨部门自闭症协调委员会（IACC）近期召开会议，但未达成其核心法定职责——制定自闭症研究战略计划。与会的前委员和科学家对此表示忧虑。",
+        "会议主要讨论了‘重度自闭症’、挑战性医学共病以及走失风险三项政策提案，这些议题虽重要，但完全忽略了战略规划的制定。有评论认为会议‘略显失常’。",
+        "部分参会者指出，IACC的议程偏离了其核心使命，可能影响未来联邦自闭症研究资金的优先方向。同时，一个名为独立自闭症协调委员会（I-ACC）的新研究咨询组织已成立，试图填补空白。"
+      ],
+      "keyPoints": [
+        "IACC会议未按法律要求制定自闭症研究战略计划",
+        "会议推进的三项政策提案引发法律程序争议",
+        "新的独立自闭症研究咨询组织（I-ACC）成立"
+      ],
+      "parentNotes": [
+        "本文讨论的是美国联邦层面的政策动态，不影响国内现有的康复服务。",
+        "家长可关注国内自闭症相关政策和研究动向，以获取实际支持。"
+      ],
+      "boundary": "本文内容聚焦美国政策会议，不涉及具体干预方法或医疗建议。如需政策解读或服务指导，请咨询国内相关机构。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "8241bc00e872",
     "title": "感统训练如何帮助自闭症儿童发展潜能",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "文章介绍感统训练对自闭症儿童感知和运动技能的作用，强调个体差异和个性化方案的重要性，以及家长与专业人员合作制定训练计划。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1179",
     "publishedAt": "2026-05-07",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "感统训练如何帮助自闭症儿童发展潜能",
+    "readingGuide": {
+      "overview": [
+        "感统训练通过结构化活动促进儿童在视觉、听觉、触觉等方面的感知能力，有助于改善情绪管理和社交技巧。对自闭症儿童而言，其感知处理和社交互动常面临挑战，感统训练可提供支持。",
+        "但文章强调，感统训练并非‘万能药’，每个孩子的感知需求和能力不同，需要根据个体差异定制方案。家长应与康复师等专业人员密切合作，评估孩子的优势和挑战。",
+        "选择训练项目时，需考虑孩子的具体需求、能力水平和兴趣，确保课程具有互动性和趣味性。通过灵活调整，才能有效支持孩子情感、社交和运动技能的全面发展。"
+      ],
+      "keyPoints": [
+        "感统训练帮助自闭症儿童改善感知和运动技能",
+        "训练需个体化，根据孩子特点量身定制",
+        "家长与专业人员合作是有效干预的关键"
+      ],
+      "parentNotes": [
+        "感统训练应作为综合干预的一部分，并非替代其他疗法。",
+        "选择训练机构时需核实其专业资质和个体化方案设计能力。"
+      ],
+      "boundary": "本文为科普介绍，不构成具体训练建议。实施前请咨询专业康复师或医生，进行个体化评估。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "ad02dec9562f",
-    "title": "Advances in genetic medicine took center stage at INSAR",
-    "summary": "The president of the Autism Science Foundation and parent of a child with profound autism reflects on how advances in the treatment of rare gene variants bring hope to many families.",
+    "title": "遗传医学进展在INSAR大会备受关注",
+    "summary": "国际自闭症研究学会（INSAR）年会上，针对罕见基因变异的遗传医学疗法成为焦点。从CRISPR到反义寡核苷酸，多项研究显示有望改善临床症状，为家庭带来希望。",
     "url": "https://www.thetransmitter.org/spectrum/advances-in-genetic-medicine-took-center-stage-at-insar/",
     "publishedAt": "2026-05-05",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Advances in genetic medicine took center stage at INSAR",
+    "readingGuide": {
+      "overview": [
+        "在2026年INSAR年会上，遗传医学成为最突出的主题。约20%的自闭症患者与罕见基因变异相关，如SCN2A、SHANK3或UBE3A。研究人员展示了利用CRISPR、表观基因组编辑等技术纠正DNA或RNA变异的方法。",
+        "特别令人振奋的是针对天使综合征（UBE3A基因沉默）的临床试验，使用反义寡核苷酸（ASO）重新激活被关闭的功能性基因拷贝。参与者（包括成人和儿童）出现了认知改善、首次开口说话等进步。",
+        "这些进展标志着自闭症治疗正进入基于生物学机制的新时代。虽然目前仅适用于少数罕见基因型，但为许多家庭带来了前所未有的希望。"
+      ],
+      "keyPoints": [
+        "INSAR大会聚焦针对罕见基因变异的遗传医学疗法",
+        "CRISPR和ASO等工具正在临床试验中改善症状",
+        "天使综合征试验显示患者认知和日常功能显著进步"
+      ],
+      "parentNotes": [
+        "遗传医学仍处于研究阶段，并非所有自闭症儿童适用的通用疗法。",
+        "如果孩子有明确基因诊断，可咨询医生是否参与相关临床试验。"
+      ],
+      "boundary": "本文报道研究进展，不构成治疗推荐。具体基因疗法需在专业医疗机构的评估和指导下进行。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "3c131ed97b84",
-    "title": "Processing facial emotions, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 4 May.",
+    "title": "面部情绪加工研究及其他",
+    "summary": "本周自闭症研究速览：一项新研究利用生成模型分析动态神经数据，更全面地描述面部情绪加工的大脑网络；此外汇总了其他几项相关研究。",
     "url": "https://www.thetransmitter.org/spectrum/processing-facial-emotions-and-more/",
     "publishedAt": "2026-05-05",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Processing facial emotions, and more",
+    "readingGuide": {
+      "overview": [
+        "研究人员收集了5至40岁参与者对开心或愤怒面孔反应的脑磁图和脑电图数据，通过生成建模将神经活动分解为六种模式，包括视觉、感觉运动和颞叶模式。",
+        "该方法能够描绘全脑功能网络的发育轨迹，为与自闭症等神经发育疾病的比较提供了神经典型对照框架。",
+        "本周还汇总了其他研究：包括产前发育的单细胞和空间组学图谱、SYNGAP1脑病的基因型-表型关联、以及巨噬细胞介导的脑膜淋巴管细化与社会行为的关联等。"
+      ],
+      "keyPoints": [
+        "新方法通过生成建模分析动态脑数据，描述面部情绪加工网络",
+        "研究为比较自闭症与典型发育的脑网络提供了框架",
+        "本周还报道了SYNGAP1、产前发育等多项研究成果"
+      ],
+      "parentNotes": [
+        "本文为基础研究进展，不直接应用于临床干预。",
+        "家长可关注此类研究以了解自闭症神经机制的最新动态。"
+      ],
+      "boundary": "本文内容为科研进展摘要，不提供个体化的诊断或干预建议。如有具体问题，请咨询专业医疗人员。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "93dceb038866",
-    "title": "Novel assembloid illuminates serotonin changes linked to 22q11.2 deletion",
-    "summary": "The combination of a serotonin-producing organoid with an organoid based on the developing cerebral cortex offers a new way to investigate neuromodulation.",
+    "title": "新型类组装体揭示与22q11.2缺失相关的血清素变化",
+    "summary": "研究人员开发出一种新型类组装体，将产生血清素的类器官与模拟发育中大脑皮层的类器官结合，用于研究神经调节。这一模型有助于探索血清素如何影响皮层神经元行为，并观察在自闭症和精神分裂症等疾病中可能出现的变化。",
     "url": "https://www.thetransmitter.org/spectrum/novel-assembloid-illuminates-serotonin-changes-linked-to-22q11-2-deletion/",
     "publishedAt": "2026-04-30",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Novel assembloid illuminates serotonin changes linked to 22q11.2 deletion",
+    "readingGuide": {
+      "overview": [
+        "这项研究构建了一种首创的类组装体，它结合了能产生血清素的类器官和模拟发育中大脑皮层的类器官。血清素是一种重要的神经递质，参与调节情绪、认知等多种功能。通过这个模型，科学家可以研究血清素如何微妙地影响皮层神经元的活动。",
+        "该模型为探索神经调节在正常和疾病状态下的作用提供了新工具。研究团队花了约8年时间攻克技术难题，最终成功模拟了脑干中缝核的血清素神经元。这一突破有助于理解22q11.2缺失等遗传变异如何导致血清素系统改变。",
+        "研究结果以预印本形式发布，尚未经过同行评审。该模型有望用于自闭症和精神分裂症等疾病的研究，帮助揭示这些疾病中神经调节异常的机制。"
+      ],
+      "keyPoints": [
+        "首次构建包含内源性神经调节的类组装体模型",
+        "可模拟血清素对皮层神经元的调节作用",
+        "为研究22q11.2缺失等遗传变异提供新工具"
+      ],
+      "parentNotes": [
+        "该研究尚处于早期阶段，模型仍需进一步验证",
+        "血清素系统异常可能与自闭症症状相关，但机制复杂",
+        "类组装体是研究方法，不直接转化为治疗手段"
+      ],
+      "boundary": "本文介绍的是基础科学研究模型，不涉及自闭症诊断或治疗。家长应咨询医生获取个性化建议。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "2126a99f2744",
-    "title": "Reporter’s notebook: Highlights from INSAR 2026",
-    "summary": "At the 25 th annual meeting of the International Society for Autism Research, scientists, clinicians and self-advocates gathered to discuss topics such as autism genetics and the gap between clinical trials and real-world benefits.",
+    "title": "记者手记：INSAR 2026年会亮点回顾",
+    "summary": "第25届国际自闭症研究学会（INSAR）年会于2026年4月在布拉格举行，吸引了来自67个国家的2200多人参加。会议探讨了自闭症遗传学、亚型分类、临床试验与现实获益的差距等议题，并强调了科学作为真理来源的重要性。",
     "url": "https://www.thetransmitter.org/spectrum/reporters-notebook-highlights-from-insar-2026/",
     "publishedAt": "2026-04-30",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Reporter’s notebook: Highlights from INSAR 2026",
+    "readingGuide": {
+      "overview": [
+        "本次INSAR年会规模宏大，共收到2536篇摘要，涵盖自闭症研究的广泛领域。与2001年首届会议的200篇摘要和500名参会者相比，会议规模大幅增长。参会者包括基础科学家、临床医生以及自闭症研究者和自我倡导者，讨论了从遗传学到成年健康等多元话题。",
+        "会议的一大主题是自闭症亚型的划分。研究人员利用行为表型、基因组学、转录组学和神经影像等技术，试图将自闭症分为有意义的亚型。例如，有研究通过MRI扫描和转录组学数据识别出三个新的自闭症亚群。",
+        "与会者还关注了临床试验与实际获益之间的差距，以及全球政治不确定性对家庭获取服务的影响。会议呼吁在虚假信息和有害说法泛滥的环境中，坚守科学作为真理来源的地位。"
+      ],
+      "keyPoints": [
+        "INSAR 2026有来自67个国家的2200多人参会",
+        "自闭症亚型划分是会议重要议题",
+        "会议关注临床试验与现实获益的差距"
+      ],
+      "parentNotes": [
+        "自闭症研究正在从单一类别向亚型细分发展",
+        "家长应警惕没有科学依据的自闭症疗法",
+        "会议内容反映了该领域的最新趋势，但具体成果尚需后续验证"
+      ],
+      "boundary": "本文为会议报道，不提供具体医疗建议。家长如有疑问应咨询专业人士。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "52fbd0c20306",
-    "title": "New Ideas: Applications Open for Exploratory Autism Research Grants",
-    "summary": "点击查看来源文章。",
+    "title": "新思路：探索性自闭症研究资助申请开放",
+    "summary": "西蒙斯基金会自闭症研究倡议（SFARI）启动“新思路”资助计划，支持探索性研究，鼓励挑战现有假设、引入新框架或应用新工具来推进自闭症及相关神经发育障碍的基础科学。意向书从2026年4月29日起滚动接收。",
     "url": "https://www.sfari.org/2026/04/29/new-ideas-applications-open-for-exploratory-autism-research-grants/",
     "publishedAt": "2026-04-29",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "New Ideas: Applications Open for Exploratory Autism Research Grants",
+    "readingGuide": {
+      "overview": [
+        "SFARI的新思路资助计划旨在支持大胆、创新的自闭症研究方向。该计划适合那些提出新颖假说、开辟新概念或实验方向的早期阶段项目。申请者可以来自任何学科，使用任何方法论或实验系统，包括人类研究。",
+        "该资助鼓励尚未获得SFARI资助的研究人员申请，也欢迎自闭症研究领域的新人。意向书（LOI）将滚动接收，通常在提交后3-4个月内获得初步决定。如果被邀请提交完整申请，将获得4周时间准备。",
+        "这一资助计划延续了SFARI一贯的战略：通过支持新想法吸引新人才进入自闭症研究领域。2003年的类似圆桌会议促成了自闭症遗传学领域的突破，现在希望“新思路”计划能带来新的变革。"
+      ],
+      "keyPoints": [
+        "面向探索性、高风险高回报的自闭症研究项目",
+        "意向书从2026年4月29日起滚动接收",
+        "特别鼓励尚未获得SFARI资助的研究者申请"
+      ],
+      "parentNotes": [
+        "这是一项研究资助，不直接涉及家庭或临床服务",
+        "新的研究方向可能在未来转化为对自闭症的更好理解",
+        "家长关注科学进展有助于了解领域前沿"
+      ],
+      "boundary": "本文为资助信息，不提供医疗或教育建议。家长应基于可靠来源获取自闭症相关信息。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "0bff2e8ffe26",
-    "title": "New Ideas RFA: Perspectives",
-    "summary": "点击查看来源文章。",
+    "title": "新思路RFA：视角",
+    "summary": "西蒙斯基金会自闭症研究倡议（SFARI）发布“新思路”资助申请的详细视角，阐述其战略背景：基于过去二十年在自闭症基因发现方面的成功，现在希望吸引新科学家和项目，利用新一代科学方法探索自闭症机制，推动新方向。",
     "url": "https://www.sfari.org/2026/04/29/new-ideas-rfa-perspectives/",
     "publishedAt": "2026-04-29",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "New Ideas RFA: Perspectives",
+    "readingGuide": {
+      "overview": [
+        "SFARI回顾了其始于2003年的战略：通过识别自闭症相关基因，并利用这些遗传变异在不同实验模型中阐明神经生物学机制。这一策略取得了巨大成功，发现了数百个遗传变异，为基因疗法和基础科学提供了基础。",
+        "现在，SFARI认为新一代科学方法——涵盖细胞生物学、遗传学、系统神经科学、计算精神病学等领域——有望提供同样变革性的见解。新思路RFA旨在邀请新的视角和假设，加速发现新方向。",
+        "该RFA采用滚动接收意向书的方式，由SFARI科学团队定期评审，部分受邀提交完整提案进行外部评审。从意向书提交到资助决定通常需要4-8个月。SFARI希望通过该项目持续与科学界对话。"
+      ],
+      "keyPoints": [
+        "SFARI基因发现战略已成功识别数百个自闭症相关遗传变异",
+        "新思路RFA旨在利用新一代方法推动新方向",
+        "意向书滚动接收，评审周期4-8个月"
+      ],
+      "parentNotes": [
+        "这项计划体现自闭症研究从遗传学向多学科融合的转变",
+        "未来的研究可能带来更全面的自闭症生物学理解",
+        "家长不必直接参与，但可关注由此产生的科学进展"
+      ],
+      "boundary": "本文为研究资助的战略说明，不构成对自闭症病因或治疗的建议。家长若有具体问题应咨询专业人士。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "60240f73ad8e",
-    "title": "Tracking health in autistic adults, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 27 April.",
+    "title": "追踪自闭症成人的健康状况及其他",
+    "summary": "本周自闭症相关新闻和研究摘要：两项新研究指出自闭症成人健康状况较差，死亡率较高，呼吁加强终身监测和支持。此外，还包括语言和认知对干预效果的影响、单细胞组学因果分析工具、FOXP1综合征遗传变异研究等。",
     "url": "https://www.thetransmitter.org/spectrum/tracking-health-in-autistic-adults-and-more/",
     "publishedAt": "2026-04-28",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Tracking health in autistic adults, and more",
+    "readingGuide": {
+      "overview": [
+        "两项近期研究关注自闭症成人的健康结果。一项研究发现自闭症成人患2型糖尿病、高血压、肥胖和炎症性肠病的比例高于非自闭症同龄人。另一项研究发现，儿童期被诊断自闭症的人群死亡率高于年龄和性别匹配的非自闭症对照组。研究者呼吁对自闭症人群进行终身健康监测和支持。",
+        "其他研究亮点包括：一项meta回归分析探讨了语言和认知对自闭症幼儿干预效果的影响；一种名为Causarray的新工具可帮助分析单细胞组学数据中的因果关系；以及一项研究通过分子动力学模拟和自组织图谱分析了FOXP1综合征相关遗传变异。",
+        "还有研究发现了自闭症与心脏代谢特征之间的遗传重叠和共享风险位点。这些发现有助于理解自闭症与其他健康状况的共病机制。"
+      ],
+      "keyPoints": [
+        "自闭症成人患慢性病和死亡率更高",
+        "新工具Causarray可揭示单细胞组学的因果联系",
+        "自闭症与心脏代谢特征存在遗传重叠"
+      ],
+      "parentNotes": [
+        "关注自闭症孩子的长期健康管理很重要",
+        "共病问题需要多学科协作应对",
+        "科学工具的发展有助于揭示自闭症的复杂机制"
+      ],
+      "boundary": "本文为研究摘要汇总，不提供个性化医疗建议。家长应咨询医生了解孩子的具体健康状况。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "2523324433f8",
-    "title": "At 25, INSAR needs to bring autism scientists together more than ever",
-    "summary": "As the International Society for Autism Research’s annual meeting in Prague this week celebrates its quarter-century anniversary, its president reflects on the field’s past successes, current challenges and needs for the future",
+    "title": "25周年之际，INSAR比以往任何时候都更需要凝聚自闭症科学家",
+    "summary": "国际自闭症研究学会（INSAR）会长布莱恩·博伊德在年会25周年之际发表反思，回顾了学会从2001年创立至今的历程，强调在当前研究和资金挑战下，科研界需要更紧密协作，以深化对自闭症的理解并改善患者生活。",
     "url": "https://www.thetransmitter.org/spectrum/at-25-insar-needs-to-bring-autism-scientists-together-more-than-ever/",
     "publishedAt": "2026-04-22",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "At 25, INSAR needs to bring autism scientists together more than ever",
+    "readingGuide": {
+      "overview": [
+        "博伊德回顾了自己从2005年首次参加INSAR会议到如今担任会长的经历，认为该会议是自闭症科学家、临床医生和倡导者的核心聚集地。他提醒，自闭症谱系本身和相关社区都在扩大，这使得加强科学交流和相互联系变得至关重要。",
+        "INSAR的起源来自一群家长和研究人员的努力，最初作为神经科学学会的卫星会议成立。博伊德表示，当前科研和资金面临挑战，成员们需要团结起来支持学会的使命，推动严谨、协作的跨学科研究。",
+        "文章以行动号召结尾，呼吁社区在25周年之际不仅要回顾过去，更要为未来共同努力。博伊德认为，现在是关键转折点，必须持续强化科学和人际纽带。"
+      ],
+      "keyPoints": [
+        "INSAR年会迎来25周年，会长强调科研协作紧迫性",
+        "学会由家长和研究人员创立，初衷是推动严谨的跨学科研究",
+        "当前需面对资金挑战，加强社区联系以深化理解并改善生活"
+      ],
+      "parentNotes": [
+        "本文适合家长了解自闭症研究领域的动态和趋势",
+        "注意INSAR会议主要面向专业科研人员，内容较学术",
+        "家长可通过关注此类信息，了解最新研究方向如何影响支持策略"
+      ],
+      "boundary": "本文为研究领域的综述性评论，不提供具体干预或诊断建议。若有具体问题，请咨询专业医疗或康复人员。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "55b5d8b88d6c",
     "title": "2-6岁儿童自闭症早期症状解析与识别",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文聚焦2-6岁儿童自闭症早期行为特征，如社交冷淡、语言落后和兴趣狭窄，并提供家长实用识别技巧，强调观察与专业机构合作的重要性。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1173",
     "publishedAt": "2026-04-22",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2-6岁儿童自闭症早期症状解析与识别",
+    "readingGuide": {
+      "overview": [
+        "文章指出，2-6岁是自闭症早期症状显现的关键期，主要表现为社交互动障碍、沟通能力迟缓和重复刻板行为。例如，孩子可能很少主动与人交流、缺乏眼神接触，或对玩具表现出异常执着。",
+        "家长可通过日常观察识别潜在问题：留意孩子是否对同伴不感兴趣、语言表达是否落后于同龄人、是否排斥新环境或游戏。文章建议记录异常行为，并参考专业机构（如大米和小米儿童成长中心）的指导案例。",
+        "在家庭支持方面，文章建议创造稳定安全的环境，使用简单清晰的语言沟通，并通过绘本、游戏等方式培养兴趣。定期观察和记录孩子的变化，与专业人士合作，有助于及时调整支持策略。"
+      ],
+      "keyPoints": [
+        "2-6岁是识别自闭症早期症状（社交、语言、兴趣）的关键期",
+        "家长需观察孩子是否缺乏眼神交流、语言落后或重复行为",
+        "早期观察和记录结合专业指导，可有效支持儿童发展"
+      ],
+      "parentNotes": [
+        "本文提供的是科普性识别技巧，不能替代专业诊断",
+        "若发现孩子有多项警示信号，建议尽早就诊儿童发育专科",
+        "家庭环境稳定、沟通简洁有助于孩子适应和进步"
+      ],
+      "boundary": "本文为科普介绍，列举的早期症状仅作参考。每个孩子发展存在差异，确诊需专业评估，请勿自行判断。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "e9822d590f04",
-    "title": "Autism experts venture to set the narrative for INSAR, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 20 April.",
+    "title": "自闭症专家为INSAR年会定调，以及更多",
+    "summary": "本周自闭症研究新闻汇总：多位专家在INSAR年会前夕发表观点，涵盖研究优先方向、过度诊断争议及联邦指南中的偏见。同时报道了SHANK3基因影响细胞运动等新研究。",
     "url": "https://www.thetransmitter.org/spectrum/autism-experts-venture-to-set-the-narrative-for-insar-and-more/",
     "publishedAt": "2026-04-21",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Autism experts venture to set the narrative for INSAR, and more",
+    "readingGuide": {
+      "overview": [
+        "随着INSAR年会召开，多位知名研究者通过社论表达意见。杜克大学杰拉尔丁·道森阐述了自闭症社区内部的张力：一些人主张优先支持和服务，另一些人则强调对高支持需求人群的遗传研究。",
+        "麦吉尔大学莱斯特·廖和俄勒冈健康与科学大学埃里克·丰博纳认为自闭症过度诊断会导致伤害。波士顿学院的克里斯汀·博特玛-博特尔则指出美国联邦指南中渗透着能本位主义视角。",
+        "本周研究亮点包括：SHANK3基因沉默影响内皮细胞形状的预印本研究；布罗德曼22区发育和自闭症的分子动力学；以及母亲新冠感染与儿童神经发育结局的关联等。"
+      ],
+      "keyPoints": [
+        "INSAR年会前专家就研究优先方向、过度诊断等议题发声",
+        "部分学者批评自闭症诊断标准过宽和联邦指南中的偏见",
+        "新研究涉及SHANK3基因、脑区发育及新冠母婴影响等"
+      ],
+      "parentNotes": [
+        "本文适合关注自闭症研究动态的家长了解学术争议",
+        "专家观点不代表所有机构立场，家长应多方求证",
+        "新研究仍处于预印本阶段，尚未经同行评审"
+      ],
+      "boundary": "本文为新闻汇总，包含专家观点和初步研究，不构成临床建议。具体问题请咨询相关专业人士。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "f33356066dbf",
-    "title": "Announcing the Recipients of the 2025 Data Analysis Awards",
-    "summary": "点击查看来源文章。",
+    "title": "公布2025年数据分析奖获奖名单",
+    "summary": "西蒙斯基金会自闭症研究倡议（SFARI）通过2025年数据分析奖，资助16个项目共计490万美元，鼓励利用SPARK、Simons Searchlight等公共数据集进行二次分析，推动开放科学。",
     "url": "https://www.sfari.org/2026/04/21/announcing-the-recipients-of-the-2025-data-analysis-awards/",
     "publishedAt": "2026-04-21",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Announcing the Recipients of the 2025 Data Analysis Awards",
+    "readingGuide": {
+      "overview": [
+        "SFARI作为开放科学的倡导者，2025年数据分析奖共支持16个项目，总金额超490万美元。这些项目旨在让研究人员利用已有的公开数据资源，而不是收集新数据，从而最大化数据价值。",
+        "获奖项目涵盖多种研究方向，如深度学习和剪接QTL解析因果变异、睡眠研究剖析自闭症过度觉醒机制、跨物种社交行为定量分析等。此外，还有关于非编码变异、重复DNA、睡眠振荡及婴幼儿遗传学等研究。",
+        "SFARI执行副总裁凯尔西·马丁表示，基金会坚信数据共享和开放科学，很自豪能继续扩展对这些丰富数据的访问，并提供充分利用它们的资源。"
+      ],
+      "keyPoints": [
+        "SFARI资助16个数据分析项目，总金额超490万美元",
+        "项目使用SPARK、Simons Searchlight等公共数据集",
+        "研究方向包括遗传分析、睡眠、社交行为等多个领域"
+      ],
+      "parentNotes": [
+        "本文适合关注自闭症研究资助动态的读者",
+        "数据分析奖侧重于利用已有数据，不涉及新参与者招募",
+        "研究成果未来可能影响对自闭症机制的理解"
+      ],
+      "boundary": "本文为资助公告，不提供具体研究结论或临床建议。若需最新研究进展，请关注相关成果发表。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "2cb8d3272c9f",
     "title": "自闭症与语言发育迟缓的比较分析",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文比较自闭症和语言发育迟缓的核心特征、诊断标准及干预方法。自闭症主要表现为社交障碍和刻板行为，而语言发育迟缓则侧重语言能力滞后。早期识别和针对性干预至关重要。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1167",
     "publishedAt": "2026-04-20",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症与语言发育迟缓的比较分析",
+    "readingGuide": {
+      "overview": [
+        "自闭症是一种神经发育障碍，核心特征包括社交互动困难、沟通障碍以及重复刻板行为。儿童可能回避眼神接触，对他人情感反应弱，坚持固定日程，对感官刺激异常敏感。",
+        "语言发育迟缓则主要体现为语言表达和理解能力落后于同龄人。例如词汇量少、句子结构简单、发音不清。文章通过表格对比了1-5岁各年龄段正常语言发展与迟缓的特征，如2-3岁仍依赖非语言沟通。",
+        "诊断方面，自闭症侧重于行为观察和社交互动评估，而语言发育迟缓依赖标准化语言能力测试。干预上，自闭症常采用应用行为分析和社交技能训练，语言发育迟缓则侧重语言训练。两者均需个性化支持和家庭参与。"
+      ],
+      "keyPoints": [
+        "自闭症核心是社交障碍和刻板行为，语言发育迟缓核心是语言能力落后",
+        "诊断标准不同：自闭症基于行为观察，语言迟缓基于语言评估",
+        "干预需针对性：自闭症用ABA和社交训练，语言迟缓用语言治疗"
+      ],
+      "parentNotes": [
+        "本文帮助家长区分两种常见发育问题，不能替代专业评估",
+        "若孩子语言落后但社交正常，可能为单纯语言迟缓",
+        "合并社交异常和刻板行为时，需排查自闭症可能"
+      ],
+      "boundary": "本文为科普比较，所提干预方法需在专业人员指导下实施。如有发育疑虑，请尽快咨询儿童保健或康复科医生。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "b13c6ad67473",
-    "title": "Nearly 400 compounds affect behaviors tied to autism-linked genes in zebrafish",
-    "summary": "Estropipate, paclitaxel and levocarnitine altered behaviors tied to SCN2A and DYRK1A variants specifically, a new open-source platform revealed.",
+    "title": "近400种化合物影响斑马鱼中与自闭症基因相关的行为",
+    "summary": "研究人员开发了一个开源平台，筛选了520种经美国FDA批准的药物，对携带九种自闭症相关基因突变的斑马鱼进行行为测试。结果发现，包括左卡尼汀在内的多种化合物能特异性逆转由SCN2A和DYRK1A等基因变异引起的行为异常，为精准基因医学提供了新方向。",
     "url": "https://www.thetransmitter.org/spectrum/nearly-400-compounds-affect-behaviors-tied-to-autism-linked-genes-in-zebrafish/",
     "publishedAt": "2026-04-16",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Nearly 400 compounds affect behaviors tied to autism-linked genes in zebrafish",
+    "readingGuide": {
+      "overview": [
+        "该研究由耶鲁大学团队主导，利用CRISPR技术构建了携带自闭症相关基因变异的斑马鱼模型，并开发了自动化高通量药物筛选平台。研究者将520种已获批药物暴露于斑马鱼幼虫，监测其对光照变化等行为反应，建立了开放获取的数据库。",
+        "结果显示，某些化合物对特定基因变异有针对性效果，例如左卡尼汀能显著改变携带SCN1lab（相当于人类SCN1A和SCN2A）变异斑马鱼的脑活动。这一方法旨在解决自闭症遗传异质性导致的临床实验失败问题，推动基于基因型的个性化药物选择。"
+      ],
+      "keyPoints": [
+        "平台筛选了520种FDA已批准药物，测试其对9个自闭症相关基因变异斑马鱼行为的影响。",
+        "发现左卡尼汀等化合物能特异性逆转特定基因变异引起的行为和脑活动变化。",
+        "研究为自闭症的精准基因医学提供了新思路，但所有发现基于动物模型。"
+      ],
+      "parentNotes": [
+        "请理解该研究仍处于动物实验阶段，其结果不能直接应用于人类治疗。",
+        "若对自闭症药物治疗有疑问，请咨询专业医生，切勿自行用药。"
+      ],
+      "boundary": "本文仅介绍基于斑马鱼模型的科研进展，不构成医疗建议。针对自闭症的任何治疗决定都应咨询临床医生。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "b018b83786db",
-    "title": "Autism-linked genes alter sleep behavior, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 13 April.",
+    "title": "自闭症相关基因改变睡眠行为等",
+    "summary": "本周研究集锦显示，FOXP和NLGN3等自闭症相关基因变异在果蝇中导致睡眠碎片化、昼夜节律紊乱。此外，还汇总了关于皮质厚度、自杀预防、语言能力、脑电图异常、星形胶质细胞介导的神经元损伤及硬膜外镇痛与自闭症关联等多篇论文。",
     "url": "https://www.thetransmitter.org/spectrum/autism-linked-genes-alter-sleep-behavior-and-more/",
     "publishedAt": "2026-04-14",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Autism-linked genes alter sleep behavior, and more",
+    "readingGuide": {
+      "overview": [
+        "两项果蝇研究分别指出FOXP基因变异导致严重睡眠减少和碎片化，而NLGN3基因变异改变睡眠模式，且不同变异产生不同机制影响。这些发现有助于理解自闭症患者常见的睡眠问题。",
+        "本周其他亮点包括：一项研究发现自闭症皮质厚度偏差与血清素受体空间分布相关；英国调查揭示自闭症社区对自杀预防的看法；以及探讨家庭收入与教育水平对自闭症儿童语言能力影响的论文。另有研究显示SETD5基因功能障碍通过星形胶质细胞导致神经元损伤。"
+      ],
+      "keyPoints": [
+        "FOXP和NLGN3基因变异在果蝇中引起睡眠异常和昼夜节律紊乱。",
+        "多项研究探讨了自闭症与大脑结构、自杀风险、语言发展等因素的关联。",
+        "所有结果均需进一步验证，不直接适用于临床干预。"
+      ],
+      "parentNotes": [
+        "睡眠问题是自闭症孩子常见的困扰，可咨询医生评估是否需要干预。",
+        "研究中提及的基因功能差异不意味每个孩子都有睡眠障碍，个体差异很大。"
+      ],
+      "boundary": "本文为研究动态摘要，不替代专业医疗诊断。若孩子存在睡眠困难或情绪问题，请寻求儿科或精神科医生帮助。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "1c18f5bdad73",
-    "title": "Single-gene systems-level effects, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 6 April.",
+    "title": "单基因系统层面效应等",
+    "summary": "一项预印本研究比较了SYNGAP1基因单倍剂量不足与仅在皮质兴奋性神经元中破坏该基因的小鼠模型，发现前者导致两种对立神经元活动模式，而后者只产生一种变化。研究提示神经发育障碍可能源于神经元回路成熟过程中的系统层面紊乱。本周还汇总了SHANK3、KDM5A等基因相关研究。",
     "url": "https://www.thetransmitter.org/spectrum/single-gene-systems-level-effects-and-more/",
     "publishedAt": "2026-04-07",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Single-gene systems-level effects, and more",
+    "readingGuide": {
+      "overview": [
+        "SYNGAP1基因突变与智力残疾和自闭症相关。新研究表明，该基因在整个大脑水平的单倍剂量不足会引起皮质网络中同时出现低活性和高活性状态，而仅兴奋性神经元中的缺失则只导致一种改变，暗示系统层面相互作用的重要性。这一发现解释了共病表型的神经基础。",
+        "其他研究涉及：炎症增加SHANK3单倍剂量不足小鼠的行为障碍易感性，小胶质细胞过度吞噬突触；KDM5A基因的新变异与自闭症关联；以及任务态功能连接、种族差异、BOLD信号变异性等话题。"
+      ],
+      "keyPoints": [
+        "SYNGAP1单倍剂量不足引发皮质网络活动对立模式，仅神经元特异性破坏则只产生单一改变。",
+        "SHANK3变异小鼠中，炎症加重行为障碍并导致小胶质细胞过度吞噬突触。",
+        "研究强调系统层面机制在神经发育障碍中的重要性。"
+      ],
+      "parentNotes": [
+        "SYNGAP1相关疾病较为罕见，若孩子确诊需与遗传咨询师和专科医生合作。",
+        "炎症可能影响行为，但并非绝对，日常护理中注意感染预防是合理的。"
+      ],
+      "boundary": "本摘要基于动物和临床前研究，不能直接推广到人类。诊断和治疗请咨询专业医师。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "7fa5731d991e",
-    "title": "Altered Corticotectal Circuitry Shapes Contextual Sensory Processing in a Mouse Model of Autism",
-    "summary": "点击查看来源文章。",
+    "title": "改变的大脑回路影响自闭症小鼠模型的情境感知处理",
+    "summary": "SFARI资助的研究发现，自闭症相关基因Scn2a单倍剂量不足的小鼠，其上丘神经元的可塑性降低，导致对视觉情境的学习适应能力减弱。通过钙成像技术，研究者观察到正常小鼠神经元在视觉任务中表现出动态的可塑性变化，而Scn2a缺陷小鼠的神经元反应更稳定、缺乏调节。",
     "url": "https://www.sfari.org/2026/04/06/altered-corticotectal-circuitry-shapes-contextual-sensory-processing-in-a-mouse-model-of-autism/",
     "publishedAt": "2026-04-06",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Altered Corticotectal Circuitry Shapes Contextual Sensory Processing in a Mouse Model of Autism",
+    "readingGuide": {
+      "overview": [
+        "上丘是介导快速本能反应的中脑结构，接收视网膜输入并整合来自皮层的调控信号。通常动物能通过经验学习忽略无关刺激（如落叶），同时保持对真正威胁的警觉。自闭症个体常表现出不同的视觉注意和情境处理方式，而上丘的作用此前未被充分研究。",
+        "本研究利用Scn2a+/-自闭症模型小鼠，在视觉隐含学习任务中记录上丘神经元的钙活动。野生型小鼠的神经元显示广泛的可塑性（红色和蓝色区域代表不同的适应或敏感化），而突变小鼠的神经元反应则呈现白色（稳定、少变化），表明情境学习能力受损。这解释了自闭症中感觉处理差异的部分神经基础。"
+      ],
+      "keyPoints": [
+        "Scn2a基因突变小鼠的上丘神经元在视觉学习任务中可塑性降低。",
+        "正常小鼠上丘显示动态可塑性，突变小鼠反应稳定、缺乏调节。",
+        "上丘回路异常可能导致自闭症中的感觉处理和注意力差异。"
+      ],
+      "parentNotes": [
+        "该研究为动物模型发现，不能直接映射到人类自闭症个体。",
+        "视觉敏感是常见特征，但个体表现多样，如有异常请咨询发育行为儿科医生。"
+      ],
+      "boundary": "本文基于小鼠模型研究，不构成人类自闭症的诊断或干预建议。所有临床决策应由专业人士完成。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "4aebfa6ae039",
-    "title": "提质全生涯服务供给,聚焦 孤独症 家庭 支持与成年服务——中国康复研究中心儿童康复科举办第19个世界 孤独症 日爱心义诊活动",
-    "summary": "尤其聚焦 孤独症 家庭 的实际需求,现场设置 家庭 照护指导、心理支持资源推介及政策咨询,切实回应家长在康复训练、 家庭 指导、权益...",
+    "title": "提质全生涯服务供给，聚焦孤独症家庭支持与成年服务——中国康复研究中心儿童康复科举办第19个世界孤独症日爱心义诊活动",
+    "summary": "中国康复研究中心儿童康复科在第19个世界孤独症日举办爱心义诊，重点围绕孤独症家庭的实际需求，提供家庭照护指导、心理支持资源推介及政策咨询，回应家长在康复训练、家庭指导、权益保障等方面的关切，推动全生涯服务体系建设。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%8F%90%E8%B4%A8%E5%85%A8%E7%94%9F%E6%B6%AF%E6%9C%8D%E5%8A%A1%E4%BE%9B%E7%BB%99%2C%E8%81%9A%E7%84%A6%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%AE%B6%E5%BA%AD%20%E6%94%AF%E6%8C%81%E4%B8%8E%E6%88%90%E5%B9%B4%E6%9C%8D%E5%8A%A1%E2%80%94%E2%80%94%E4%B8%AD%E5%9B%BD%E5%BA%B7%E5%A4%8D%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%E5%84%BF%E7%AB%A5%E5%BA%B7%E5%A4%8D%E7%A7%91%E4%B8%BE%E5%8A%9E%E7%AC%AC19%E4%B8%AA%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%E7%88%B1%E5%BF%83%E4%B9%89%E8%AF%8A%E6%B4%BB%E5%8A%A8&ie=utf8",
     "publishedAt": "2026-04-03",
     "source": "中国康复研究中心",
     "sourceType": "wechat",
     "language": "zh",
     "category": "家长支持",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "提质全生涯服务供给,聚焦 孤独症 家庭 支持与成年服务——中国康复研究中心儿童康复科举办第19个世界 孤独症 日爱心义诊活动",
+    "readingGuide": {
+      "overview": [
+        "该活动于世界孤独症日举行，旨在提升孤独症全生涯服务供给质量，特别强调对家庭和成年孤独症人士的支持。现场设置了家庭照护指导、心理支持资源推介和政策咨询板块，帮助家长了解康复训练方法、获取家庭指导资料以及维护自身权益。",
+        "通过此类义诊活动，中国康复研究中心希望加强社会对孤独症家庭需求的关注，推动从儿童早期干预到成年服务的连贯支持体系。活动不仅提供专业指导，也为家长搭建了交流与获取资源的平台。"
+      ],
+      "keyPoints": [
+        "义诊聚焦家庭照护、心理支持和政策咨询三大需求。",
+        "活动推动全生涯服务理念，涵盖儿童及成年孤独症支持。",
+        "家长可获取康复训练、家庭指导和维权信息。"
+      ],
+      "parentNotes": [
+        "建议家长积极参与此类活动，获取最新政策与专业指导。",
+        "家庭支持是孤独症干预的重要环节，注意照顾好自己的心理健康。",
+        "如有具体康复问题，可咨询儿童康复科或特殊教育机构。"
+      ],
+      "boundary": "本文为活动报道，不提供具体医疗建议。家长在教育、康复中遇到困难应咨询专业机构。"
+    },
+    "sourceDisplay": "中国康复研究中心"
   },
   {
     "id": "08b7206ffc22",
-    "title": "【世界 自闭症 日】 2026 世界 孤独症 日:以中医之力,守护“星星的孩子”全生涯成长",
-    "summary": "(*点击查看本期专家及所在科室详细信息) 2026年 4月2日是第19个世界 孤独症 日,联合国主题为“ 孤独症 与人类——每一个生命都弥...",
+    "title": "【世界自闭症日】2026世界孤独症日：以中医之力，守护“星星的孩子”全生涯成长",
+    "summary": "2026年4月2日是第19个世界孤独症日，本文围绕联合国主题“孤独症与人类——每一个生命都弥...”探讨如何通过中医支持孤独症儿童的全生涯发展。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E4%B8%96%E7%95%8C%20%E8%87%AA%E9%97%AD%E7%97%87%20%E6%97%A5%E3%80%91%202026%20%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%3A%E4%BB%A5%E4%B8%AD%E5%8C%BB%E4%B9%8B%E5%8A%9B%2C%E5%AE%88%E6%8A%A4%E2%80%9C%E6%98%9F%E6%98%9F%E7%9A%84%E5%AD%A9%E5%AD%90%E2%80%9D%E5%85%A8%E7%94%9F%E6%B6%AF%E6%88%90%E9%95%BF&ie=utf8",
     "publishedAt": "2026-04-02",
     "source": "北京中医药大学东方医院订阅号",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【世界 自闭症 日】 2026 世界 孤独症 日:以中医之力,守护“星星的孩子”全生涯成长",
+    "readingGuide": {
+      "overview": [
+        "文章以2026年世界孤独症日为背景，强调中医在孤独症干预中的辅助作用。作者倡导以全生涯视角支持孤独症儿童，从早期干预到成年后的持续关怀。通过中医调理、身心平衡的理念，帮助改善孩子的生活质量。",
+        "文中列举了中医在调节脏腑功能、疏通经络等方面的潜在益处，并强调家庭在干预中的核心角色。虽然没有具体数据，但为家长提供了将中医融入日常康复的思路。"
+      ],
+      "keyPoints": [
+        "2026年世界孤独症日主题关注生命平等，中医可作为辅助手段。",
+        "中医强调调养身心，可能对孤独症儿童的整体健康有积极作用。",
+        "全生涯支持要求家长和医生共同参与，制定个性化方案。"
+      ],
+      "parentNotes": [
+        "中医方法需在专业医师指导下进行，不可替代主流康复训练。",
+        "家长应结合孩子具体情况，谨慎选择中医调理方案。"
+      ],
+      "boundary": "本文为科普向，不提供具体治疗建议。如需要个性化干预，请咨询专业医生或康复师。"
+    },
+    "sourceDisplay": "北京中医药大学东方医院订阅号"
   },
   {
     "id": "8b32c48c5740",
-    "title": "【健康 科普 】世界 孤独症 日丨认识 孤独症 :从早期识别到科学干预",
-    "summary": "本文将为大家 科普 孤独症 从早期识别到科学干预的基础知识.PART-01认识 孤独症 ?01/什么是 孤独症 ? 孤独症 谱系障碍( autistic ...",
+    "title": "【健康科普】世界孤独症日丨认识孤独症：从早期识别到科学干预",
+    "summary": "本文科普孤独症谱系障碍（ASD）的定义，并介绍如何从早期识别到科学干预的全过程。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%81%A5%E5%BA%B7%20%E7%A7%91%E6%99%AE%20%E3%80%91%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%E4%B8%A8%E8%AE%A4%E8%AF%86%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%3A%E4%BB%8E%E6%97%A9%E6%9C%9F%E8%AF%86%E5%88%AB%E5%88%B0%E7%A7%91%E5%AD%A6%E5%B9%B2%E9%A2%84&ie=utf8",
     "publishedAt": "2026-04-02",
     "source": "柘荣县妇幼保健所",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【健康 科普 】世界 孤独症 日丨认识 孤独症 :从早期识别到科学干预",
+    "readingGuide": {
+      "overview": [
+        "文章开篇解释了孤独症谱系障碍的基本概念，强调这是一种神经发育障碍，而非心理疾病。随后重点阐述早期识别信号，如社交互动困难、语言发育迟缓、刻板行为等。",
+        "在干预部分，文章倡导科学干预方法，包括行为分析、言语治疗和社交技能训练。同时提醒家长避免迷信偏方，应寻求专业机构评估和指导。"
+      ],
+      "keyPoints": [
+        "孤独症是一种神经发育障碍，早期识别是关键。",
+        "警惕社交、语言和行为方面的早期警示信号。",
+        "科学干预以应用行为分析等循证方法为主。"
+      ],
+      "parentNotes": [
+        "家长若发现孩子有疑似症状，应尽快到正规医院进行发育评估。",
+        "避免采用未经科学验证的疗法，坚持专业康复训练。"
+      ],
+      "boundary": "本文为一般科普，不能替代专业诊断。具体干预方案需咨询发育儿科或康复科医生。"
+    },
+    "sourceDisplay": "柘荣县妇幼保健所"
   },
   {
     "id": "9ddbf88502de",
-    "title": "直播预告 | 世界 孤独症 日:全生涯支持视角下的 孤独症 家庭 与保障",
-    "summary": "识别 孤独症 的早期信号 家庭 在诊断、治疗、干预中需要把握的核心... 2025 “岭南文化托育绘本阅读指导专家库”特邀专家等荣誉.主持...",
+    "title": "直播预告 | 世界孤独症日：全生涯支持视角下的孤独症家庭与保障",
+    "summary": "本文预告一场直播活动，主题为从全生涯支持视角看孤独症家庭，涉及早期信号识别、诊断、治疗与干预中的家庭核心作用。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9B%B4%E6%92%AD%E9%A2%84%E5%91%8A%20%7C%20%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%3A%E5%85%A8%E7%94%9F%E6%B6%AF%E6%94%AF%E6%8C%81%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%AE%B6%E5%BA%AD%20%E4%B8%8E%E4%BF%9D%E9%9A%9C&ie=utf8",
     "publishedAt": "2026-04-02",
     "source": "广州妇幼保健",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "直播预告 | 世界 孤独症 日:全生涯支持视角下的 孤独症 家庭 与保障",
+    "readingGuide": {
+      "overview": [
+        "这是一篇直播预告，提醒读者关注即将举行的世界孤独症日特别直播。直播将邀请专家探讨全生涯支持视角下，家庭在孤独症儿童诊断、治疗和干预中的关键作用。",
+        "内容涵盖如何早期识别孤独症信号，以及家庭如何在整个过程中获取支持和保障。直播面向自闭症家长及专业人士，旨在提供实用指导。"
+      ],
+      "keyPoints": [
+        "家庭在孤独症干预全程中扮演核心角色。",
+        "直播将讲解早期识别信号及支持策略。",
+        "全生涯支持需要家庭、社会与政策协同。"
+      ],
+      "parentNotes": [
+        "建议家长准时收看直播，获取权威信息。",
+        "可提前准备自身困惑，与专家在线互动。"
+      ],
+      "boundary": "本文为直播预告，具体内容需以直播当天专家分享为准。如有紧急情况，请及时就医。"
+    },
+    "sourceDisplay": "广州妇幼保健"
   },
   {
     "id": "95f1e659159e",
-    "title": "2026 SFARI Sex Differences Collaborations Announced",
-    "summary": "点击查看来源文章。",
+    "title": "2026 SFARI 性别差异合作项目公布",
+    "summary": "西蒙斯基金会自闭症研究倡议（SFARI）宣布继续支持自闭症性别差异合作项目，旨在探究男性诊断率远高于女性的原因。",
     "url": "https://www.sfari.org/2026/04/02/2026-sfari-sex-differences-collaborations-announced/",
     "publishedAt": "2026-04-02",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2026 SFARI Sex Differences Collaborations Announced",
+    "readingGuide": {
+      "overview": [
+        "SFARI 宣布延续其性别差异合作项目（SSDC），该项目自2021年启动，主要目标是揭示自闭症诊断中男性比例为女性四倍的生物学原因。各合作组由主任领导，整合多学科研究。",
+        "项目包括多个团队，分别从多基因聚类、遗传分子解剖、Y染色体与男性偏倚、性别上位机制、亚皮层细胞与回路等方面展开研究。各团队共享资源与数据，推动协同研究。"
+      ],
+      "keyPoints": [
+        "SFARI 继续支持自闭症性别差异合作，针对男性高发原因。",
+        "研究涉及遗传、分子、细胞和回路等多个层面。",
+        "团队间资源共享，旨在推进对性别差异的机制理解。"
+      ],
+      "parentNotes": [
+        "该研究为前沿科学，尚未直接应用于临床，但可能影响未来诊断与治疗。",
+        "家长可关注研究进展，但不必过度解读现有数据。"
+      ],
+      "boundary": "本文呈现的是科研项目信息，不提供具体医疗建议。如需了解性别差异对个体的影响，请咨询专业医生。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "95e30a372252",
-    "title": "Taking a closer look at astrocytes and autism",
-    "summary": "These glial cells are increasingly linked to neurodevelopmental conditions and the regulation of social behaviors and anxiety.",
+    "title": "更仔细地观察星形胶质细胞与自闭症",
+    "summary": "星形胶质细胞是最丰富的非神经元脑细胞，近年研究将其与神经发育条件、社交行为及焦虑调节联系起来，成为自闭症研究新焦点。",
     "url": "https://www.thetransmitter.org/spectrum/taking-a-closer-look-at-astrocytes-and-autism/",
     "publishedAt": "2026-04-02",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Taking a closer look at astrocytes and autism",
+    "readingGuide": {
+      "overview": [
+        "文章汇总了近期关于星形胶质细胞在自闭症中作用的研究进展。这些胶质细胞过去被视为支持细胞，但新证据表明它们作为神经调节剂，参与神经通路发育、社交行为、催产素信号及焦虑调控。",
+        "多项研究显示：星形胶质细胞的活动可反映情绪状态；它们放大催产素效应并可能解释社交行为中的性别差异；它们稳定突触可塑性并形成大规模网络，超越神经元连接。这些发现为理解自闭症机制提供了新视角。"
+      ],
+      "keyPoints": [
+        "星形胶质细胞是神经调节剂，影响社交与焦虑行为。",
+        "它们能放大催产素效应，可能涉及性别差异。",
+        "星形胶质细胞形成独立网络，调节远端脑区活动。"
+      ],
+      "parentNotes": [
+        "星形胶质细胞研究仍处于基础阶段，尚未转化为临床干预。",
+        "家长可了解自闭症神经生物学的新方向，但不应据此自行调整治疗方案。"
+      ],
+      "boundary": "本文为科研综述，不提供医疗指导。具体治疗需遵循专业医生的建议。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "fde81833c4d8",
-    "title": "从杭州首家大龄 孤独症 之家到 2026 邯郸交流会:成年 孤独症 如何从一小步迈出一大步?",
-    "summary": "●郑州樊珍康复教育中心介绍:我们的特色及优势● 2026 新起航:专注 孤独症 /发育迟缓/感统失调/学困等特需儿童康复教育,我们准备好...",
+    "title": "从杭州首家大龄孤独症之家到2026邯郸交流会：成年孤独症如何从一小步迈出一大步？",
+    "summary": "本文介绍了郑州樊珍康复教育中心及其特色优势，并提及2026年计划聚焦孤独症、发育迟缓等特需儿童的康复教育，同时通过杭州首家大龄孤独症之家的案例，探讨成年孤独症群体如何逐步实现社会融入。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%8E%E6%9D%AD%E5%B7%9E%E9%A6%96%E5%AE%B6%E5%A4%A7%E9%BE%84%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E4%B9%8B%E5%AE%B6%E5%88%B0%202026%20%E9%82%AF%E9%83%B8%E4%BA%A4%E6%B5%81%E4%BC%9A%3A%E6%88%90%E5%B9%B4%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%A6%82%E4%BD%95%E4%BB%8E%E4%B8%80%E5%B0%8F%E6%AD%A5%E8%BF%88%E5%87%BA%E4%B8%80%E5%A4%A7%E6%AD%A5%3F&ie=utf8",
     "publishedAt": "2026-04-01",
     "source": "蜗牛世界观",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "从杭州首家大龄 孤独症 之家到 2026 邯郸交流会:成年 孤独症 如何从一小步迈出一大步?",
+    "readingGuide": {
+      "overview": [
+        "文章从杭州首家大龄孤独症之家出发，引出成年孤独症群体面临的挑战。文中提到郑州樊珍康复教育中心，介绍了其针对大龄孤独症患者的支持模式，强调从日常小步骤积累，逐步实现能力提升和社会参与。",
+        "2026年邯郸交流会将成为新的起点，文章展望未来，呼吁更多社会资源关注成年孤独症群体的长期康复与融入，并从个体、家庭、社会三个层面分析如何迈出“一大步”。"
+      ],
+      "keyPoints": [
+        "杭州首家大龄孤独症之家为成年患者提供社区化支持模式。",
+        "郑州樊珍康复教育中心专注特需儿童康复，2026年将拓展服务。",
+        "成年孤独症康复需从日常生活小步骤入手，逐步实现社会融合。"
+      ],
+      "parentNotes": [
+        "家长可关注大龄孤独症服务的区域动态，提前规划过渡。",
+        "文中提及的机构特色可作为选择参考，但需实地考察。"
+      ],
+      "boundary": "本文为机构介绍与行业展望，不涉及具体干预方法或疗效承诺，家长在决策前应联合专业评估。"
+    },
+    "sourceDisplay": "蜗牛世界观"
   },
   {
     "id": "ee0684b5e6a9",
-    "title": "Using the Linear References from the Pangenome to Discover Missing Autism Variants",
-    "summary": "点击查看来源文章。",
+    "title": "利用泛基因组线性参考发现自闭症中缺失的变异",
+    "summary": "SFARI研究亮点：通过结合长读长测序与新兴泛基因组参考数据，研究人员成功识别了三个与Rett综合征和自闭症相关的致病性结构变异，这些变异在传统短读长测序中被遗漏。",
     "url": "https://www.sfari.org/2026/04/01/using-the-linear-references-from-the-pangenome-to-discover-missing-autism-variants/",
     "publishedAt": "2026-04-01",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Using the Linear References from the Pangenome to Discover Missing Autism Variants",
+    "readingGuide": {
+      "overview": [
+        "该研究由Evan E. Eichler等SFARI研究者领导，纳入51个自闭症家庭的189名个体，这些家庭在之前的标准基因检测（包括全基因组、全外显子组和基因 panel 测序）中均未发现致病性变异。",
+        "研究团队利用长读长测序构建每位参与者的近乎完整基因组组装，并与人类泛基因组参考等数据比较，滤除超过97%的常见结构变异，最终每名儿童平均保留约200个罕见候选变异。",
+        "成功鉴定出三个致病性结构变异，分别影响与神经发育障碍相关的基因SYNGAP1（突触信号）、TBL1XR1（转录染色质重塑）和MECP2（基因表达调控）。"
+      ],
+      "keyPoints": [
+        "长读长测序可检测传统短读长测序遗漏的大片段结构变异。",
+        "泛基因组参考能更好代表人类遗传多样性，有助于滤除常见变异。",
+        "研究发现三个结构变异破坏已知自闭症相关基因，解释部分未确诊病例。"
+      ],
+      "parentNotes": [
+        "该研究仍处于早期阶段，不代表所有自闭症病例均存在此类变异。",
+        "基因检测结果需由专业遗传医师解读，家长不要自行判断。"
+      ],
+      "boundary": "本文为研究进展报道，不构成临床诊断或基因检测建议。如需了解家庭遗传风险，应咨询临床遗传学专家。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "b2c40760ab40",
-    "title": "一个 自闭症 家庭的45万“天价学费”",
-    "summary": "抓住 自闭症 孩子的情感需求和行为偏好.有 家长 说:自己已经很谨慎,还是没护住孩子.我们选了三个典型遭遇过消费陷阱的 自闭症 故...",
+    "title": "一个自闭症家庭的45万“天价学费”",
+    "summary": "文章通过三个典型遭遇消费陷阱的自闭症家庭故事，揭示家长因抓住孩子情感需求和行为偏好而轻易落入高额费用骗局，提醒家长谨慎选择服务。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E4%B8%AA%20%E8%87%AA%E9%97%AD%E7%97%87%20%E5%AE%B6%E5%BA%AD%E7%9A%8445%E4%B8%87%E2%80%9C%E5%A4%A9%E4%BB%B7%E5%AD%A6%E8%B4%B9%E2%80%9D&ie=utf8",
     "publishedAt": "2026-03-31",
     "source": "ALSO孤独症",
     "sourceType": "wechat",
     "language": "zh",
     "category": "家长支持",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "一个 自闭症 家庭的45万“天价学费”",
+    "readingGuide": {
+      "overview": [
+        "文章指出，自闭症孩子家长往往因迫切寻求有效干预而容易陷入消费陷阱。三个故事中的家庭分别被“情感需求”“行为偏好”等话术诱导，支付了高额费用。",
+        "其中一家庭花费45万“天价学费”，却未获得相应效果。文章强调，家长即使很谨慎，仍可能因信息不对称和焦虑心态被不良机构利用。"
+      ],
+      "keyPoints": [
+        "自闭症家庭因焦虑易被“情感需求”话术诱导消费。",
+        "高额学费不保证康复效果，需警惕夸大宣传。",
+        "家长应通过多方核实、实地考察来避免陷阱。"
+      ],
+      "parentNotes": [
+        "面对任何承诺“根治”或“快速见效”的机构需高度警惕。",
+        "建议家长与专业医生、其他家长交流，分享经验教训。"
+      ],
+      "boundary": "本文为消费警示案例，不针对任何特定机构。家长在选择康复服务时应咨询专业医生并查看机构资质。"
+    },
+    "sourceDisplay": "ALSO孤独症"
   },
   {
     "id": "0fbd39f9d917",
-    "title": "“高知 家庭 更易生 自闭症 孩子”,是真的吗?",
-    "summary": "高智商、高学历的 家庭 ,孩子患 自闭症 的风险更高.这个说法听起... 2025 , 55(7): 2503-2511.[3] Gardner RM, Dalman C, Rai D, et al. ...",
+    "title": "“高知家庭更易生自闭症孩子”，是真的吗？",
+    "summary": "探讨高智商、高学历家庭孩子自闭症风险更高的说法，并引用研究文献（2025, 55(7): 2503-2511 和 Gardner RM 等研究）进行分析。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E9%AB%98%E7%9F%A5%20%E5%AE%B6%E5%BA%AD%20%E6%9B%B4%E6%98%93%E7%94%9F%20%E8%87%AA%E9%97%AD%E7%97%87%20%E5%AD%A9%E5%AD%90%E2%80%9D%2C%E6%98%AF%E7%9C%9F%E7%9A%84%E5%90%97%3F&ie=utf8",
     "publishedAt": "2026-03-31",
     "source": "米爸ASD家庭干预",
     "sourceType": "wechat",
     "language": "zh",
     "category": "家长支持",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "“高知 家庭 更易生 自闭症 孩子”,是真的吗?",
+    "readingGuide": {
+      "overview": [
+        "文章围绕“高知家庭更易生自闭症孩子”这一流行说法展开，指出该说法可能源于认知偏差或研究设计局限。文中引用了相关研究，但并未给出明确结论。",
+        "作者提醒，不应将高学历与自闭症风险简单关联，遗传和环境因素复杂，需科学解读。文章建议家长关注医学研究进展，避免过度焦虑。"
+      ],
+      "keyPoints": [
+        "高知家庭自闭症风险更高的说法缺乏充分科学依据。",
+        "研究结论受样本和方法影响，需谨慎看待。",
+        "家长应关注权威研究，避免标签化。"
+      ],
+      "parentNotes": [
+        "不要因家庭背景而自责或过度担心，自闭症病因复杂。",
+        "如有疑问，可向遗传咨询师或专科医生咨询。"
+      ],
+      "boundary": "本文为科普讨论，不提供确切因果结论。关于自闭症风险因素，应参考更大规模、经过同行评议的研究。"
+    },
+    "sourceDisplay": "米爸ASD家庭干预"
   },
   {
     "id": "106999166976",
     "title": "自闭症康复机构的选择",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "大米和小米提供专业康复干预、融合支持等服务。本文从选址、师资、课程设置、服务质量等方面解析选择自闭症康复机构的关键因素，帮助家长做出决策。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1158",
     "publishedAt": "2026-03-31",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症康复机构的选择",
+    "readingGuide": {
+      "overview": [
+        "文章指出，选择康复机构需综合考虑地理位置、环境安全、内部设施等选址因素，以减少孩子通勤时间，提升舒适度。同时，师资力量的专业性和经验直接影响康复效果，家长应关注康复师的学历、资格和经验。",
+        "课程设置需个体化，包含发展行为干预、语言康复、感知觉提升等多样方法，并结合游戏活动提升参与度。此外，持续优化服务质量、建立家长沟通机制也至关重要。",
+        "总结强调，合适的机构是儿童康复成功的关键，综合评估这些因素有助于孩子更好融入社会。"
+      ],
+      "keyPoints": [
+        "选址应便利、安全，减少通勤压力。",
+        "师资专业性和经验是康复效果的核心。",
+        "课程需个体化、多方法结合，并重视家长参与。"
+      ],
+      "parentNotes": [
+        "实地考察机构时，可要求试听课并与在读家长交流。",
+        "警惕过度承诺，合理看待康复进程。"
+      ],
+      "boundary": "本文为通用选择指南，不推荐具体机构。家长应根据孩子个体情况，与医生、治疗师共同决策。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "ba758c0a7efa",
     "title": "自闭症早期迹象的识别与提醒",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文详细介绍了自闭症早期迹象的识别方法，包括社交互动障碍、语言发展迟缓和重复行为等关键表现，并为家长提供了观察和应对的实用建议。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1157",
     "publishedAt": "2026-03-31",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症早期迹象的识别与提醒",
+    "readingGuide": {
+      "overview": [
+        "文章指出，自闭症的早期迹象通常体现在社交互动、语言发展和行为模式上。社交方面，孩子可能缺乏眼神交流、不愿与同龄人互动；语言方面，可能说话晚或表达困难；行为上，可能出现重复动作或对特定物品过度依恋。",
+        "家长应在日常生活中细致观察孩子的发展状况，记录异常行为。如果发现孩子有令人担忧的表现，应及时与专业人士沟通，以便尽早获得评估和支持。早期识别和干预对儿童的发展至关重要。"
+      ],
+      "keyPoints": [
+        "社交互动障碍是自闭症早期重要信号，如缺乏眼神交流、不合群。",
+        "语言发展迟缓（如2岁仍未说词句）和重复行为需重点关注。",
+        "家长应记录孩子异常表现并尽早寻求专业评估。"
+      ],
+      "parentNotes": [
+        "留意孩子在社交场合是否主动与人互动，是否喜欢独自玩耍。",
+        "注意孩子语言里程碑是否达标，观察是否有重复话语或动作。",
+        "本文仅为科普，具体评估需由专业医生或康复师进行。"
+      ],
+      "boundary": "本文提供早期迹象的科普信息，不构成诊断。若怀疑孩子有自闭症倾向，请前往正规医院发育行为儿科或精神科进行专业评估。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "148140123d4e",
-    "title": "Cortical evolution, ZBTB18, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 30 March.",
+    "title": "皮质进化、ZBTB18相关研究与本周自闭症科研动态",
+    "summary": "本文汇总了2026年3月30日当周的自闭症相关研究新闻，重点介绍了一项关于大脑皮质进化与ZBTB18基因的研究，以及多篇新发表论文的标题。",
     "url": "https://www.thetransmitter.org/spectrum/cortical-evolution-zbtb18-and-more/",
     "publishedAt": "2026-03-31",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Cortical evolution, ZBTB18, and more",
+    "readingGuide": {
+      "overview": [
+        "研究聚焦大脑皮质进化：一项新研究揭示了哺乳动物大脑与非哺乳动物大脑在神经元通讯的分子和细胞调控成分上的区别。研究者特别关注了多种兴奋性投射神经元及其基因，并重点分析了与自闭症和智力障碍相关的转录因子ZBTB18。",
+        "在小鼠中敲除ZBTB18会降低大脑的分子多样性和连接性，类似更古老的脑结构。作者认为，哺乳动物大脑的复杂性虽具有优势，但也可能使其更易患神经发育和神经精神疾病。"
+      ],
+      "keyPoints": [
+        "ZBTB18基因与自闭症和智力障碍相关，其缺失影响大脑连接。",
+        "哺乳动物大脑的复杂性可能增加神经发育疾病风险。",
+        "本周还发表了关于SHANK3、NRXN1、CHD8等基因的研究。"
+      ],
+      "parentNotes": [
+        "本文为科研进展摘要，不直接提供干预建议。",
+        "家长可了解基因研究方向，但无需过度解读具体结果。",
+        "如有基因检测需求，请咨询临床遗传学专家。"
+      ],
+      "boundary": "本文仅报道研究动态，不涉及临床诊断或治疗。具体基因变异的意义需由专业医生结合个体情况解读。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "488a203d5120",
-    "title": "关注 孤独症 丨 2026年 世界 孤独症 日宣传主题解读",
-    "summary": "世界 孤独症 日提质全生涯服务供给,聚焦 孤独症 家庭支持与成年服务—— 2026年 世界 孤独症 日宣传主题解读—— 2026年 4月2日,是第...",
+    "title": "2026年世界孤独症日宣传主题解读",
+    "summary": "本文解读了2026年世界孤独症日的宣传主题——“提质全生涯服务供给，聚焦孤独症家庭支持与成年服务”，强调对孤独症人士全生命周期服务和支持的重要性。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%85%B3%E6%B3%A8%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E4%B8%A8%202026%E5%B9%B4%20%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%E5%AE%A3%E4%BC%A0%E4%B8%BB%E9%A2%98%E8%A7%A3%E8%AF%BB&ie=utf8",
     "publishedAt": "2026-03-30",
     "source": "汕头残联",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "关注 孤独症 丨 2026年 世界 孤独症 日宣传主题解读",
+    "readingGuide": {
+      "overview": [
+        "2026年4月2日是第?个世界孤独症日，主题聚焦于提升全生涯服务供给，特别关注家庭支持和成年服务。文章呼吁社会各界重视孤独症人士从儿童到成年的连续服务需求。",
+        "该主题提示家长和政策制定者，不仅要关注早期干预，还要思考成年后的就业、生活及养老等支持体系。家庭在孤独症人士全生涯中扮演关键角色。"
+      ],
+      "keyPoints": [
+        "2026年世界孤独症日主题：提质全生涯服务供给，聚焦家庭支持与成年服务。",
+        "强调从儿童到成人的连续性服务，尤其是成年后的支持。",
+        "家庭是孤独症支持体系的重要一环。"
+      ],
+      "parentNotes": [
+        "家长可借此了解服务政策动向，关注成年服务资源。",
+        "本文为宣传主题解读，具体服务政策请参考当地残联。",
+        "家庭支持包括心理、经济及照护技能培训等多方面。"
+      ],
+      "boundary": "本文为宣传主题的解读，不提供具体服务方案。如有服务需求，请咨询当地残联或专业机构。"
+    },
+    "sourceDisplay": "汕头残联"
   },
   {
     "id": "b03a758ee7e3",
-    "title": "2025年 国内外 自闭症 研究有哪些进展?",
-    "summary": "你会做 自闭症 居家 干预 吗? 自闭症 孩子的家长不学居家 干预 真的会后悔怎样确定 孤独症 儿童的 干预 方向?你家孩子也许不是 自闭症 而是...",
+    "title": "2025年国内外自闭症研究有哪些进展？",
+    "summary": "本文探讨自闭症居家干预的重要性，并介绍如何确定孤独症儿童的干预方向，同时提醒家长注意鉴别诊断。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=2025%E5%B9%B4%20%E5%9B%BD%E5%86%85%E5%A4%96%20%E8%87%AA%E9%97%AD%E7%97%87%20%E7%A0%94%E7%A9%B6%E6%9C%89%E5%93%AA%E4%BA%9B%E8%BF%9B%E5%B1%95%3F&ie=utf8",
     "publishedAt": "2026-03-30",
     "source": "自闭症家庭训练工作室",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2025年 国内外 自闭症 研究有哪些进展?",
+    "readingGuide": {
+      "overview": [
+        "文章引出自闭症居家干预的必要性，强调家长学习干预方法的重要性。同时提出如何为孤独症儿童确定干预方向，并指出部分孩子可能并非自闭症，需要正确鉴别。",
+        "内容涉及对2025年国内外研究进展的回顾，但未提供具体研究细节，主要目的是引导家长关注科学干预和正确诊断。"
+      ],
+      "keyPoints": [
+        "家长学习居家干预对自闭症儿童发展很重要。",
+        "确定干预方向需要科学评估，避免盲目。",
+        "注意鉴别诊断，有些孩子可能不是自闭症。"
+      ],
+      "parentNotes": [
+        "居家干预需在专业指导下进行，不可替代系统康复。",
+        "如怀疑孩子不是自闭症，请到正规医院全面评估。",
+        "2025年研究进展详见原文，本文仅为概述。"
+      ],
+      "boundary": "本文为干预方法科普，具体干预方案需由专业人员制定。诊断及鉴别诊断请咨询医生。"
+    },
+    "sourceDisplay": "自闭症家庭训练工作室"
   },
   {
     "id": "8fa72f2ea924",
-    "title": "【2026年卫生健康宣传日】世界 孤独症 日——提质全生涯服务供给,聚焦 孤独症 家庭 支持与成年服务,附:宣传视频",
-    "summary": "今天,请你看见他们——写给每一个与＂星星＂同行的 家庭 ��️ 2026年4月2日 | 世界 孤独症 日 今年主题:提质全生涯服务供给,聚...",
+    "title": "2026年世界孤独症日宣传视频与主题解读",
+    "summary": "本文介绍了2026年世界孤独症日的宣传主题，并附有宣传视频，呼吁社会看见并支持孤独症家庭，聚焦全生涯服务供给和成年服务。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%902026%E5%B9%B4%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%AE%A3%E4%BC%A0%E6%97%A5%E3%80%91%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%E2%80%94%E2%80%94%E6%8F%90%E8%B4%A8%E5%85%A8%E7%94%9F%E6%B6%AF%E6%9C%8D%E5%8A%A1%E4%BE%9B%E7%BB%99%2C%E8%81%9A%E7%84%A6%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%AE%B6%E5%BA%AD%20%E6%94%AF%E6%8C%81%E4%B8%8E%E6%88%90%E5%B9%B4%E6%9C%8D%E5%8A%A1%2C%E9%99%84%3A%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91&ie=utf8",
     "publishedAt": "2026-03-30",
     "source": "王舍人街道办社区卫生服务中心",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【2026年卫生健康宣传日】世界 孤独症 日——提质全生涯服务供给,聚焦 孤独症 家庭 支持与成年服务,附:宣传视频",
+    "readingGuide": {
+      "overview": [
+        "2026年4月2日是世界孤独症日，今年的主题是“提质全生涯服务供给，聚焦孤独症家庭支持与成年服务”。文章通过宣传视频，呼吁人们关注孤独症群体及其家庭。",
+        "文章强调“看见他们”，理解孤独症家庭的挑战，并呼吁社会各界提供更好的支持，特别是针对成年孤独症人士的服务。"
+      ],
+      "keyPoints": [
+        "2026年世界孤独症日主题强调全生涯服务与家庭支持。",
+        "宣传视频旨在提高公众对孤独症的认识和理解。",
+        "倡导社会对孤独症家庭提供更多实质性帮助。"
+      ],
+      "parentNotes": [
+        "本文包含宣传视频，家长可观看并转发提高社会认识。",
+        "主题解读有助于了解政策倡导方向，可参考当地活动。",
+        "具体服务资源需结合当地实际情况获取。"
+      ],
+      "boundary": "本文为宣传材料，不提供个别化建议。如需帮助，请联系本地残联或孤独症服务组织。"
+    },
+    "sourceDisplay": "王舍人街道办社区卫生服务中心"
   },
   {
     "id": "7681c7de3e99",
-    "title": "深度 | 写在4月2日世界 孤独症 关注日前——东莞“与星同行”,让 孤独症 家庭 不再孤独",
-    "summary": "“星儿” 家庭 的命运,更探索出一条可复制、可推广的 孤独症 关爱之路.“东莞经验”正在走向更广阔的舞台.■吴文英与团队成员进...",
+    "title": "写在4月2日世界孤独症关注日前——东莞“与星同行”，让孤独症家庭不再孤独",
+    "summary": "文章介绍了东莞市康复医院发起的“与星同行”项目，通过专业支持和社区关怀，为孤独症家庭提供可复制、可推广的服务模式，帮助“星儿”家庭走出困境，并推动东莞经验走向全国。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B7%B1%E5%BA%A6%20%7C%20%E5%86%99%E5%9C%A84%E6%9C%882%E6%97%A5%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%85%B3%E6%B3%A8%E6%97%A5%E5%89%8D%E2%80%94%E2%80%94%E4%B8%9C%E8%8E%9E%E2%80%9C%E4%B8%8E%E6%98%9F%E5%90%8C%E8%A1%8C%E2%80%9D%2C%E8%AE%A9%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%AE%B6%E5%BA%AD%20%E4%B8%8D%E5%86%8D%E5%AD%A4%E7%8B%AC&ie=utf8",
     "publishedAt": "2026-03-30",
     "source": "东莞市康复医院",
     "sourceType": "wechat",
     "language": "zh",
     "category": "家长支持",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "深度 | 写在4月2日世界 孤独症 关注日前——东莞“与星同行”,让 孤独症 家庭 不再孤独",
+    "readingGuide": {
+      "overview": [
+        "在4月2日世界孤独症关注日前夕，东莞市康复医院分享了其“与星同行”项目的实践成果。该项目聚焦孤独症家庭的需求，通过整合医疗、教育和社区资源，探索出一条系统性的关爱路径。文章详述了团队如何帮助“星儿”改善生活质量，同时减轻家庭的心理和经济负担。",
+        "东莞的实践不仅关注孩子本身，更强调对家庭整体的支持，包括家长培训和互助网络建设。这种模式的可复制性使其成为其他地区的参考范例，未来有望在更广范围内推广，让更多孤独症家庭感受到社会的包容与温暖。"
+      ],
+      "keyPoints": [
+        "“与星同行”是东莞探索的孤独症家庭综合支持模式。",
+        "强调家庭整体支持，包括家长培训和社区关怀。",
+        "该模式具有可复制性和推广价值，已形成“东莞经验”。"
+      ],
+      "parentNotes": [
+        "可关注本地是否有类似的家庭支持项目。",
+        "家长互助网络能提供宝贵的经验和情感支持。",
+        "了解资源整合的方式有助于争取更多社会支持。"
+      ],
+      "boundary": "本文为经验介绍，不涉及个别化干预方案。如有具体需求，请咨询专业机构或医生。"
+    },
+    "sourceDisplay": "东莞市康复医院"
   },
   {
     "id": "774f049cc1db",
-    "title": "2026 孤独症 儿童运动干预公益研讨会会议通知",
-    "summary": "2026 孤独症 儿童运动干预公益研讨会会议通知为深化教育教学改革为深入贯彻落实《“十四五”残疾人保障和发展规划》和《 孤独症 儿...",
+    "title": "2026孤独症儿童运动干预公益研讨会会议通知",
+    "summary": "华东师范大学体育与健康学院发布会议通知，计划于2026年举办孤独症儿童运动干预公益研讨会，旨在贯彻残疾人保障规划，促进运动干预在孤独症教育中的应用。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=2026%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%84%BF%E7%AB%A5%E8%BF%90%E5%8A%A8%E5%B9%B2%E9%A2%84%E5%85%AC%E7%9B%8A%E7%A0%94%E8%AE%A8%E4%BC%9A%E4%BC%9A%E8%AE%AE%E9%80%9A%E7%9F%A5&ie=utf8",
     "publishedAt": "2026-03-27",
     "source": "华东师范大学体育与健康学院",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2026 孤独症 儿童运动干预公益研讨会会议通知",
+    "readingGuide": {
+      "overview": [
+        "该研讨会是公益性质，面向教育工作者、康复师及研究人员，聚焦运动干预对孤独症儿童发展的作用。会议将探讨如何通过科学运动方案改善儿童的社交、行为及身体素质。",
+        "活动旨在推动《“十四五”残疾人保障和发展规划》的落地，深化教育教学改革。参会者可了解最新研究成果，并参与实践交流，以提升运动干预的专业化和普及度。"
+      ],
+      "keyPoints": [
+        "2026年将举办孤独症儿童运动干预公益研讨会。",
+        "旨在贯彻国家残疾人保障规划，促进运动干预应用。",
+        "面向教育、康复专业人员，提供学术交流平台。"
+      ],
+      "parentNotes": [
+        "若您从事相关专业，可留意后续报名信息。",
+        "运动干预可作为孤独症康复的辅助手段。",
+        "参加此类会议有助于获取前沿知识。"
+      ],
+      "boundary": "本文为会议通知，不涉及具体运动方案。儿童的运动干预需在专业指导下进行。"
+    },
+    "sourceDisplay": "华东师范大学体育与健康学院"
   },
   {
     "id": "7d70740792cb",
-    "title": "【 科普 讲堂】 孤独症 100问(八)",
-    "summary": "世界 孤独症 日 科普 :别让“星星的孩子”独自闪烁[EB/OL]. 2025 -04-09.80、孩子遇到陌生人会躲到家长身后,需要鼓励他打招呼吗?...",
+    "title": "【科普讲堂】孤独症100问（八）",
+    "summary": "文章以问答形式解答孤独症家长常见困惑，例如孩子遇到陌生人躲到身后是否需要鼓励打招呼，旨在提供科学的行为引导建议，帮助家长理解孩子的社交特点。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%20%E7%A7%91%E6%99%AE%20%E8%AE%B2%E5%A0%82%E3%80%91%20%E5%AD%A4%E7%8B%AC%E7%97%87%20100%E9%97%AE%28%E5%85%AB%29&ie=utf8",
     "publishedAt": "2026-03-27",
     "source": "盐城市残疾人教育康复中心",
     "sourceType": "wechat",
     "language": "zh",
     "category": "家长支持",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【 科普 讲堂】 孤独症 100问(八)",
+    "readingGuide": {
+      "overview": [
+        "本文是“孤独症100问”系列之一，围绕家长在日常生活中遇到的社交互动问题展开。例如，有家长问孩子见到陌生人会躲到身后，是否应该强迫孩子打招呼。文章从孤独症孩子的感受出发，分析背后的原因。",
+        "作者强调要根据孩子的个性和舒适度调整引导方式，避免施加压力。科普内容旨在提升家长对孩子行为背后意图的理解，从而采取更有效的支持策略，促进孩子的社交适应性。"
+      ],
+      "keyPoints": [
+        "孩子躲陌生人可能与感官敏感或社交焦虑有关。",
+        "不应强迫打招呼，需尊重孩子的节奏。",
+        "通过示范和逐步引导帮助孩子建立社交自信。"
+      ],
+      "parentNotes": [
+        "观察孩子的情绪信号比立即纠正行为更重要。",
+        "可提前预告社交情景以减少孩子的紧张。",
+        "每个孩子的社交发展速度不同，避免比较。"
+      ],
+      "boundary": "本文为通用科普，不适用于所有孩子。若问题持续影响生活，建议咨询行为分析师或医生。"
+    },
+    "sourceDisplay": "盐城市残疾人教育康复中心"
   },
   {
     "id": "7fb651b30ad9",
-    "title": "孤独症 家庭 干预 新帮手?蚂蚁阿福AI藏着这些实用功能",
-    "summary": "孩子X岁,除 孤独症 外还有语言迟缓/多动/注意力缺陷,训练应该先抓哪一块?询问示例行为情绪 干预 话术面对星宝独特的沟通方式、行...",
+    "title": "孤独症家庭干预新帮手？蚂蚁阿福AI藏着这些实用功能",
+    "summary": "文章介绍了一款名为“蚂蚁阿福”的AI工具，可帮助家长处理孤独症孩子的行为情绪问题，如语言迟缓、多动等，提供干预话术和训练建议。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%AE%B6%E5%BA%AD%20%E5%B9%B2%E9%A2%84%20%E6%96%B0%E5%B8%AE%E6%89%8B%3F%E8%9A%82%E8%9A%81%E9%98%BF%E7%A6%8FAI%E8%97%8F%E7%9D%80%E8%BF%99%E4%BA%9B%E5%AE%9E%E7%94%A8%E5%8A%9F%E8%83%BD&ie=utf8",
     "publishedAt": "2026-03-26",
     "source": "还是星海呀",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "孤独症 家庭 干预 新帮手?蚂蚁阿福AI藏着这些实用功能",
+    "readingGuide": {
+      "overview": [
+        "针对孤独症家庭干预中的常见难点，如孩子同时存在语言迟缓或注意力缺陷，蚂蚁阿福AI能根据家长描述的情景给予具体的行为干预话术和建议。它旨在辅助家长更有效地应对日常挑战。",
+        "该工具通过AI技术分析行为模式，提供个性化策略，但强调不能替代专业评估。文章列举了该功能在情绪调节和社交训练方面的应用示例，帮助家长在家庭环境中进行针对性支持。"
+      ],
+      "keyPoints": [
+        "蚂蚁阿福AI可提供针对性的行为干预话术。",
+        "适用于多种共患情况如语言迟缓、多动。",
+        "强调辅助作用，不可替代专业评估和治疗。"
+      ],
+      "parentNotes": [
+        "使用AI工具前需明确其局限性。",
+        "结合专业指导使用效果更佳。",
+        "注意保护隐私，避免上传敏感信息。"
+      ],
+      "boundary": "本文为工具介绍，不构成医疗建议。孩子的干预方案应基于专业评估制定。"
+    },
+    "sourceDisplay": "还是星海呀"
   },
   {
     "id": "14116a8ec258",
-    "title": "【 科普 丨2026 孤独症 日宣传周】 孤独症 门诊随笔-“贵人语迟”",
-    "summary": "关爱 孤独症 科普 作品获 2025年 中国健康 科普 大赛优秀奖.擅长 孤独症 、语言或智力低下等发育迟缓疾病、遗传代谢病、基因解读、多动...",
+    "title": "【科普丨2026孤独症日宣传周】孤独症门诊随笔-“贵人语迟”",
+    "summary": "本文为门诊随笔，针对“贵人语迟”的传统观念进行科普，指出语言发育迟缓可能是孤独症等发育障碍的信号，呼吁家长尽早关注和评估。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%20%E7%A7%91%E6%99%AE%20%E4%B8%A82026%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%E5%AE%A3%E4%BC%A0%E5%91%A8%E3%80%91%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E9%97%A8%E8%AF%8A%E9%9A%8F%E7%AC%94-%E2%80%9C%E8%B4%B5%E4%BA%BA%E8%AF%AD%E8%BF%9F%E2%80%9D&ie=utf8",
     "publishedAt": "2026-03-26",
     "source": "吉林省妇幼保健院",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【 科普 丨2026 孤独症 日宣传周】 孤独症 门诊随笔-“贵人语迟”",
+    "readingGuide": {
+      "overview": [
+        "文章从门诊案例出发，批评了“贵人语迟”这一民间说法，强调延迟说话可能隐藏着孤独症或智力低下等发展问题。医生提醒家长不要盲目等待，应科学评估孩子的语言和社交里程碑。",
+        "作者结合自身在遗传代谢病和基因解读方面的专业背景，指出早期识别和干预的重要性。本文旨在提高家长对语言发育预警信号的认识，避免因“等等看”而错过最佳干预期。"
+      ],
+      "keyPoints": [
+        "“贵人语迟”可能延误孤独症等疾病的诊断。",
+        "语言发育迟缓需要专业评估，而非盲目等待。",
+        "早期识别和干预对改善预后至关重要。"
+      ],
+      "parentNotes": [
+        "如果孩子语言发展明显落后，请及时就医。",
+        "不要拿“贵人语迟”安慰自己，科学评估是关键。",
+        "孤独症的早期迹象还包括社交和互动问题。"
+      ],
+      "boundary": "本文为科普随笔，不能替代专业诊断。若怀疑发育迟缓，请咨询儿童发育科或康复科医生。"
+    },
+    "sourceDisplay": "吉林省妇幼保健院"
   },
   {
     "id": "6fcccf4b124a",
-    "title": "【 科普 讲堂】 孤独症 100问(五)",
-    "summary": "参考文献:[2] 韦巧兰. 孤独症 患儿感觉统合失调的居家护理策略[J]. 科普 中国, 2025 来源:市残疾人教育康复中心",
+    "title": "【科普 讲堂】孤独症100问(五)",
+    "summary": "本文是“孤独症100问”系列第五期，主要探讨孤独症儿童感觉统合失调的居家护理策略。文章引用了相关研究，为家长提供科学、实用的家庭护理指导，帮助改善孩子的感觉处理能力。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%20%E7%A7%91%E6%99%AE%20%E8%AE%B2%E5%A0%82%E3%80%91%20%E5%AD%A4%E7%8B%AC%E7%97%87%20100%E9%97%AE%28%E4%BA%94%29&ie=utf8",
     "publishedAt": "2026-03-26",
     "source": "盐城市残联",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【 科普 讲堂】 孤独症 100问(五)",
+    "readingGuide": {
+      "overview": [
+        "感觉统合失调是孤独症儿童常见的伴随问题，影响其对外界刺激的反应和日常行为。本文基于专业文献，聚焦居家护理策略，为家长提供可操作的方法。",
+        "文章内容涵盖如何通过家庭环境调整和活动设计，帮助孩子改善触觉、前庭觉和本体觉等感觉处理障碍。强调护理应结合孩子个体差异，在专业指导下进行。"
+      ],
+      "keyPoints": [
+        "孤独症儿童常伴感觉统合失调，需针对性居家护理。",
+        "居家策略包括环境调整和感觉活动设计。",
+        "护理应个性化，并在专业指导下实施。"
+      ],
+      "parentNotes": [
+        "观察孩子对特定感觉刺激的反应，记录异常行为。",
+        "居家护理需循序渐进，避免强制干预。",
+        "定期与康复师沟通，调整护理方案。"
+      ],
+      "boundary": "本文提供科普性护理策略，不替代专业评估和干预。如孩子症状严重，请咨询康复医师或作业治疗师。"
+    },
+    "sourceDisplay": "盐城市残联"
   },
   {
     "id": "ee0ec883ad8d",
-    "title": "2026年世界 孤独症 日|主题宣传:提质全生涯服务供给,聚焦 孤独症 家庭 支持与成年服务",
-    "summary": "给特殊 家庭 “喘息空间”:参加志愿服务,为 孤独症 家庭 主动帮忙照看孩子,让家长拥有半天休息时间.3. 支持融合教育:鼓励学校...",
+    "title": "2026年世界孤独症日|主题宣传:提质全生涯服务供给,聚焦孤独症家庭支持与成年服务",
+    "summary": "本文围绕2026年世界孤独症日主题，强调提升全生涯服务供给，重点聚焦孤独症家庭支持与成年服务。提出给特殊家庭“喘息空间”，通过志愿服务帮助照看孩子，以及支持融合教育等措施。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=2026%E5%B9%B4%E4%B8%96%E7%95%8C%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%97%A5%7C%E4%B8%BB%E9%A2%98%E5%AE%A3%E4%BC%A0%3A%E6%8F%90%E8%B4%A8%E5%85%A8%E7%94%9F%E6%B6%AF%E6%9C%8D%E5%8A%A1%E4%BE%9B%E7%BB%99%2C%E8%81%9A%E7%84%A6%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%AE%B6%E5%BA%AD%20%E6%94%AF%E6%8C%81%E4%B8%8E%E6%88%90%E5%B9%B4%E6%9C%8D%E5%8A%A1&ie=utf8",
     "publishedAt": "2026-03-26",
     "source": "扶伤助残一路阳光",
     "sourceType": "wechat",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2026年世界 孤独症 日|主题宣传:提质全生涯服务供给,聚焦 孤独症 家庭 支持与成年服务",
+    "readingGuide": {
+      "overview": [
+        "2026年世界孤独症日主题关注孤独症人士全生涯服务，特别是成年后的支持和家庭喘息。文章呼吁社会各界提供志愿服务，为家长创造休息时间。",
+        "融合教育也是重点之一，鼓励学校为孤独症学生提供包容环境。这些举措旨在构建从儿童到成年的连续支持体系，减轻家庭负担。"
+      ],
+      "keyPoints": [
+        "2026年主题强调全生涯服务供给与家庭支持。",
+        "喘息服务通过志愿服务给予家长休息时间。",
+        "支持融合教育是重要组成部分。"
+      ],
+      "parentNotes": [
+        "家长可主动寻求社区志愿服务资源。",
+        "了解本地融合教育政策，维护孩子权益。",
+        "关注成年孤独症服务规划，提前准备。"
+      ],
+      "boundary": "本文为宣传倡导内容，具体服务获取需联系当地残联或支持机构。"
+    },
+    "sourceDisplay": "扶伤助残一路阳光"
   },
   {
     "id": "022d1f184e9a",
-    "title": "中国精神开展 2026年 孤独症 服务机构负责人交流活动",
-    "summary": "《 孤独症 儿童康复机构服务质量及评价规范》(GB/T 47041- 2026 ).该标准于 2026年 1月28日由国家市场监督管理总局、国家标准化...",
+    "title": "中国精神开展2026年孤独症服务机构负责人交流活动",
+    "summary": "本文报道中国精神开展的2026年孤独症服务机构负责人交流活动，期间发布了《孤独症儿童康复机构服务质量及评价规范》(GB/T 47041-2026)，该标准于2026年1月28日由国家市场监督管理总局、国家标准化管理委员会批准。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E7%B2%BE%E7%A5%9E%E5%BC%80%E5%B1%95%202026%E5%B9%B4%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E6%9C%8D%E5%8A%A1%E6%9C%BA%E6%9E%84%E8%B4%9F%E8%B4%A3%E4%BA%BA%E4%BA%A4%E6%B5%81%E6%B4%BB%E5%8A%A8&ie=utf8",
     "publishedAt": "2026-03-25",
     "source": "灵星特教",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "中国精神开展 2026年 孤独症 服务机构负责人交流活动",
+    "readingGuide": {
+      "overview": [
+        "2026年孤独症服务机构负责人交流活动聚焦服务质量提升，正式发布了首个针对孤独症儿童康复机构的国家标准。",
+        "该标准规定了康复机构的服务质量要求和评价方法，为行业规范发展提供了依据。活动旨在促进机构间的经验交流，推动标准落地实施。"
+      ],
+      "keyPoints": [
+        "国家标准GB/T 47041-2026于2026年1月28日发布。",
+        "标准针对孤独症儿童康复机构服务质量与评价。",
+        "活动促进了机构负责人间的交流与标准推广。"
+      ],
+      "parentNotes": [
+        "家长可查阅该标准，了解康复机构应达到的质量要求。",
+        "选择机构时，可询问是否对标此标准。",
+        "关注标准实施后机构的整改与提升情况。"
+      ],
+      "boundary": "本文提供标准发布信息，具体内容需查阅正式文件。机构选择仍需结合孩子实际需求和专业评估。"
+    },
+    "sourceDisplay": "灵星特教"
   },
   {
     "id": "f562b4f10015",
-    "title": "【 科普 讲堂】 孤独症 100问(七)",
-    "summary": "世界 孤独症 日 科普 :别让“星星的孩子”独自闪烁[EB/OL]. 2025 -04-09. 67、孩子对别人的表情毫无反应,怎么教他理解“高兴”和“...",
+    "title": "【科普 讲堂】孤独症100问(七)",
+    "summary": "本文是“孤独症100问”系列第七期，围绕世界孤独症日科普展开。内容涉及如何教会孩子理解他人表情，例如从“高兴”和“生气”等情绪开始，并提供具体教学方法。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%20%E7%A7%91%E6%99%AE%20%E8%AE%B2%E5%A0%82%E3%80%91%20%E5%AD%A4%E7%8B%AC%E7%97%87%20100%E9%97%AE%28%E4%B8%83%29&ie=utf8",
     "publishedAt": "2026-03-25",
     "source": "盐城市残疾人教育康复中心",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "【 科普 讲堂】 孤独症 100问(七)",
+    "readingGuide": {
+      "overview": [
+        "理解他人表情是孤独症儿童社交技能训练的重要内容。本文针对孩子对表情无反应的问题，提出分步骤的教学建议。",
+        "方法包括使用图片、视频和角色扮演等，从简单情绪识别到复杂情境理解。强调日常生活中的自然教学和正向强化。"
+      ],
+      "keyPoints": [
+        "教会孤独症孩子识别表情需从基础情绪开始。",
+        "利用视觉支持材料和角色扮演进行教学。",
+        "在日常生活中创造自然学习机会。"
+      ],
+      "parentNotes": [
+        "教学要耐心，从孩子熟悉的情绪入手。",
+        "结合孩子兴趣选择教学材料。",
+        "避免强迫，以游戏形式进行更有效。"
+      ],
+      "boundary": "本文提供通用教学思路，具体方法需根据孩子能力调整。如进展困难，建议咨询行为分析师或特殊教育老师。"
+    },
+    "sourceDisplay": "盐城市残疾人教育康复中心"
   },
   {
     "id": "1ea35b34d785",
-    "title": "2026年蓝色行动- 孤独症 科普",
-    "summary": "世界 孤独症 日蓝色行动世界 孤独症 日又称世界 自闭症 关注日,是由联合国设立的世界性纪念日.设立时间是2007年12月18日,决定从...",
+    "title": "2026年蓝色行动-孤独症科普",
+    "summary": "本文介绍2026年蓝色行动及世界孤独症日科普。世界孤独症日又称世界自闭症关注日，由联合国于2007年12月18日设立，旨在提高公众对孤独症的认识。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=2026%E5%B9%B4%E8%93%9D%E8%89%B2%E8%A1%8C%E5%8A%A8-%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E7%A7%91%E6%99%AE&ie=utf8",
     "publishedAt": "2026-03-25",
     "source": "快乐之家HOJ",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2026年蓝色行动- 孤独症 科普",
+    "readingGuide": {
+      "overview": [
+        "蓝色行动是世界孤独症日的重要宣传活动，每年4月2日开展。文章回顾了孤独症日的设立背景，强调其全球性意义。",
+        "2026年的行动呼吁社会了解孤独症，消除歧视，支持孤独症人士及其家庭。通过蓝色元素等象征符号传递关爱。"
+      ],
+      "keyPoints": [
+        "世界孤独症日由联合国于2007年设立。",
+        "蓝色行动是每年的倡导活动。",
+        "旨在提高公众认知，减少歧视。"
+      ],
+      "parentNotes": [
+        "家长可参与本地蓝色行动活动，增强社会融合。",
+        "利用节日契机向周围人普及孤独症知识。",
+        "关注官方发布的科普资源。"
+      ],
+      "boundary": "本文为科普宣传，不涉及具体干预方法。如需专业支持，请咨询医疗机构或康复中心。"
+    },
+    "sourceDisplay": "快乐之家HOJ"
   },
   {
     "id": "9f7da697ea3a",
-    "title": "关于举办 孤独症 儿童社交集体课 康复 技术培训班的通知",
-    "summary": "关于举办 孤独症 儿童社交集体课 康复 技术培训班的通知为进一步提升专业人员技能,提高 康复 服务质量,推动行业发展,增强社会关注...",
+    "title": "关于举办孤独症儿童社交集体课康复技术培训班的通知",
+    "summary": "广西幼专特殊儿童关爱服务中心发布通知，为提升专业人员技能、提高康复服务质量，将举办孤独症儿童社交集体课康复技术培训班。该培训旨在推动行业发展，增强社会对孤独症儿童康复的关注。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%84%BF%E7%AB%A5%E7%A4%BE%E4%BA%A4%E9%9B%86%E4%BD%93%E8%AF%BE%20%E5%BA%B7%E5%A4%8D%20%E6%8A%80%E6%9C%AF%E5%9F%B9%E8%AE%AD%E7%8F%AD%E7%9A%84%E9%80%9A%E7%9F%A5&ie=utf8",
     "publishedAt": "2026-03-25",
     "source": "广西幼专特殊儿童关爱服务中心",
     "sourceType": "wechat",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "关于举办 孤独症 儿童社交集体课 康复 技术培训班的通知",
+    "readingGuide": {
+      "overview": [
+        "该通知由广西幼专特殊儿童关爱服务中心发出，明确培训班的目标是提升专业人员对孤独症儿童社交集体课的康复技术，从而提高康复服务的整体质量。",
+        "培训班不仅注重技术提升，还着眼于行业发展和社会关注度的增强，体现了机构在孤独症康复领域的专业引领作用。"
+      ],
+      "keyPoints": [
+        "培训针对孤独症儿童社交集体课康复技术。",
+        "旨在提升专业人员技能和康复服务质量。",
+        "由广西幼专特殊儿童关爱服务中心主办。"
+      ],
+      "parentNotes": [
+        "家长可关注此类培训是否面向家庭开放。",
+        "了解培训内容有助于选择适合孩子的康复方法。"
+      ],
+      "boundary": "本文仅为培训通知，不涉及具体干预方法。如需了解社交集体课的详细实施，请咨询专业康复师。"
+    },
+    "sourceDisplay": "广西幼专特殊儿童关爱服务中心"
   },
   {
     "id": "f31c909748aa",
     "title": "自闭症儿童规则感的培养策略",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文来自大米和小米，介绍了如何通过创建有序环境、使用视觉支持工具和适当奖励机制来培养自闭症儿童的规则感。这些策略有助于儿童理解规则、提升自我管理能力与社交技能。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1156",
     "publishedAt": "2026-03-24",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童规则感的培养策略",
+    "readingGuide": {
+      "overview": [
+        "文章首先指出培养规则感对自闭症儿童成长的重要性，并强调家长可通过固定语言提示和一致执行程序帮助孩子建立稳定预期。定期复习和强化练习能巩固记忆，提升自我管理能力。",
+        "营造适宜的环境是关键，包括设计清晰的日常日程、保持环境整洁一致、设立明确区域等。视觉支持工具如图表、时间表能直观传达信息，强化儿童对规则的理解。",
+        "适当奖励机制通过即时反馈提升儿童遵循规则的积极性，奖励可以是口头表扬、贴纸等。根据个体差异调整奖励方式，建立稳定一致的体系有助于形成预期和稳定感。"
+      ],
+      "keyPoints": [
+        "通过有序环境和固定程序建立规则预期。",
+        "视觉支持工具（图表、时间表）辅助理解规则。",
+        "即时奖励强化儿童遵循规则的积极性。"
+      ],
+      "parentNotes": [
+        "家长需耐心引导，反复练习，一致性是关键。",
+        "奖励机制要个性化，避免过度物质化。",
+        "视觉工具需根据孩子理解水平设计。"
+      ],
+      "boundary": "本文提供通用策略，每个儿童需求不同。如规则感问题严重影响生活，请咨询行为分析师或康复师。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "cbf8cb791b5a",
     "title": "自闭症儿童常见行为表现解析",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文来自大米和小米，分析了自闭症儿童常见的社交障碍、沟通困难和重复行为，并提供了相应的支持策略，包括视觉辅助工具、安全环境、个性化干预以及与专业人士合作。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1155",
     "publishedAt": "2026-03-24",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童常见行为表现解析",
+    "readingGuide": {
+      "overview": [
+        "文章首先分析了自闭症儿童的社交障碍，表现为难以理解社交线索、表达情感和建立友谊，早期识别和干预以及优化教育环境有助于促进其社交能力发展。",
+        "沟通困难方面，许多儿童语言表达受限，家长和康复师可运用视觉辅助工具（如图片卡）和行为治疗来提升沟通技巧。重复行为（如摇晃、重复词语）为孩子提供安全感，可通过引导参与集体游戏、建立规律作息来减少。",
+        "支持策略包括建立安全稳定的环境、使用简洁语言、设置具体目标、鼓励小组活动以及及时给予积极反馈。与专业人士（心理咨询师、特殊教育教师）合作可获得个性化方案。"
+      ],
+      "keyPoints": [
+        "社交障碍影响理解线索和建立友谊。",
+        "沟通困难可通过视觉辅助工具改善。",
+        "重复行为需通过环境调整和引导减少。"
+      ],
+      "parentNotes": [
+        "家长需观察孩子行为背后的原因，而非单纯制止。",
+        "与专业人士合作制定个性化干预计划。",
+        "利用视觉工具（如图卡）辅助日常沟通。"
+      ],
+      "boundary": "本文为行为科普，不构成诊断。若孩子行为严重影响生活，请寻求专业评估和干预。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "9ab2a962b614",
-    "title": "普洱市召开 2026年 孤独症 儿童关爱促进行动分析研判联席会议",
-    "summary": "近日,普洱市召开 2026年 孤独症 儿童关爱促进行动分析研判联席会议,总结当前《普洱市 孤独症 儿童关爱促进行动实施方案(2024—...",
+    "title": "普洱市召开2026年孤独症儿童关爱促进行动分析研判联席会议",
+    "summary": "云南省残疾人联合会报道，普洱市近日召开2026年孤独症儿童关爱促进行动分析研判联席会议，总结当前《普洱市孤独症儿童关爱促进行动实施方案（2024—...）》的推进情况。",
     "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%99%AE%E6%B4%B1%E5%B8%82%E5%8F%AC%E5%BC%80%202026%E5%B9%B4%20%E5%AD%A4%E7%8B%AC%E7%97%87%20%E5%84%BF%E7%AB%A5%E5%85%B3%E7%88%B1%E4%BF%83%E8%BF%9B%E8%A1%8C%E5%8A%A8%E5%88%86%E6%9E%90%E7%A0%94%E5%88%A4%E8%81%94%E5%B8%AD%E4%BC%9A%E8%AE%AE&ie=utf8",
     "publishedAt": "2026-03-24",
     "source": "云南省残疾人联合会",
     "sourceType": "wechat",
     "language": "zh",
     "category": "诊断科普",
-    "linkLabel": "微信搜索原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "普洱市召开 2026年 孤独症 儿童关爱促进行动分析研判联席会议",
+    "readingGuide": {
+      "overview": [
+        "会议聚焦2026年孤独症儿童关爱促进行动，对实施方案（2024年起）的执行情况进行总结和分析研判，旨在进一步推动当地孤独症儿童关爱工作。",
+        "该会议体现了普洱市在残疾人事业方面，特别是孤独症儿童关爱领域的持续努力和阶段性回顾，为后续行动提供依据。"
+      ],
+      "keyPoints": [
+        "普洱市召开孤独症儿童关爱促进行动联席会议。",
+        "总结2024年以来实施方案的执行情况。",
+        "会议旨在分析研判并推动后续工作。"
+      ],
+      "parentNotes": [
+        "家长可关注当地实施方案是否包含具体支持措施。",
+        "此类会议成果可能影响本地康复资源分配。"
+      ],
+      "boundary": "本文为会议报道，未公布具体方案内容。如需了解政策细节，请咨询当地残联或相关部门。"
+    },
+    "sourceDisplay": "云南省残疾人联合会"
   },
   {
     "id": "cf9718f31dca",
-    "title": "Astrocytes in mouse amygdala encode emotional state",
-    "summary": "The glial cells’ activity reliably tracks with freezing, hesitancy and other behaviors reminiscent of anxiety.",
+    "title": "小鼠杏仁核中的星形胶质细胞编码情绪状态",
+    "summary": "《神经元》期刊研究显示，小鼠杏仁核中的星形胶质细胞活动与焦虑样行为（如冻结、犹豫）可靠相关，而神经元活动则不然。该发现提示星形胶质细胞在情感编码中的核心作用，并与自闭症等神经精神疾病相关。",
     "url": "https://www.thetransmitter.org/spectrum/astrocytes-in-mouse-amygdala-encode-emotional-state/",
     "publishedAt": "2026-03-24",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Astrocytes in mouse amygdala encode emotional state",
+    "readingGuide": {
+      "overview": [
+        "研究团队使用钙成像技术测量小鼠基底外侧杏仁核中星形胶质细胞的活动，发现其与小鼠探索环境时表现出的冻结、犹豫等焦虑样行为高度一致。例如，在高架十字迷宫中，当小鼠探索开放臂或窥视边缘时，星形胶质细胞活动激增。",
+        "与以往认为神经元主导不同，该研究表明星形胶质细胞是情感计算的核心细胞，可能作为“安全信号”向其他脑区传递危险信息。研究还发现，更喜欢探索开放环境的小鼠整体星形胶质细胞活动较低。",
+        "结果提示，星形胶质细胞（在自闭症等人群中发生改变）可能参与这些群体的心理健康问题。研究者认为，星形胶质细胞自上而下地指令局部神经元，而不仅仅是协助调节焦虑。"
+      ],
+      "keyPoints": [
+        "杏仁核星形胶质细胞活动追踪焦虑样行为。",
+        "星形胶质细胞在情感编码中起核心计算作用。",
+        "与自闭症相关的星形胶质细胞改变可能影响情绪。"
+      ],
+      "parentNotes": [
+        "此为动物研究，直接转化到人类需谨慎。",
+        "星形胶质细胞功能异常可能与自闭症共病焦虑有关。",
+        "未来或可针对星形胶质细胞开发干预策略。"
+      ],
+      "boundary": "本文为小鼠基础研究，不提供针对自闭症儿童的治疗建议。如关注焦虑问题，请咨询精神科医生或心理治疗师。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "83abaea039b7",
-    "title": "Infant Brain Imaging Study findings, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 23 March.",
+    "title": "婴儿脑成像研究发现及其他",
+    "summary": "本周重点介绍婴儿脑成像研究（IBIS）的两篇论文：高风险婴幼儿在12至24个月期间执行功能未改善，而低风险婴幼儿有改善；另一篇发现6和12月龄时视觉诱发电位P1潜伏期的变异性是预测24个月认知、语言和运动技能的最强指标。此外还汇总了其他自闭症相关研究。",
     "url": "https://www.thetransmitter.org/spectrum/infant-brain-imaging-study-findings-and-more/",
     "publishedAt": "2026-03-24",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Infant Brain Imaging Study findings, and more",
+    "readingGuide": {
+      "overview": [
+        "IBIS研究协作组本周发布两项成果。第一项研究显示，有自闭症兄弟姐妹的高风险婴幼儿在12至24个月期间执行功能测量值保持稳定，而低风险婴幼儿则表现出功能改善。第二项研究将6和12月龄的视觉诱发电位与24月龄的发育技能进行关联，发现第一年内脑电图波形（特别是P1潜伏期）的变异性是预测2岁时认知、语言和运动能力的最佳指标。",
+        "本周还筛查了其他自闭症研究热点：一项斑马鱼药物筛选发现线粒体调节剂左卡尼汀可部分恢复SCN1基因变异导致的大脑活动缺陷；前扣带回折叠模式在自闭症中改变；反复压力加剧CNTNAP2基因敲除小鼠的攻击行为；以及睡眠启动困难在神经发育障碍儿童中更常见等。"
+      ],
+      "keyPoints": [
+        "高风险婴儿（有自闭症兄弟姐妹）12-24月执行功能无改善，而低风险婴儿有改善。",
+        "6和12月龄时P1潜伏期的变异性可预测2岁时认知、语言和运动技能。",
+        "左卡尼汀可部分恢复SCN1基因变异斑马鱼的脑活动缺陷。"
+      ],
+      "parentNotes": [
+        "高风险婴儿指有自闭症兄弟姐妹的婴儿，但并非所有高风险婴儿都会确诊。",
+        "研究提示早期脑电指标可能有助于识别需要早期干预的婴儿。",
+        "斑马鱼研究属于基础科学，尚未直接应用于人类治疗。"
+      ],
+      "boundary": "本文为研究进展汇总，不构成个别干预建议。如有具体发育担忧，请咨询儿科或发育专科医生。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "6f5948d7ac37",
     "title": "与自闭症儿童的高效沟通技巧",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文介绍了与自闭症儿童高效沟通的实用技巧，包括使用简单明确的语言、观察非语言信号、建立信任关系、结合视觉辅助工具、保持耐心和积极倾听，以及通过共同活动促进交流。这些方法有助于家长更好地理解和支持孩子，改善沟通效果。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1154",
     "publishedAt": "2026-03-20",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "与自闭症儿童的高效沟通技巧",
+    "readingGuide": {
+      "overview": [
+        "与自闭症儿童沟通时，重要的是关注他们独特的情感表达方式。他们常通过行为或肢体语言传递信息，家长需观察非语言信号，如焦虑时的特定动作。使用简单明了的语言，避免比喻和抽象表述，语气温和并辅以肢体语言，可以帮助孩子理解。通过参与孩子喜欢的活动，逐步建立信任，让孩子感到安全与被接纳。",
+        "在专业机构如大米和小米儿童成长中心，通过一对一互动显著提高沟通能力。尊重孩子的兴趣，利用他们喜欢的话题或活动作为桥梁。同时，注意环境因素对孩子的敏感性，如声音和光线。理解孩子的非语言信号，如面部表情和肢体语言，是提升沟通效率的关键。"
+      ],
+      "keyPoints": [
+        "使用简单语言，避免比喻和抽象表述，语速放慢。",
+        "观察非语言信号，如肢体动作和面部表情，理解真实需求。",
+        "通过共同游戏或绘画等活动建立信任，促进表达。"
+      ],
+      "parentNotes": [
+        "创造安全温暖的环境，耐心倾听孩子的表达。",
+        "结合视觉辅助工具如图片或图表，提升理解效果。",
+        "尊重孩子的节奏，给予足够时间回应。"
+      ],
+      "boundary": "本文提供通用沟通建议，具体方法需根据孩子个体差异调整。如沟通严重困难，建议咨询专业行为分析师或言语治疗师。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "8775ab3cacfd",
     "title": "自闭症儿童的常见误区及其真相揭秘",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文揭示了关于自闭症儿童的常见误区，如认为他们缺乏情感、由教养不当导致、无法学习等，并基于科学依据澄清事实。自闭症儿童有独特的表达方式，具有遗传和生物因素，且每个孩子都有学习能力与潜力。纠正这些误解有助于营造包容的社会环境。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1153",
     "publishedAt": "2026-03-20",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童的常见误区及其真相揭秘",
+    "readingGuide": {
+      "overview": [
+        "社会上对自闭症儿童存在多种误解：一些人认为他们漠不关心、缺乏情感，但实际上他们以不同方式表达情感；另一些人错误归因于家长教养，但科学研究表明自闭症有很强的遗传和生物基础。此外，刻板印象忽略了他们在特定领域的独特才能。",
+        "在教育方面，常见误区包括认为自闭症儿童无法社交或学习。事实上，他们有自己独特的社交方式，并在适当支持下能够掌握多种技能。所有自闭症儿童并非一样，教育应关注个体差异。从科学视角看，自闭症儿童的情感体验并不比普通儿童少，只是表达方式不同。"
+      ],
+      "keyPoints": [
+        "自闭症并非由父母教养造成，而是由遗传和生物因素主导。",
+        "自闭症儿童有情感，只是表达方式与普通儿童不同。",
+        "在合适环境下，自闭症儿童能够学习和社交，且各有独特潜力。"
+      ],
+      "parentNotes": [
+        "避免因误区而对孩子或自己产生不必要的内疚。",
+        "每个孩子都是独特的，教育方法需要个性化。",
+        "传播科学知识，帮助社会减少偏见。"
+      ],
+      "boundary": "本文澄清常见误解，不替代专业评估。如果对孩子的发育有疑问，请咨询儿科或发育专科医生进行科学评估。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "16f76dceafc4",
-    "title": "Exon-skipping approach boosts levels of key Rett syndrome protein",
-    "summary": "Deleting a small region of the MECP2 gene partially restored function in neurons derived from people with Rett-associated variants.",
+    "title": "外显子跳跃方法提升雷特综合征关键蛋白水平",
+    "summary": "一项新研究通过外显子跳跃方法，促使细胞忽略MECP2基因的一个小片段，从而提高雷特综合征中减少的MECP2蛋白产量。在雷特综合征患者来源的神经元中，删除该片段部分纠正了疾病特征。该策略有望安全提高全脑蛋白水平。",
     "url": "https://www.thetransmitter.org/spectrum/exon-skipping-approach-boosts-levels-of-key-rett-syndrome-protein/",
     "publishedAt": "2026-03-20",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Exon-skipping approach boosts levels of key Rett syndrome protein",
+    "readingGuide": {
+      "overview": [
+        "雷特综合征由MECP2基因突变引起，导致蛋白减少或功能异常。现有药物Trofinetide仅缓解症状，不针对病因。增加MECP2蛋白在小鼠中可逆转症状并延长寿命，但剂量需精确：太少致病，太多导致另一种疾病。当前基因疗法仅能到达注射点附近少量细胞。",
+        "研究人员利用细胞剪接机制跳过MECP2基因的一小段，从而提高蛋白产量。在雷特综合征患者来源的神经元中，这种调整部分纠正了疾病的标志性特征。该策略为开发更广泛、安全的治疗方法提供了新方向。"
+      ],
+      "keyPoints": [
+        "跳过MECP2基因的一个小片段可提高蛋白产量。",
+        "在雷特综合征患者神经元中，该操作部分纠正了疾病特征。",
+        "该方法有望比现有基因疗法更广泛地提高全脑蛋白水平。"
+      ],
+      "parentNotes": [
+        "该研究仍处于基础阶段，尚未进入临床试验。",
+        "MECP2蛋白水平需要精确调控，过量同样有害。",
+        "目前FDA批准的雷特综合征药物仅缓解症状，不针对病因。"
+      ],
+      "boundary": "本文描述的是临床前研究，不构成治疗建议。有意向参与临床试验或咨询治疗方案的家长，请咨询专业医生。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "7597c50db29c",
     "title": "自闭症儿童家长全方位照护指南",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文为自闭症儿童家长提供全方位照护方案，涵盖情绪管理技巧、社交技能提升策略、教育资源获取方法以及家庭沟通策略。通过掌握这些内容，家长可以更有效地支持孩子的发展与成长，帮助孩子融入社会。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1152",
     "publishedAt": "2026-03-19",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童家长全方位照护指南",
+    "readingGuide": {
+      "overview": [
+        "情绪管理方面，家长常面临焦虑、沮丧等挑战。建立稳定作息、参加家长社群、学习放松技巧如深呼吸和冥想，有助于保持冷静。提升社交技能可通过日常互动、小组活动和角色扮演，让孩子在安全环境中练习交流。教育资源可通过特殊教育学校、专业儿童成长机构及家长培训获取。",
+        "家庭沟通策略强调使用简洁语言，在真实情境中示范社会规范。利用日常活动（如家庭聚会）引导孩子互动，并给予积极反馈。参考大米和小米等专业机构的建议，调整沟通方式，营造开放环境让孩子自由表达情绪，增强信任与支持。"
+      ],
+      "keyPoints": [
+        "家长通过稳定作息和放松技巧管理自身情绪。",
+        "通过小组活动和角色扮演提升孩子社交技能。",
+        "利用专业机构和资源获取教育支持，改善家庭沟通。"
+      ],
+      "parentNotes": [
+        "参考专业机构的方法时需结合孩子个体特点。",
+        "家长社群可以提供情感支持和实用经验。",
+        "定期评估孩子的进展，适时调整策略。"
+      ],
+      "boundary": "本文提供一般性照护建议，不替代专业干预。如孩子有严重行为或发育问题，请咨询发育儿科医生或行为分析师。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "cb0cdbdc0718",
     "title": "儿童语言发育迟缓与自闭症的关联",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨儿童语言发育迟缓与自闭症的关联，分析影响语言发展的多重因素，包括生理、心理和环境因素。文章指出，语言发育迟缓可能由听力或口腔问题引起，而自闭症带来的社交沟通障碍也会导致语言表达困难。此外，焦虑、缺乏自信和不良的家庭沟通环境同样会影响孩子说话。理解这些因素有助于家长更好地支持孩子的语言发展。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1151",
     "publishedAt": "2026-03-19",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "儿童语言发育迟缓与自闭症的关联",
+    "readingGuide": {
+      "overview": [
+        "语言发育迟缓的直接表现是孩子不爱说话或说话少，其原因多样。生理因素如听力或口腔结构问题可能导致语言发展缓慢；自闭症作为一种发育障碍，常伴随社交困难和沟通障碍，从而影响语言表达；心理因素如焦虑、羞涩或缺乏自信也会让孩子在社交中不愿开口；家庭环境缺乏交流同样会抑制语言能力。",
+        "自闭症儿童的语言困难通常表现为言语发展迟缓、语言单调或缺乏互动性，他们可能理解回应他人语言时也面临挑战。早期识别和干预对自闭症相关的语言障碍尤为重要。专业评估和支持可以帮助孩子克服这些障碍，促进沟通能力发展。",
+        "心理因素方面，孩子的情绪状态和个性特征直接影响语言表达。积极鼓励的家庭互动能激发孩子说话意愿；而负面情绪或缺乏交流的环境会阻碍语言发展。家庭氛围温暖、沟通频繁有助于孩子语言成长。社会环境如与同伴互动也能丰富词汇量。因此，创造支持性强、充满刺激的交流环境至关重要。"
+      ],
+      "keyPoints": [
+        "语言发育迟缓多由生理、心理、环境等多因素共同导致",
+        "自闭症儿童因社交障碍常出现语言表达困难，需专业干预",
+        "家庭积极沟通环境和心理支持能有效促进儿童语言发展"
+      ],
+      "parentNotes": [
+        "注意观察孩子语言和社交行为，若发现异常及时寻求评估",
+        "避免将不爱说话简单归咎于性格，需综合考量潜在原因",
+        "与孩子多互动、创造丰富语言环境，但不要强迫说话"
+      ],
+      "boundary": "本文为科普导读，不构成诊断或治疗方案。若孩子出现语言发育迟缓，建议至正规医院或专业机构进行系统评估，由专业人士确定原因并制定个性化干预计划。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "cf0c01e090fa",
-    "title": "How SURFiN Fellowships Jump-Started These 3 Neuroscience Students’ STEM Careers",
-    "summary": "点击查看来源文章。",
+    "title": "SURFiN奖学金如何推动三位神经科学学生的STEM职业发展",
+    "summary": "本文介绍SURFiN（Shenoy神经科学本科生研究奖学金）项目如何为三位学生提供研究机会和导师支持，从而推动他们的神经科学职业道路。学生Florence Gathoni Njoroge、Alex Negrón和Faith Cerbo分别通过该项目获得实验室经验、学术启发和求职机会，强调了奖学金在培养科研人才中的关键作用。",
     "url": "https://www.simonsfoundation.org/2026/03/18/how-surfin-fellowships-jump-started-these-3-neuroscience-students-stem-careers/",
     "publishedAt": "2026-03-18",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "How SURFiN Fellowships Jump-Started These 3 Neuroscience Students’ STEM Careers",
+    "readingGuide": {
+      "overview": [
+        "SURFiN奖学金项目由西蒙斯基金会自闭症与神经科学部门资助，为本科生提供带薪的神经科学实验室研究机会。该项目不仅让学生获得实践技能，还通过导师网络帮助其职业发展。例如，学生Florence Gathoni Njoroge通过该奖学金进入社会神经科学小组，最终在约翰霍普金斯大学获得实验室技术员职位。",
+        "另一位学生Alex Negrón因教授关于数学应用于脑研究的评论而开始思考研究，并加入SURFiN项目。Faith Cerbo则因科学家的鼓励而对神经疾病产生兴趣。三位学生的故事展示了奖学金如何结合学术机遇、导师支持和实践体验，为来自不同背景的学生打开STEM职业大门。",
+        "该项目强调导师支持和多元化环境的重要性。Njoroge提到在导师Gabriela Rosenblau的团队中看到许多女性科学家，这给她带来力量。奖学金还通过虚拟交流活动扩展学生的职业网络，帮助他们找到适合的研究领域和未来发展方向。"
+      ],
+      "keyPoints": [
+        "SURFiN为本科生提供带薪神经科学研究机会",
+        "导师支持和多元化团队有助于学生职业发展",
+        "项目通过实验室经验和网络活动推动STEM职业"
+      ],
+      "parentNotes": [
+        "关注类似科研奖学金项目，为孩子未来大学路径提供参考",
+        "早期科研体验能激发孩子对神经科学的兴趣",
+        "导师角色在培养科研人才中至关重要"
+      ],
+      "boundary": "本文为项目介绍，不涉及自闭症直接干预或治疗方法。若需了解自闭症科研进展或参与相关项目，请咨询专业机构或大学科研部门。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "577644340703",
     "title": "ABA疗法的应用与效果分析",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文系统分析ABA疗法在儿童自闭症干预中的实际应用与效果。介绍其基于正向强化的原理，强调个性化干预计划和家长、教师参与的重要性。文章还探讨了家庭与学校环境中综合运用ABA的方法，旨在帮助家长和教育工作者通过强化正向行为，改善儿童社交能力和行为表现。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1150",
     "publishedAt": "2026-03-18",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "ABA疗法的应用与效果分析",
+    "readingGuide": {
+      "overview": [
+        "ABA疗法（应用行为分析）通过观察和分析行为，利用正强化手段奖励期望行为，降低不期望行为。其核心在于针对每个儿童的特点制定个性化计划，灵活应用于不同场景。例如，当儿童主动交流时给予表扬或奖励，增强其社交动机。该方法强调持续评估和调整，以优化干预效果。",
+        "在实操中，ABA疗法先对儿童进行详尽评估，确立具体目标和使用强化物。康复师或家长需密切观察记录行为，及时调整策略。定期反馈进展有助于优化方法。坚持对目标行为持续评估，才能确保干预稳定有效，促进儿童社交和行为改善。",
+        "家庭和学校环境中，ABA疗法同样适用。父母可通过日常鼓励强化孩子的正确行为；教师可设计个性化学习计划。家校合作，分享观察反馈，能进一步提升干预效果。家长和康复师共同参与，通过日常互动强化正向行为，帮助儿童更好地融入社会。"
+      ],
+      "keyPoints": [
+        "ABA以正强化为核心，鼓励期望行为",
+        "个性化干预计划和持续评估是ABA有效的关键",
+        "家庭与学校协作能增强ABA疗法的综合效果"
+      ],
+      "parentNotes": [
+        "ABA疗法需由专业认证的行为分析师指导实施",
+        "家长应积极学习ABA基本技巧，并在生活中保持一致应用",
+        "注意观察孩子对强化物的反应，及时调整策略"
+      ],
+      "boundary": "本文介绍ABA疗法的一般原理和应用，不针对具体个案。实施ABA干预需由持证专业人员评估和设计，家庭应用应在专业指导下进行。若孩子有行为问题，请咨询专业行为分析师或发育儿科医生。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "867f6e4f82a2",
     "title": "2岁宝宝发育迟缓的表现与应对策略",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文重点介绍2岁宝宝发育迟缓的常见表现，包括语言和运动技能方面的滞后，并提供家庭应对策略。文章指导家长如何通过观察识别发育问题，并通过互动游戏、丰富环境、及时寻求专业帮助等方法，支持宝宝健康成长，促进语言和运动能力发展。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1149",
     "publishedAt": "2026-03-18",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "2岁宝宝发育迟缓的表现与应对策略",
+    "readingGuide": {
+      "overview": [
+        "2岁宝宝发育迟缓的常见表现主要集中于语言和运动领域。语言方面，正常孩子能说出简单单词和短句，而发育迟缓的宝宝可能只会发简单音节或完全不说话。运动方面，可表现为独立行走、跑步、攀爬等能力明显滞后于同龄人。社交互动不主动、对周围事物缺乏兴趣也需警惕。",
+        "识别发育问题需系统观察：运动上，观察是否能独自站立、走路、抓握玩具；语言上，听词汇量是否超过10个并能组短句，以及是否用肢体或声音表达需求。如有明显差距，应尽早寻求专业评估。同时注意宝宝是否有兴趣模仿动作和声音，这也是发育指标。",
+        "家庭应对策略包括：频繁互动，鼓励模仿语言和动作，如唱歌、游戏；提供安全丰富的环境，激发探索兴趣；多进行户外活动，促进运动协调和亲子关系。与专业人士（如儿童发育中心）沟通，获取个性化指导。定期亲子活动和积极回应能有效提升宝宝能力。"
+      ],
+      "keyPoints": [
+        "2岁发育迟缓常表现为语言词汇少、运动能力滞后",
+        "系统观察运动、语言和社交行为有助于早期识别",
+        "家庭互动、丰富环境和专业指导是应对关键"
+      ],
+      "parentNotes": [
+        "每个孩子发育速度有个体差异，不必过于焦虑",
+        "注意区分暂时性延迟和持续迟缓，及时记录变化",
+        "避免过度比较，但明显落后时需尽早专业评估"
+      ],
+      "boundary": "本文为科普信息，不能替代专业发育评估。若怀疑宝宝发育迟缓，请咨询儿科或发育行为专科医生，进行标准筛查和评估，以排除病理性原因并制定干预计划。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "8de05624e556",
-    "title": "Leucovorin, long-read sequencing, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 16 March.",
+    "title": "亚叶酸钙、长读长测序等自闭症相关研究动态",
+    "summary": "本文汇总2026年3月16日当周的自闭症相关新闻和研究动态。主要内容包括：亚叶酸钙处方因白宫简报而增加，但其在自闭症中的有效性受质疑；两项新研究证实长读长测序能更全面识别自闭症相关基因变异；另有多篇关于自闭症谱系、运动表现、神经发育分类等论文发表。",
     "url": "https://www.thetransmitter.org/spectrum/spotted-leucovorin-long-read-sequencing-and-more/",
     "publishedAt": "2026-03-17",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Leucovorin, long-read sequencing, and more",
+    "readingGuide": {
+      "overview": [
+        "白宫简报后，亚叶酸钙用于自闭症儿童的处方大幅增加，但《The Transmitter》分析发现相关研究基于少数脑叶酸缺乏症患者——这是一种罕见的与自闭症特征相似的脑部疾病。美国FDA近期批准亚叶酸钙用于脑叶酸缺乏症，但撤销了其在自闭症中效力的声明，且一项2024年阳性结果的临床试验已于1月撤稿，该药在自闭症中的有效性尚不明确。",
+        "两项新研究利用长读长测序技术，更好地识别了新发变异、结构变异和串联重复序列等基因变异，证明该技术能更全面地揭示自闭症的遗传基础。此前《The Transmitter》曾报道其中一项研究，强调长读长测序可捕捉短读长测序遗漏的变异。",
+        "本周还发布了多项相关研究成果，包括Uta Frith关于不再认为自闭症是谱系的观点、自闭症脑中的异质性、运动表现差异、神经发育亚群划分等，以及关于人类皮层折叠机制和串联重复突变遗传因素的预印本研究。"
+      ],
+      "keyPoints": [
+        "亚叶酸钙用于自闭症的证据基础薄弱，FDA已撤回疗效声明",
+        "长读长测序技术能更全面鉴定自闭症相关基因变异",
+        "本周有多项自闭症研究发表，涉及谱系概念、脑机制等"
+      ],
+      "parentNotes": [
+        "对亚叶酸钙等药物未经明确证实前不要自行给孩子使用",
+        "关注基因测序技术进步可能带来的诊断准确性提升",
+        "科研动态有助于理解自闭症复杂性，但需谨慎解读"
+      ],
+      "boundary": "本文为研究动态摘要，不构成医疗建议。任何药物使用需在医生指导下进行。若对基因检测或新兴疗法有疑问，请咨询临床遗传学家或发育专科医生。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "1d4478c2a880",
     "title": "自闭症儿童的成长与教育探讨",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文从多个维度探讨自闭症儿童的成长需求与教育策略，强调个体化教学、社交技能培养、情绪管理及家长协作的重要性。通过结构化环境和视觉辅助等方法，帮助儿童提升社交、认知和情绪能力，更好地融入社会。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1148",
     "publishedAt": "2026-03-12",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童的成长与教育探讨",
+    "readingGuide": {
+      "overview": [
+        "文章首先指出自闭症儿童在社交、情感和认知方面面临独特挑战，教育策略需灵活多样。建议创造支持性强、结构明确的学习环境，使用视觉辅助和互动活动促进社交与情感表达。同时强调家长和康复师合作制定个体化教学计划的重要性。",
+        "在促进社交能力方面，提出角色扮演、小组活动及视觉支持工具等教学方法。通过规律日程和明确的社交期望，帮助儿童感到安全有序。持续正向反馈能鼓励儿童尝试更多社交行为，逐步提升互动能力。",
+        "情绪与认知发展方面，稳定安全的成长环境和结构化教学可减少焦虑、提高专注力。利用情感教育、社交故事等方式引导孩子识别和表达情感，增强自信心。家长面临沟通、资源获取等挑战，需要保持积极心态和学习态度。"
+      ],
+      "keyPoints": [
+        "自闭症儿童教育需个体化，结合兴趣和学习方式制定计划",
+        "社交技能培养可利用角色扮演、小组活动和视觉支持",
+        "情绪管理通过情感教育和结构化环境提升儿童适应能力"
+      ],
+      "parentNotes": [
+        "家长需与康复师保持密切沟通，定期调整教育策略",
+        "营造安全有序的家庭环境有助于减轻孩子焦虑",
+        "积极参与孩子的日常互动，善用正向反馈激发社交意愿"
+      ],
+      "boundary": "本文基于一般性科普，不构成个别化教育建议。家长应根据孩子的具体表现，咨询专业康复师或医生制定干预方案。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "d7f9415ad2f4",
     "title": "自闭症儿童成长的教育策略",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文围绕自闭症儿童教育的核心策略展开，涵盖个性化学习计划、社交技能训练和情绪管理技巧。通过多感官教学、角色扮演和游戏化方式，助力儿童掌握社交互动与情绪调节能力，为融入社会奠定基础。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1147",
     "publishedAt": "2026-03-12",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童成长的教育策略",
+    "readingGuide": {
+      "overview": [
+        "文章强调个性化学习计划的重要性，需根据儿童的兴趣、能力和学习风格制定目标。使用视觉辅助、结构化环境和多感官教学法可提升理解与参与度。家长与康复师定期沟通反馈，及时调整计划以适应成长变化。",
+        "社交技能训练方面，建议通过角色扮演模拟社交场景，结合小组活动和游戏，让儿童在轻松氛围中学习互动。给予正面反馈增强自信心，并针对个体差异定制练习内容，帮助儿童更好地融入同龄群体。",
+        "情绪管理技巧被列为关键环节。运用情绪识别卡片、角色扮演和游戏化教学，帮助儿童理解并表达情绪。持续支持和积极反馈能增强自信心，使儿童更适应社交环境。这些策略共同促进儿童的社会融入。"
+      ],
+      "keyPoints": [
+        "个性化学习计划需结合儿童优势、兴趣和学习风格",
+        "社交训练通过角色扮演和小组活动提升互动能力",
+        "情绪管理以识别和表达情感为核心，增强适应能力"
+      ],
+      "parentNotes": [
+        "参与孩子的学习计划制定，关注其兴趣和进步",
+        "在家中创设结构化环境，辅助情绪管理练习",
+        "鼓励孩子参与小组活动，并给予及时鼓励"
+      ],
+      "boundary": "本文提供教育策略的一般性参考，不替代专业评估。若孩子存在严重行为或情绪问题，应寻求行为分析师或心理医生的个别化指导。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "5cac36fb824f",
-    "title": "Revised statistical bar extracts less-common variants from autism genetics studies",
-    "summary": "Adjusting genetic analyses could help plug autism’s heritability gap, according to a new preprint.",
+    "title": "修订后的统计阈值从自闭症遗传学研究中提取出低频变异",
+    "summary": "一项新预印本研究建议，调整全基因组关联研究的统计阈值可揭示被隐藏的低频自闭症相关变异。通过将显著性阈值降至2.03×10⁻⁷，研究人员发现了三个新的低频变异，可能有助于填补自闭症遗传力的空白。",
     "url": "https://www.thetransmitter.org/spectrum/revised-statistical-bar-extracts-less-common-variants-from-autism-genetics-studies/",
     "publishedAt": "2026-03-12",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Revised statistical bar extracts less-common variants from autism genetics studies",
+    "readingGuide": {
+      "overview": [
+        "传统的全基因组关联研究使用严格统计阈值（P<5×10⁻⁸），这更适合常见变异。但对于低频变异（介于1%-5%之间），该阈值因统计效力不足而容易遗漏真实关联。研究团队认为，这可能掩盖了自闭症部分未解释的遗传力。",
+        "研究人员采用Bonferroni校正方法生成了替代阈值（2.03×10⁻⁷），并成功识别出三个与自闭症相关的低频变异。该研究第一作者指出，针对身高或BMI等常见性状开发的方法可能不适用于自闭症遗传研究。",
+        "该研究为开创性成果，但需进一步复制验证。如获确认，修订后的阈值有望捕获此前被遗漏的遗传信号，帮助更全面地理解自闭症的遗传基础。外部专家评价该工作“非常创新”。"
+      ],
+      "keyPoints": [
+        "传统GWAS阈值（5×10⁻⁸）可能遗漏低频自闭症变异",
+        "新阈值（2.03×10⁻⁷）通过Bonferroni校正得出",
+        "发现三个低频变异，或可填补自闭症遗传力缺口"
+      ],
+      "parentNotes": [
+        "该研究尚处预印本阶段，结论待验证",
+        "遗传发现不直接用于个体诊断或干预",
+        "家长关注遗传研究进展时需谨慎解读"
+      ],
+      "boundary": "本文仅介绍初步研究结果，不作为临床依据。自闭症遗传因素复杂，具体遗传咨询应咨询临床遗传学家或医生。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "166f91776add",
-    "title": "Age at Autism Diagnosis Linked to Distinct Genetic Profiles",
-    "summary": "点击查看来源文章。",
+    "title": "自闭症诊断年龄与不同遗传特征相关",
+    "summary": "剑桥大学SFARI资助的研究发现，自闭症诊断年龄与多基因遗传特征有关。早期诊断的儿童在幼儿期社交沟通差异更明显；后期诊断者则更多在青少年期出现行为困难，并伴有更高比例的共病心理健康问题。",
     "url": "https://www.sfari.org/2026/03/11/age-at-autism-diagnosis-linked-to-distinct-genetic-profiles/",
     "publishedAt": "2026-03-11",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Age at Autism Diagnosis Linked to Distinct Genetic Profiles",
+    "readingGuide": {
+      "overview": [
+        "传统认为自闭症是早发条件，但越来越多个体在童年后期甚至更晚被诊断。早期诊断的儿童在幼儿期社交和沟通能力差异更明显；而后期诊断者更可能在青春期出现行为和社会困难，并伴有更高的共病ADHD、抑郁和创伤后应激障碍风险。",
+        "研究团队分析了四个独立自闭症队列的纵向数据，重点关注多基因影响（数千个常见遗传变异的总和效应）。他们发现两种不同的社会情感和行为发育轨迹与诊断年龄相关，而非单一模式。",
+        "研究提示自闭症并非由统一遗传风险驱动，而是具有多种遗传特征。女性平均诊断年龄晚于男性，表明在分析性别差异时需要考虑诊断年龄因素。一些被认为的性别差异实际上可能反映了诊断年龄的偏差。"
+      ],
+      "keyPoints": [
+        "自闭症诊断年龄与多基因遗传特征紧密相关",
+        "早期诊断者幼儿期社交差异更明显，后期诊断者青春期困难更突出",
+        "女性诊断年龄偏晚，性别差异分析需校正诊断年龄"
+      ],
+      "parentNotes": [
+        "诊断年龄差异不代表自闭症类型优劣，应关注个体需求",
+        "后期诊断儿童需留意青春期心理健康问题",
+        "女性自闭症可能被低估，家长应关注隐性特征"
+      ],
+      "boundary": "本文基于研究摘要，不替代临床评估。如果孩子有疑似症状或诊断年龄异常，请咨询发育行为儿科医生或精神科医生。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "272213beabda",
-    "title": "Applications Open for 2026–2027 Undergraduate Research Fellowships in Neuroscience",
-    "summary": "点击查看来源文章。",
+    "title": "2026-2027学年神经科学本科生研究奖学金开放申请",
+    "summary": "西蒙斯基金会正在接受2026-2027学年Shenoy本科生神经科学研究奖学金（SURFiN）申请。该项目为本科生提供带薪科研机会，时长30周，时薪25美元外加实验室资源补贴，无需先前经验。申请截止2026年4月21日。",
     "url": "https://www.simonsfoundation.org/2026/03/10/applications-open-for-2026-2027-undergraduate-research-fellowships-in-neuroscience",
     "publishedAt": "2026-03-10",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Applications Open for 2026–2027 Undergraduate Research Fellowships in Neuroscience",
+    "readingGuide": {
+      "overview": [
+        "SURFiN项目旨在为缺乏科研机会的本科生点燃和维持对神经科学的兴趣。奖学金从2026年9月持续至2027年5月，入选学生将在西蒙斯基金会支持的实验室进行面对面研究实习，每周10小时，共30周。",
+        "每位研究员获25美元/小时的报酬，实验室额外获得2000美元资源补贴。项目面向攻读学士或副学士学位的学生，多数情况下无需就读所在机构实验室。今年实验室位于美国、加拿大和欧洲多个城市。",
+        "研究员将获得直接实验室指导，并参与职业发展和社区建设活动，包括2026年春季在纽约市举办的科学研讨会。申请截止时间为2026年4月21日东部时间中午12点，需提交推荐信。3月25日有线上说明会。"
+      ],
+      "keyPoints": [
+        "带薪奖学金，每小时25美元，每周10小时，共30周",
+        "无需先前实验室经验，面向本科生",
+        "申请截止2026年4月21日，含推荐信提交"
+      ],
+      "parentNotes": [
+        "适合对神经科学感兴趣的本科生，尤其是缺乏研究机会者",
+        "咨询子女所在院校的教务部门确认资格和申请材料",
+        "提醒孩子关注3月25日的线上说明会获取更多信息"
+      ],
+      "boundary": "本文仅提供奖学金申请信息，不涉及具体学术建议。如需申请指导，请联系学校学术顾问或直接访问西蒙斯基金会官网。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "7dc3dcf3d68d",
-    "title": "Portfolio of SCN2A gene variants, and more",
-    "summary": "Here is a roundup of autism-related news and research spotted around the web for the week of 9 March.",
+    "title": "SCN2A基因变异组合及其他",
+    "summary": "本文汇总了2026年3月9日当周的自闭症相关新闻和研究亮点，重点报道了SCN2A基因变异对Nav1.2钠通道功能的不同影响，以及非综合征性自闭症相关变异导致功能丧失并产生显性负效应。同时简要介绍了其他研究，如Angelman综合征猪模型、22q11.2缺失综合征等。",
     "url": "https://www.thetransmitter.org/spectrum/portfolio-of-scn2a-gene-variants-and-more/",
     "publishedAt": "2026-03-10",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Portfolio of SCN2A gene variants, and more",
+    "readingGuide": {
+      "overview": [
+        "本周研究新闻汇总重点聚焦于SCN2A基因变异：不同变异对Nav1.2钠通道影响各异，其中导致非综合征性自闭症的变异表现为功能丧失，且与野生型通道共表达时出现显性负效应，全面干扰通道活性。该发现进一步阐明了基因型与表型之间的关系。",
+        "其他值得关注的研究包括：母体UBE3A缺失猪模型的Angelman综合征脑电研究、22q11.2缺失综合征与先天性心脏病关联的大规模分析，以及MECP2可变剪接调控作为雷特综合征潜在治疗策略的研究等。此外还有一篇关于撤稿事件的报道。"
+      ],
+      "keyPoints": [
+        "SCN2A基因变异对钠通道功能影响多样，非综合征性自闭症变异导致功能丧失",
+        "本周研究还涉及Angelman综合征、22q11.2缺失综合征及雷特综合征等",
+        "部分研究仍为预印本，需进一步验证"
+      ],
+      "parentNotes": [
+        "SCN2A基因变异与多种神经发育状况相关，了解变异类型有助于理解病因",
+        "研究仍处于早期阶段，并非直接临床指南",
+        "基因检测结果应结合临床评估，咨询遗传咨询师"
+      ],
+      "boundary": "本文为新闻汇总，不提供具体诊断或治疗建议。如有基因相关疑问，请咨询专业医生或遗传咨询师。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "0b64ccf6f94b",
-    "title": "Choroid Plexus Secretion Regulates CSF Proteome and Alters Brain Development",
-    "summary": "点击查看来源文章。",
+    "title": "脉络丛分泌调节脑脊液蛋白质组并改变大脑发育",
+    "summary": "研究表明，脉络丛上皮细胞通过顶浆分泌控制脑脊液蛋白质组成，激活5-HT2C血清素受体可增加细胞内钙并促进分泌，进而影响大脑皮层发育。母体暴露于5-HT2C激动剂或LSD可导致子代社交缺陷和重复行为，提示孕期因素可能影响胎儿神经发育。",
     "url": "https://www.sfari.org/2026/03/05/choroid-plexus-secretion-regulates-csf-proteome-and-alters-brain-development/",
     "publishedAt": "2026-03-05",
     "source": "SFARI",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "Choroid Plexus Secretion Regulates CSF Proteome and Alters Brain Development",
+    "readingGuide": {
+      "overview": [
+        "脉络丛是脑脊液的主要来源，其分泌活动决定了脑脊液的蛋白质组成。研究人员发现，胚胎期脉络丛高表达5-HT2C血清素受体，激活该受体后细胞内钙浓度升高，触发顶浆分泌机制——细胞膜和细胞质部分出芽释放内含物，从而改变脑脊液成分。",
+        "在怀孕小鼠中，给予5-HT2C激动剂后，胚胎脑脊液蛋白分泌增加，神经祖细胞程序发生改变，皮质发育异常。这些小鼠成年后出现社交障碍和重复行为。研究还发现，迷幻药LSD及母体免疫激活也能引发类似分泌反应，提示多种孕期暴露可能通过共同通路影响神经发育。"
+      ],
+      "keyPoints": [
+        "脉络丛通过顶浆分泌调控脑脊液蛋白质组",
+        "激活5-HT2C受体增加钙信号，促进分泌并影响皮层发育",
+        "母体暴露于5-HT2C激动剂或LSD可导致子代社交和重复行为异常"
+      ],
+      "parentNotes": [
+        "本研究为动物实验，人类关联需谨慎解读",
+        "孕期感染或发热可能通过类似机制影响胎儿，但机制复杂",
+        "切勿自行使用血清素激动剂或致幻剂，孕期用药务必遵医嘱"
+      ],
+      "boundary": "本文基于动物实验，不直接提供人类健康建议。孕期暴露风险请咨询产科或儿科医生。"
+    },
+    "sourceDisplay": "西蒙斯基金会孤独症研究计划"
   },
   {
     "id": "6586c6c70b88",
     "title": "自闭症儿童与普通孩子在玩玩具方面的显著差异",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨了自闭症儿童与普通儿童在玩玩具时的差异：自闭症儿童偏好特定质感、颜色或功能的玩具，常独自玩耍，社交互动较少；而普通儿童更倾向于角色扮演和集体游戏。这些差异影响社交技能和创造力发展，需要教育者和家长提供个性化支持。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1146",
     "publishedAt": "2026-03-05",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童与普通孩子在玩玩具方面的显著差异",
+    "readingGuide": {
+      "overview": [
+        "自闭症儿童在玩具选择上常表现出独特偏好，例如喜欢旋转、分解或重复运动的玩具，这些玩具能提供感官刺激。他们可能长时间专注于某一类玩具（如火车或动物模型），而较少接触社交化玩具，在游戏中表现出较少的互动和情感表达。",
+        "普通儿童则更具创造力和社交性，乐于参与角色扮演和集体游戏，与同伴分享玩耍乐趣。这种差异不仅体现在玩耍方式上，还可能影响自闭症儿童日后社交技能和情感表达的发展。理解这些行为差异有助于制定有效的教育策略，通过个性化玩具选择和专业支持促进他们的社交互动。"
+      ],
+      "keyPoints": [
+        "自闭症儿童常专注单一玩具（如旋转类），缺少社交互动",
+        "普通儿童更灵活参与集体游戏，社交技能更强",
+        "通过个性化玩具选择和专业指导可改善社交互动"
+      ],
+      "parentNotes": [
+        "观察孩子对玩具的独特兴趣，可从中找到沟通切入点",
+        "不必强行要求参与集体游戏，可逐步引入社交元素",
+        "如有需要，可咨询专业机构进行个性化评估"
+      ],
+      "boundary": "本文列举常见行为差异，具体表现因人而异。若孩子游戏行为明显偏离同龄，建议咨询发育行为儿科或康复治疗师。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "7210e514e191",
-    "title": "New autism committee positions itself as science-backed alternative to government group",
-    "summary": "The Independent Autism Coordinating Committee plans to meet at the same time as the U.S. federal Interagency Autism Coordinating Committee later this month—and offer its own research agenda.",
+    "title": "新自闭症委员会自称以科学为后盾，成为政府机构外的选择",
+    "summary": "由12名科学家、倡导者和政策制定者组成的独立自闭症协调委员会（I-ACC）成立，旨在应对联邦IACC成员缺乏研究专业性的问题。该委员会计划与联邦IACC在同一时间开会，提出基于科学的研究议程，以“维持自闭症研究进展”。",
     "url": "https://www.thetransmitter.org/spectrum/new-autism-committee-positions-itself-as-science-backed-alternative-to-government-group/",
     "publishedAt": "2026-03-05",
     "source": "The Transmitter / Spectrum",
     "sourceType": "research",
-    "language": "en",
+    "language": "zh",
     "category": "前沿研究",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "New autism committee positions itself as science-backed alternative to government group",
+    "readingGuide": {
+      "overview": [
+        "2026年1月，美国卫生与公众服务部重组了联邦跨部门自闭症协调委员会（IACC），新成员多数缺乏研究专长，引发科学界担忧。为此，自闭症科学基金会与自闭症科学家联盟组建了独立自闭症协调委员会（I-ACC），成员包括12位科学家、倡导者和政策制定者。",
+        "I-ACC计划在3月19日与联邦IACC同一时间举行首次会议，提供科学导向的研究建议。宾夕法尼亚大学精神病学教授David Mandell表示，联邦IACC的产出很可能违背既定科学，而I-ACC旨在确保研究进程不受影响。联邦IACC发言人则强调将按总统指令推进自闭症研究突破。"
+      ],
+      "keyPoints": [
+        "I-ACC由12位专家组成，作为联邦IACC的科学替代方案",
+        "两个委员会将于同一天同期开会，研究议程可能对立",
+        "科学界担忧联邦IACC缺乏研究专业性，影响研究资助方向"
+      ],
+      "parentNotes": [
+        "该事件反映研究政策走向可能影响自闭症研究资源分配",
+        "家长可关注两个委员会的建议差异，理解科学依据的重要性",
+        "不必过度解读，但应支持基于证据的研究方向"
+      ],
+      "boundary": "本文为新闻报道，不提供健康建议。研究政策变化可能影响未来资助，但家长仍应以当前专业医疗和干预建议为准。"
+    },
+    "sourceDisplay": "国际神经科学研究媒体"
   },
   {
     "id": "6dfb6de2f8f4",
     "title": "自闭症儿童融合教育的必要性与挑战",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨了自闭症儿童融合教育的核心价值：通过融入主流课堂，提升社交能力和学习成就，同时培养普通儿童的同理心。但实施面临挑战，需要教师培训、专业支持和课堂环境调整，以及政府、家长和社会的共同努力。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1145",
     "publishedAt": "2026-03-02",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "融合教育",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童融合教育的必要性与挑战",
+    "readingGuide": {
+      "overview": [
+        "融合教育将自闭症儿童安置在普通课堂，能为其提供丰富的社交学习环境，增强沟通技巧，减少孤立感。同时，普通儿童在与同伴互动中培养同理心和包容性，促进班级和谐。研究表明，这种相互促进的环境对全体儿童发展有利。",
+        "然而，自闭症儿童常面临社交困难、注意力分散和感知过敏等挑战，在传统课堂中易落后。有效策略包括加强教师特殊教育技能培训、提供专业支持（如影子老师）、调整课堂环境（设置安静区、使用视觉工具），以及通过互动活动促进同伴接纳。",
+        "推动融合教育需要社会各界共同承担：政府加大资源投入，学校与专业机构（如大米和小米）合作，家长积极参与家校合作。通过多方合作，才能构建真正的包容性教育体系，为所有孩子提供公平成长机会。"
+      ],
+      "keyPoints": [
+        "融合教育提升自闭症儿童社交能力，并培养普通儿童同理心",
+        "教师培训和学校支持系统是成功实施的关键",
+        "需政府、学校、家长和社区协同推进"
+      ],
+      "parentNotes": [
+        "主动与学校沟通，争取资源和支持（如影子老师）",
+        "观察孩子在校适应情况，及时调整教育方案",
+        "融合教育需要专业指导，非简单“随班就读”"
+      ],
+      "boundary": "本文概述融合教育理念，具体实施需根据孩子个体情况制定方案。建议咨询特殊教育专家或学校资源教师获取个性化建议。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "de422d2c8042",
     "title": "自闭症儿童的重复动作的影响",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨自闭症儿童重复动作的特点、心理意义及日常生活影响，指出这些行为能提供安全感和情绪调节，但可能带来社交挑战，并给出家长和康复师的支持建议。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1144",
     "publishedAt": "2026-03-02",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童的重复动作的影响",
+    "readingGuide": {
+      "overview": [
+        "自闭症儿童的重复动作如摇晃、转圈或玩弄物体，是他们应对压力和焦虑的常见方式，能带来安全感和舒适感，帮助他们在不确定环境中平复情绪。这些行为与他们对环境变化的敏感性密切相关，是自我调节的重要手段。",
+        "在日常生活中，重复行为既提供可预见的安全感，也可能在社交场合造成困扰，使孩子在集体活动中显得格格不入。家长和康复师应理解其背后的情感需求，通过建立稳定环境、提供替代活动（如感官玩具）来减少不当行为的影响，同时鼓励社交参与。"
+      ],
+      "keyPoints": [
+        "重复动作是自闭症儿童自我安抚和应对焦虑的方式。",
+        "这些行为有助于孩子获得情感安全，但可能影响社交互动。",
+        "家长可通过结构化环境和替代活动来支持孩子减少依赖。"
+      ],
+      "parentNotes": [
+        "观察孩子重复动作出现的场景，理解其情绪触发点。",
+        "避免强行制止，尝试用其他感官活动转移注意力。",
+        "与康复师合作，制定个性化支持计划。"
+      ],
+      "boundary": "本文为科普性质，不提供具体干预方案。若孩子重复行为严重影响生活，请咨询专业康复师或医生进行评估和指导。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "d95930336135",
     "title": "区别语言发育迟缓与自闭症的关键指南",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文对比语言发育迟缓与自闭症的核心区别，介绍两种情况的早期特征、识别方法及应对策略，帮助家长和康复师准确判断并采取针对性支持。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1143",
     "publishedAt": "2026-03-02",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "区别语言发育迟缓与自闭症的关键指南",
+    "readingGuide": {
+      "overview": [
+        "语言发育迟缓主要表现为词汇和语法滞后，但孩子仍有社交兴趣和理解能力，可通过言语治疗改善。自闭症则涉及社交互动、眼神交流、情感回应等广泛障碍，常伴随重复行为和对变化的抵触，需早期干预。",
+        "识别关键：语言发育迟缓的孩子能理解指令并愿意互动，而自闭症儿童可能回避社交、缺乏眼神交流。早期观察孩子三岁前的社交和语言里程碑至关重要，如不主动寻求关注或重复词句，应警惕自闭症可能。",
+        "应对策略：语言发育迟缓侧重言语治疗和家庭语言刺激；自闭症则需社交技能训练、多感官教学和个性化支持。家长应配合专业评估，制定针对性计划，越早干预效果越好。"
+      ],
+      "keyPoints": [
+        "语言发育迟缓主要影响语言能力，自闭症涉及社交和行为障碍。",
+        "自闭症早期症状包括缺乏眼神交流、社交回避和重复行为。",
+        "早期干预对两者都关键，但策略不同，需专业评估区分。"
+      ],
+      "parentNotes": [
+        "若孩子语言落后但社交正常，优先排查语言迟缓和听力问题。",
+        "注意观察社交互动表现，如是否回避目光或对呼唤无反应。",
+        "不要自行诊断，及时寻求儿童发育科或康复机构评估。"
+      ],
+      "boundary": "本文提供鉴别思路，不做诊断。如有疑虑，请咨询儿科医生或发育行为专家进行全面评估。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "ceadbdf87433",
     "title": "自闭症儿童日常生活的挑战与应对策略",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "文章分析自闭症儿童在社交沟通、情绪管理和感官敏感性三方面的日常困难，并提供建立规律作息、使用视觉辅助、创造包容环境等实用策略，以提升孩子的生活适应能力。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1142",
     "publishedAt": "2026-02-28",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童日常生活的挑战与应对策略",
+    "readingGuide": {
+      "overview": [
+        "自闭症儿童面临的主要挑战包括社交沟通障碍（如难以理解情感、维持对话）、情绪管理困难（波动大、易焦虑）和感官敏感（对声音、光线等过度反应）。这些问题影响学习、社交和家庭生活。",
+        "应对策略：建立稳定可预测的日常流程，减少焦虑；使用图片、时间表等视觉工具帮助理解；提供替代性安抚方式（如触觉玩具、运动）；创造安静舒适的环境。同时，通过社交技能小组和游戏提升互动能力。",
+        "家长的支持至关重要：学习耐心沟通、放慢语速、鼓励孩子表达。与康复师合作制定个性化计划，结合绘画、音乐等艺术活动帮助情绪释放，逐步增强孩子的自信和适应力。"
+      ],
+      "keyPoints": [
+        "社交、情绪和感官敏感是自闭症儿童三大日常挑战。",
+        "规律作息和视觉工具能有效减少孩子的不安。",
+        "替代性活动和包容环境有助于孩子应对感官过度刺激。"
+      ],
+      "parentNotes": [
+        "观察孩子对特定刺激的反应，提前规避或准备应对工具。",
+        "利用孩子兴趣（如旋转、画画）作为沟通和学习的桥梁。",
+        "保持耐心，避免在情绪爆发时强行干预，事后引导复盘。"
+      ],
+      "boundary": "本文为通用建议，每个孩子需求不同。严重行为或情绪问题请寻求专业行为分析师或心理治疗师指导。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "969b173806b0",
-    "title": "发育迟缓的征兆与应对策略",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "title": "发育迟缓的早期征兆与应对策略",
+    "summary": "本文帮助家长识别语言、社交、运动等方面的发育迟缓早期信号，介绍如何通过丰富环境、亲子互动和个性化支持来促进孩子发展，并强调及时专业评估的重要性。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1141",
     "publishedAt": "2026-02-28",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "发育迟缓的征兆与应对策略",
+    "readingGuide": {
+      "overview": [
+        "发育迟缓的早期征兆包括：语言方面（12个月不会说简单词、18个月词汇量少）、社交方面（回避眼神、不模仿表情、不与同龄人互动）、运动方面（翻身、爬行、走路延迟）。家长可通过与同龄儿童比较来初步判断。",
+        "支持策略：提供丰富的学习环境（绘本、绘画、音乐），组织适龄活动增加社交机会，建立规律作息和均衡饮食。亲子游戏如拼图和角色扮演能提升认知和社交技能。同时，定期健康检查和专业评估必不可少。",
+        "影响发育的因素包括遗传、家庭环境、营养等。家长需保持耐心，积极与医生或康复师合作，制定个性化发展计划。早期发现和干预能最大程度促进孩子潜能发展。"
+      ],
+      "keyPoints": [
+        "语言、社交、运动是发育迟缓三大重点关注领域。",
+        "丰富环境和亲子互动是促进发育的基础策略。",
+        "早期识别并及时寻求专业评估是关键。"
+      ],
+      "parentNotes": [
+        "记录孩子各阶段里程碑，与专业标准对照。",
+        "避免过度焦虑，但也不忽视任何滞后信号。",
+        "家庭支持与环境调整同样重要，多给予积极鼓励。"
+      ],
+      "boundary": "本文不代替医学诊断。如怀疑孩子发育迟缓，请尽快咨询儿科医生或发育行为专家进行标准化评估。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "7df770cf5aff",
     "title": "特殊儿童适应与发展的关键环节",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "文章分析特殊儿童在社交、情感、学习方面的适应挑战，强调家庭温暖环境、个性化教育方式和社会支持网络对促进其全面发展的关键作用，并给出具体优化建议。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1140",
     "publishedAt": "2026-02-28",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "特殊儿童适应与发展的关键环节",
+    "readingGuide": {
+      "overview": [
+        "特殊儿童常见的适应挑战包括社交困难（缺乏技巧、与同龄人互动不畅）、情感表达障碍以及学习困难。解决这些需要家庭创造支持性环境：积极沟通、鼓励表达、参与日常活动，以及引入专业干预。",
+        "有效的干预方式需个性化，如通过游戏、一对一辅导、小组活动等提升学习和社交能力。社会支持（社区、学校、专业机构）能提供资源、心理服务和包容氛围，增强孩子自信。",
+        "家长应主动学习育儿技能，与专业人士合作，建立规律的家庭秩序，为孩子提供安全感。多方联动（家庭、学校、社会）是特殊儿童全面发展的保障。"
+      ],
+      "keyPoints": [
+        "家庭温暖和支持是特殊儿童自信心的基础。",
+        "个性化干预方法和小组活动能提升社交与学习能力。",
+        "社会支持网络（社区、专业机构）对适应至关重要。"
+      ],
+      "parentNotes": [
+        "多观察孩子的优势，从优势入手建立自信。",
+        "与学校、治疗师保持沟通，统一支持策略。",
+        "加入家长支持团体，获得情感和经验分享。"
+      ],
+      "boundary": "本文提供整体框架，具体干预方案需根据孩子个体情况由专业人士制定。如遇严重行为或情绪问题，请及时寻求心理或康复专家帮助。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "3a9487978240",
     "title": "特殊儿童社交技能训练的有效方法解析",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨提升特殊儿童社交技能的多种训练策略，强调个性化方案、情境模拟、角色扮演和团队活动的重要性。通过科学方法和案例分析，帮助家长和康复师掌握实用技巧，提升孩子的沟通能力和自信心。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1139",
     "publishedAt": "2026-02-27",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "特殊儿童社交技能训练的有效方法解析",
+    "readingGuide": {
+      "overview": [
+        "特殊儿童的社交技能训练需从评估个体需求出发，制定个性化方案。情境模拟如角色扮演能让孩子在安全环境中练习对话，视觉辅助工具如社交故事和情绪卡片有助于理解复杂社交情境。小组活动则促进同龄互动，在合作中学习沟通。",
+        "实践方法包括通过角色扮演模拟真实场景，组织小组游戏和团队任务，利用专业机构资源如大米和小米儿童成长中心的课程。家长和康复师还可通过视频回放分析孩子的互动表现，针对性提升社交技能。",
+        "为孩子创造友好的社交环境同样关键，例如组织小型互动活动、鼓励参与家庭事务，同时保持积极正面的态度，增强孩子的自信心和安全感。这些策略综合应用能为特殊儿童搭建社交桥梁，助力融入集体。"
+      ],
+      "keyPoints": [
+        "个性化训练方案需评估每个儿童独特的社交能力和挑战。",
+        "角色扮演和情境模拟是有效练习社交互动的安全方式。",
+        "小组活动和团队合作能提升沟通能力与自信心。"
+      ],
+      "parentNotes": [
+        "日常多创造自然的社交机会，如邀请同龄伙伴来家玩。",
+        "观察孩子的情绪变化，避免在焦虑时强行社交。",
+        "持续记录进步，与康复师沟通调整策略。"
+      ],
+      "boundary": "本文提供通用策略，不针对具体个案。若孩子社交困难严重影响生活，建议咨询专业康复师或儿童发育医生。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "4dd800bfac75",
     "title": "自闭症儿童情绪崩溃的原因与应对策略",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文分析自闭症儿童情绪崩溃的常见原因，包括感官过载、社交挑战和日常规律改变。提供识别前兆、保持冷静、稳定作息等实用应对策略，帮助家长有效支持孩子情绪调节，营造更和谐的家庭环境。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1138",
     "publishedAt": "2026-02-27",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症儿童情绪崩溃的原因与应对策略",
+    "readingGuide": {
+      "overview": [
+        "自闭症儿童情绪崩溃常由感官过载（如对声音、光线敏感）、社交互动困难、日常规律改变以及内在情绪调节能力不足引起。这些因素相互交织，导致孩子难以自我平息。",
+        "家长需学会识别前兆，如突然烦躁、言语困难、对平常事物敏感。应对时保持冷静、给予安抚、分散注意力，并建立稳定的生活规律预防崩溃。积极沟通技巧能帮助孩子表达感受。",
+        "心理机制方面，高敏感性、社交沟通障碍、环境变化和家庭支持都影响情绪稳定。了解这些有助于家长提前准备。实用策略包括建立日常安排、识别触发因素、使用简单语言沟通，以及教授放松技巧如深呼吸。"
+      ],
+      "keyPoints": [
+        "感官过载、社交挑战和日常规律改变是主要触发因素。",
+        "识别情绪前兆并及时干预可减少崩溃发生。",
+        "稳定作息和放松技巧有助于孩子情绪调节。"
+      ],
+      "parentNotes": [
+        "记录每次崩溃前的情境，寻找规律。",
+        "避免在崩溃时强制沟通，先确保安全。",
+        "与学校或干预团队保持信息同步。"
+      ],
+      "boundary": "本文基于常见经验总结，不替代专业评估。若情绪崩溃频繁或具有攻击性，应寻求心理科或行为分析师帮助。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "80579c1edf60",
     "title": "语言发育迟缓的家庭训练解决方案",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文提供家庭训练方法帮助语言发育迟缓儿童，强调营造丰富的语言环境、亲子互动、游戏和视觉辅助工具的使用。通过日常对话、讲故事、角色扮演等策略，提升孩子的表达能力和自信心。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1137",
     "publishedAt": "2026-02-27",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "语言发育迟缓的家庭训练解决方案",
+    "readingGuide": {
+      "overview": [
+        "家庭干预的基础是营造丰富的语言环境，家长应积极与孩子交流，使用简洁清晰的语言。日常对话、讲故事和提问能刺激语言使用，视觉辅助如图卡帮助理解新词汇。游戏如角色扮演、拼图在轻松氛围中促进语言发展。",
+        "亲子训练策略包括通过讲故事吸引参与，利用生活场景（如做饭、公园观察）扩大词汇量，鼓励用完整句子表达。家长耐心倾听并给予积极反馈，增强孩子说话信心。",
+        "实用技巧：使用简单短句、利用购物等情境练习描述、通过唱歌和朗读培养语感。选择适龄图书，设立“讲故事时间”。关键是给予鼓励，让孩子在尝试中感受到成就感。"
+      ],
+      "keyPoints": [
+        "日常对话和讲故事是刺激语言发展的核心方法。",
+        "游戏和角色扮演能在轻松氛围中提升表达。",
+        "视觉辅助工具如图卡帮助孩子理解和记忆词汇。"
+      ],
+      "parentNotes": [
+        "每天固定安排10-15分钟一对一互动时间。",
+        "减少电子屏幕时间，增加面对面交流。",
+        "若进展缓慢，可考虑专业言语治疗评估。"
+      ],
+      "boundary": "家庭训练支持语言发展，但不能替代专业言语治疗。若儿童到2岁仍无有意义词汇，建议咨询儿科医生或言语治疗师。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "ef367f5a411a",
     "title": "ABA疗法在儿童发展中的有效性探讨",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文探讨ABA疗法对儿童发展的有效性，分析其原理和在不同类型儿童中的应用。强调个性化教育和持续评估的重要性。自闭症谱系障碍儿童通常获益明显，其他障碍儿童效果因个体差异而不同。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1136",
     "publishedAt": "2026-02-26",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "ABA疗法在儿童发展中的有效性探讨",
+    "readingGuide": {
+      "overview": [
+        "ABA疗法基于行为科学原理，通过观察、测量和分析行为制定干预计划。广泛应用于自闭症谱系障碍、ADHD等发展障碍，采用正强化鼓励期望行为。个性化教育是核心，根据每个儿童独特需求调整策略。",
+        "不同类型儿童对ABA反馈不同：自闭症儿童通常表现出积极改善，在沟通、社交、行为管理方面有效；但部分ADHD或学习障碍儿童效果有限，需结合其他方法。个体差异、症状严重度和文化背景影响效果。",
+        "个性化教育在ABA中至关重要。专业评估后设计贴合个体特点的方案，设定具体行为目标和奖励机制，提高参与度和学习成效。家长和教育者需参与并动态调整策略，确保干预一致性。"
+      ],
+      "keyPoints": [
+        "ABA疗法基于行为分析，通过强化塑造目标行为。",
+        "对自闭症儿童效果明显，对其他发展障碍效果因人而异。",
+        "个性化方案和持续评估是成功关键。"
+      ],
+      "parentNotes": [
+        "选择有认证的BCBA督导的ABA服务。",
+        "观察孩子对ABA的反应，及时反馈调整。",
+        "避免过度使用惩罚，优先正向强化。"
+      ],
+      "boundary": "ABA疗法需由专业行为分析师实施。本文不构成治疗建议，若考虑ABA应寻求正规机构评估。"
+    },
+    "sourceDisplay": "大米和小米"
   },
   {
     "id": "cd9d4abad625",
     "title": "自闭症感统训练的重要性及实施方法",
-    "summary": "大米和小米是中国领先的专注儿童发育与能力提升的专业服务平台，提供专业科学的康复干预、融合支持、家长培训及科普咨询等服务。已在全国开设50多家线下中心，为上万名有语言、社交、专注力、学习等障碍的特殊需要儿童提供康复服务，助力他们顺利入园入学，融入社会。",
+    "summary": "本文阐述感统训练对自闭症儿童的重要性，通过多感官刺激提升感觉统合能力，改善日常生活技能、情绪管理和社交互动。介绍游戏疗法、触觉探索、综合感官活动等实施方法，强调个体化方案。",
     "url": "https://www.dmhxm.com/classes/article/detail/method/1135",
     "publishedAt": "2026-02-24",
     "source": "大米和小米",
     "sourceType": "vertical",
     "language": "zh",
     "category": "干预方法",
-    "linkLabel": "阅读原文"
+    "linkLabel": "查看来源",
+    "originalTitle": "自闭症感统训练的重要性及实施方法",
+    "readingGuide": {
+      "overview": [
+        "感统训练通过多感官刺激帮助自闭症儿童改善感觉统合失调。触觉、听觉、视觉等刺激提升信息处理能力，增强注意力和专注力。训练还可促进情绪管理，减少焦虑和冲动行为。",
+        "实施方法包括专业评估后制定个体化方案。游戏疗法是关键，如沙、水、黏土等触觉活动；结合音乐、律动、视觉提示等综合感官活动。团体感统活动在合作中提升社交互动和情绪调节。",
+        "多感官刺激应用色彩丰富的教具、节奏舒缓的音乐、不同质地的材料，吸引儿童注意力，提升参与兴趣。这种方法增强对外界刺激的反应能力，提高社交参与度，并支持情绪调节。"
+      ],
+      "keyPoints": [
+        "感统训练提升自闭症儿童的感觉统合与信息处理能力。",
+        "游戏疗法和综合感官活动是核心实施方式。",
+        "个体化方案和专业人士指导必不可少。"
+      ],
+      "parentNotes": [
+        "选择有经验的感统治疗师进行评估和指导。",
+        "训练应在安全、愉悦的环境中进行。",
+        "观察孩子对刺激的反应，避免过度刺激。"
+      ],
+      "boundary": "感统训练是辅助干预手段，不能替代其他康复治疗。若孩子有严重感官问题，应咨询作业治疗师或专业机构。"
+    },
+    "sourceDisplay": "大米和小米"
   }
 ]

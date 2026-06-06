@@ -352,6 +352,12 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=100)
     args = parser.parse_args()
     cutoff = dt.date.fromisoformat(args.cutoff)
+    existing_by_url = {}
+    if OUTPUT_PATH.exists():
+        existing_by_url = {
+            article["url"]: article
+            for article in json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        }
 
     vertical = scrape_dmhxm(cutoff, 80)
     transmitter = scrape_rss(
@@ -378,6 +384,27 @@ def main() -> None:
     articles = dedupe_articles([*selected, *leftovers])[: args.limit]
     if len(articles) < args.limit:
         raise SystemExit(f"Only collected {len(articles)} valid articles; expected {args.limit}.")
+
+    preserved_fields = {
+        "originalTitle",
+        "title",
+        "summary",
+        "readingGuide",
+        "sourceDisplay",
+        "language",
+        "linkLabel",
+    }
+    for article in articles:
+        existing = existing_by_url.get(article["url"], {})
+        if "readingGuide" not in existing:
+            continue
+        article.update(
+            {
+                field: existing[field]
+                for field in preserved_fields
+                if field in existing
+            }
+        )
 
     OUTPUT_PATH.write_text(
         json.dumps(articles, ensure_ascii=False, indent=2) + "\n",

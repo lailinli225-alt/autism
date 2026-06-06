@@ -122,7 +122,7 @@ const articleSourceTypes = [
   ["全部来源", "all"],
   ["中文垂类", "vertical"],
   ["微信公众号", "wechat"],
-  ["国际研究", "research"],
+  ["国际研究中文导读", "research"],
 ];
 
 const skillVisuals = {
@@ -951,6 +951,7 @@ function ArticlesScreen() {
   const [query, setQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(20);
   const [saved, setSaved] = useStoredState("care.savedArticles", []);
+  const [selectedArticle, setSelectedArticle] = useState(null);
   const normalizedQuery = query.trim().toLowerCase();
   const filtered = articles.filter((article) => {
     const matchesTag = tag === "全部" || article.category === tag;
@@ -976,12 +977,76 @@ function ArticlesScreen() {
     setVisibleCount(20);
   }
 
+  if (selectedArticle) {
+    const guide = selectedArticle.readingGuide;
+    return (
+      <article className="article-detail">
+        <button className="article-back" type="button" onClick={() => setSelectedArticle(null)}>
+          <ArrowLeft size={18} />
+          返回文章列表
+        </button>
+        <div className="article-detail-meta">
+          <span className="article-tag">{selectedArticle.category}</span>
+          <time dateTime={selectedArticle.publishedAt}>{selectedArticle.publishedAt}</time>
+        </div>
+        <h2>{selectedArticle.title}</h2>
+        <p className="article-lead">{selectedArticle.summary}</p>
+
+        <section className="article-reading-section">
+          <h3>内容导读</h3>
+          <div className="article-body">
+            {guide.overview.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+        </section>
+
+        <section className="article-reading-section article-takeaway">
+          <h3>核心要点</h3>
+          <ul>
+            {guide.keyPoints.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="article-reading-section parent-reading-notes">
+          <h3>家长阅读提示</h3>
+          <ul>
+            {guide.parentNotes.map((note) => (
+              <li key={note}>{note}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="article-boundary">
+          <strong>信息边界</strong>
+          <p>{guide.boundary}</p>
+        </section>
+
+        <p className="article-source">
+          来源：{selectedArticle.sourceDisplay || selectedArticle.source}。本站内容为基于公开资料整理的中文导读，不是原文转载。
+        </p>
+        <div className="article-detail-actions">
+          <button className="ghost-button" type="button" onClick={() => toggle(selectedArticle.id)}>
+            <Bookmark size={17} />
+            {saved.includes(selectedArticle.id) ? "取消收藏" : "收藏文章"}
+          </button>
+          <a href={selectedArticle.url} target="_blank" rel="noreferrer">
+            核对原始来源
+            <ExternalLink size={15} />
+          </a>
+        </div>
+      </article>
+    );
+  }
+
   return (
     <div className="stack">
       <section className="card">
         <SectionTitle title="真实文章来源" action={`${filtered.length} / ${articles.length} 篇`} />
         <p className="article-notice">
-          收录最近一年公开文章，仅展示标题、短摘要与来源；点击后前往原站阅读。
+          收录最近一年公开资料，已整理为中文站内导读；不转载第三方文章全文。
         </p>
         <label className="article-search">
           <Search size={17} />
@@ -1019,14 +1084,14 @@ function ArticlesScreen() {
             <h3>{article.title}</h3>
             <p>{article.summary}</p>
             <div className="article-source-row">
-              <strong>{article.source}</strong>
-              <span>{article.sourceType === "wechat" ? "微信公众号" : article.language === "en" ? "英文来源" : "中文垂类"}</span>
+              <strong>{article.sourceDisplay || article.source}</strong>
+              <span>{article.sourceType === "wechat" ? "微信公众号" : article.sourceType === "research" ? "国际研究中文导读" : "中文垂类"}</span>
             </div>
             <div className="article-actions">
-              <a href={article.url} target="_blank" rel="noreferrer">
-                {article.linkLabel}
-                <ExternalLink size={14} />
-              </a>
+              <button className="article-read-button" type="button" onClick={() => setSelectedArticle(article)}>
+                站内阅读
+                <ChevronRight size={15} />
+              </button>
               <button type="button" onClick={() => toggle(article.id)} aria-label={saved.includes(article.id) ? "取消收藏" : "收藏文章"}>
                 <Bookmark size={15} />
                 {saved.includes(article.id) ? "已收藏" : "收藏"}
