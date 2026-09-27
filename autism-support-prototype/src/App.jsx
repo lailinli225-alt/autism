@@ -65,7 +65,7 @@ const moduleCards = [
   {
     id: "articles",
     title: "精品好文",
-    desc: "聚合最近一年 100 篇垂类、公众号与研究文章",
+    desc: "阅读近一年的中文文章与站内导读",
     icon: BookOpen,
     tone: "plain",
   },
@@ -117,12 +117,12 @@ const teachers = [
   },
 ];
 
-const articleTags = ["全部", "干预方法", "诊断科普", "融合教育", "家长支持", "前沿研究"];
+const articleTags = ["全部", "干预方法", "诊断科普", "融合教育", "家长支持", "前沿研究"]
+  .filter((tag) => tag === "全部" || articles.some((article) => article.category === tag));
 const articleSourceTypes = [
   ["全部来源", "all"],
   ["中文垂类", "vertical"],
-  ["微信公众号", "wechat"],
-  ["国际研究中文导读", "research"],
+  ["官方机构", "official"],
 ];
 
 const skillVisuals = {
@@ -1046,7 +1046,7 @@ function ArticlesScreen() {
       <section className="card">
         <SectionTitle title="真实文章来源" action={`${filtered.length} / ${articles.length} 篇`} />
         <p className="article-notice">
-          收录最近一年公开资料，已整理为中文站内导读；不转载第三方文章全文。
+          只收录有中文原文直达地址的资料。可在本站阅读独立导读，原文链接仅用于核对出处。
         </p>
         <label className="article-search">
           <Search size={17} />
@@ -1085,7 +1085,7 @@ function ArticlesScreen() {
             <p>{article.summary}</p>
             <div className="article-source-row">
               <strong>{article.sourceDisplay || article.source}</strong>
-              <span>{article.sourceType === "wechat" ? "微信公众号" : article.sourceType === "research" ? "国际研究中文导读" : "中文垂类"}</span>
+              <span>{article.sourceType === "official" ? "官方机构" : "中文垂类"}</span>
             </div>
             <div className="article-actions">
               <button className="article-read-button" type="button" onClick={() => setSelectedArticle(article)}>

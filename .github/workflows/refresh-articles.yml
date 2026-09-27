@@ -20,6 +20,10 @@ jobs:
           cache: pip
           cache-dependency-path: autism-support-prototype/scripts/requirements.txt
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - name: Install scraper dependencies
         working-directory: autism-support-prototype
         run: pip install -r scripts/requirements.txt
@@ -36,6 +40,7 @@ jobs:
           fi
           python scripts/scrape_articles.py --limit 100
           python scripts/enrich_articles.py
+          node scripts/validate_articles.mjs
 
       - name: Commit refreshed index
         run: |
